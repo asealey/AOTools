@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Claude memory (local session state)
+.claude/
