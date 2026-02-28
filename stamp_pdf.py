@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# requires Python 3.9+
 """
 stamp_pdf.py — Add a scoring stamp to the bottom-right corner of every page in a PDF.
 
@@ -10,19 +11,21 @@ If output.pdf is omitted, the stamped file is saved as input_stamped.pdf.
 
 import sys
 import io
+import functools
 from pathlib import Path
 
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
+from reportlab.pdfbase import pdfmetrics
 from pypdf import PdfReader, PdfWriter
 
 
-STAMP_LINES = [
+STAMP_LINES = (
     "DQ __________",
     "NS __________",
     "DFS __________",
-]
+)
 
 # Pink — RGB 255, 105, 180 (hot pink, visible on white)
 STAMP_COLOR = colors.HexColor("#FF69B4")
@@ -30,28 +33,29 @@ FONT_NAME = "Helvetica-Bold"
 STAMP_WIDTH = 1.5 * 72  # 1.5 inches in points (108 pt)
 MARGIN = 18  # points from right/bottom edge
 
+# Font metrics are constant — compute once at module load, not per page
+_FONT_SIZE = STAMP_WIDTH / max(pdfmetrics.stringWidth(line, FONT_NAME, 1.0) for line in STAMP_LINES)
+_LINE_HEIGHT = _FONT_SIZE * 1.4
 
-def build_stamp(page_width: float, page_height: float) -> io.BytesIO:
-    """Render the stamp overlay for a single page and return it as a PDF byte stream."""
+
+@functools.lru_cache(maxsize=8)
+def _stamp_bytes(page_width: float, page_height: float) -> bytes:
+    """Build the stamp overlay as raw PDF bytes for a given page size (cached)."""
     buf = io.BytesIO()
     c = canvas.Canvas(buf, pagesize=(page_width, page_height))
-
-    # Scale font so the widest line is exactly STAMP_WIDTH
-    font_size = STAMP_WIDTH / max(c.stringWidth(line, FONT_NAME, 1.0) for line in STAMP_LINES)
-    line_height = font_size * 1.4
-
-    c.setFont(FONT_NAME, font_size)
+    c.setFont(FONT_NAME, _FONT_SIZE)
     c.setFillColor(STAMP_COLOR)
-
     x = page_width - MARGIN - STAMP_WIDTH
-    # Draw lines bottom-up
     for i, line in enumerate(reversed(STAMP_LINES)):
-        y = MARGIN + i * line_height
+        y = MARGIN + i * _LINE_HEIGHT
         c.drawString(x, y, line)
-
     c.save()
-    buf.seek(0)
-    return buf
+    return buf.getvalue()
+
+
+def build_stamp(page_width: float, page_height: float) -> io.BytesIO:
+    """Return the stamp overlay for a single page as a fresh BytesIO PDF stream."""
+    return io.BytesIO(_stamp_bytes(page_width, page_height))
 
 
 def stamp_pdf(input_path: str, output_path: str) -> None:
@@ -64,13 +68,10 @@ def stamp_pdf(input_path: str, output_path: str) -> None:
         width = float(box.width)
         height = float(box.height)
 
-        # Build a stamp PDF the same size as this page
-        stamp_buf = build_stamp(width, height)
-        stamp_page = PdfReader(stamp_buf).pages[0]
-
-        # Merge stamp on top of the original page
-        page.merge_page(stamp_page)
-        writer.add_page(page)
+        # Add page to writer first — required before merge_page in pypdf ≥6
+        added = writer.add_page(page)
+        stamp_page = PdfReader(build_stamp(width, height)).pages[0]
+        added.merge_page(stamp_page)
 
     with open(output_path, "wb") as f:
         writer.write(f)
@@ -80,7 +81,7 @@ def stamp_pdf(input_path: str, output_path: str) -> None:
 
 def main() -> None:
     if len(sys.argv) < 2:
-        print(__doc__)
+        print(__doc__ or "Usage: stamp_pdf.py input.pdf [output.pdf]")
         sys.exit(1)
 
     input_path = sys.argv[1]

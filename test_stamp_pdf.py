@@ -15,6 +15,7 @@ import pytest
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter, A4, landscape
 from pypdf import PdfReader, PdfWriter
+import pypdf.errors
 
 import stamp_pdf as module
 from stamp_pdf import build_stamp, stamp_pdf, STAMP_LINES, STAMP_WIDTH, MARGIN, FONT_NAME
@@ -184,6 +185,16 @@ class TestStampPdf:
         captured = capsys.readouterr()
         assert str(out) in captured.out
 
+    def test_stamp_text_present_in_output(self, tmp_path):
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "output.pdf"
+        stamp_pdf(str(src), str(out))
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "DQ" in text
+        assert "NS" in text
+        assert "DFS" in text
+
 
 # ---------------------------------------------------------------------------
 # CLI tests — main()
@@ -211,6 +222,11 @@ class TestMain:
         module.main()
         assert out.exists()
 
+    def test_nonexistent_input_exits(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", str(tmp_path / "ghost.pdf")])
+        with pytest.raises((FileNotFoundError, SystemExit, pypdf.errors.PdfReadError)):
+            module.main()
+
     def test_default_stem_preserves_extension(self, tmp_path, monkeypatch):
         src = tmp_path / "heat.pdf"
         src.write_bytes(make_pdf())
@@ -227,51 +243,51 @@ class TestMain:
 
 class TestSecurity:
     def test_nonexistent_input_raises(self, tmp_path):
-        with pytest.raises(Exception):
+        with pytest.raises(FileNotFoundError):
             stamp_pdf(str(tmp_path / "ghost.pdf"), str(tmp_path / "out.pdf"))
 
     def test_corrupt_pdf_raises(self, tmp_path):
         src = tmp_path / "corrupt.pdf"
         src.write_bytes(b"this is definitely not a pdf")
-        with pytest.raises(Exception):
+        with pytest.raises(pypdf.errors.PdfReadError):
             stamp_pdf(str(src), str(tmp_path / "out.pdf"))
 
     def test_empty_file_raises(self, tmp_path):
         src = tmp_path / "empty.pdf"
         src.write_bytes(b"")
-        with pytest.raises(Exception):
+        with pytest.raises((pypdf.errors.PdfReadError, pypdf.errors.EmptyFileError)):
             stamp_pdf(str(src), str(tmp_path / "out.pdf"))
 
     def test_pdf_header_only_garbage_body_raises(self, tmp_path):
         """Valid PDF magic bytes but random garbage body."""
         src = tmp_path / "partial.pdf"
         src.write_bytes(b"%PDF-1.7\n" + os.urandom(1024))
-        with pytest.raises(Exception):
+        with pytest.raises(pypdf.errors.PdfReadError):
             stamp_pdf(str(src), str(tmp_path / "out.pdf"))
 
     def test_non_pdf_extension_treated_as_pdf_raises(self, tmp_path):
         src = tmp_path / "image.jpg"
         src.write_bytes(bytes([0xFF, 0xD8, 0xFF, 0xE0]) + b"\x00" * 100)
-        with pytest.raises(Exception):
+        with pytest.raises(pypdf.errors.PdfReadError):
             stamp_pdf(str(src), str(tmp_path / "out.pdf"))
 
     def test_output_directory_nonexistent_raises(self, tmp_path):
         src = tmp_path / "input.pdf"
         src.write_bytes(make_pdf())
         out = tmp_path / "no_such_dir" / "output.pdf"
-        with pytest.raises(Exception):
+        with pytest.raises(FileNotFoundError):
             stamp_pdf(str(src), str(out))
 
     def test_encrypted_pdf_raises(self, tmp_path):
         src = tmp_path / "encrypted.pdf"
         src.write_bytes(make_encrypted_pdf("secret"))
-        with pytest.raises(Exception):
+        with pytest.raises((pypdf.errors.PdfReadError, pypdf.errors.FileNotDecryptedError)):
             stamp_pdf(str(src), str(tmp_path / "out.pdf"))
 
     def test_symlink_to_nonexistent_raises(self, tmp_path):
         link = tmp_path / "link.pdf"
         link.symlink_to(tmp_path / "does_not_exist.pdf")
-        with pytest.raises(Exception):
+        with pytest.raises(FileNotFoundError):
             stamp_pdf(str(link), str(tmp_path / "out.pdf"))
 
     def test_symlink_to_valid_pdf_works(self, tmp_path):
@@ -343,8 +359,8 @@ class TestSecurity:
         try:
             stamp_pdf(str(src), str(out))
             assert len(PdfReader(str(out)).pages) == 0
-        except Exception:
-            pass  # zero-page PDFs are degenerate; raising is acceptable
+        except pypdf.errors.PdfReadError:
+            pass  # zero-page PDFs are degenerate; a parse error is acceptable
 
     def test_output_not_written_on_invalid_input(self, tmp_path):
         """A failed run must not leave a partial output file."""
