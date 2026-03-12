@@ -47,15 +47,16 @@ except Exception:
     FONT_NAME = "Courier-Bold"
 STAMP_WIDTH = 1.5 * 72  # 1.5 inches in points (108 pt)
 MARGIN = 18  # points from right/bottom edge
+STAMP_FONT_NAME = "Courier-Bold"  # bold PDF built-in for the bottom-right stamp
 
 # Safety limits
 MAX_INPUT_BYTES = 100 * 1024 * 1024  # 100 MB — limits decompression bomb exposure
 MAX_PAGES = 5_000                    # limits unbounded memory growth
 
-CORNER_LABEL_SIZE = 36  # points — larger than the stamp lines for visibility
+CORNER_LABEL_SIZE = 25  # points — 36 * 0.7, reduced 30% from original
 
 # Font metrics are constant — compute once at module load, not per page
-_FONT_SIZE = STAMP_WIDTH / max(pdfmetrics.stringWidth(line, FONT_NAME, 1.0) for line in STAMP_LINES)
+_FONT_SIZE = STAMP_WIDTH / max(pdfmetrics.stringWidth(line, STAMP_FONT_NAME, 1.0) for line in STAMP_LINES)
 _LINE_HEIGHT = _FONT_SIZE * 1.4
 
 
@@ -64,7 +65,7 @@ def _stamp_bytes(page_width: float, page_height: float) -> bytes:
     """Build the bottom-right stamp overlay as raw PDF bytes (cached)."""
     buf = io.BytesIO()
     c = canvas.Canvas(buf, pagesize=(page_width, page_height))
-    c.setFont(FONT_NAME, _FONT_SIZE)
+    c.setFont(STAMP_FONT_NAME, _FONT_SIZE)
     c.setFillColor(STAMP_COLOR)
     x = page_width - MARGIN - STAMP_WIDTH
     for i, line in enumerate(reversed(STAMP_LINES)):
