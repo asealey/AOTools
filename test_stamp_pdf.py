@@ -242,7 +242,7 @@ class TestMain:
 
 
 # ---------------------------------------------------------------------------
-# -sr / -dr flag tests
+# --sr / --dr / --help flag tests
 # ---------------------------------------------------------------------------
 
 class TestFlags:
@@ -297,7 +297,7 @@ class TestFlags:
         src = tmp_path / "input.pdf"
         src.write_bytes(make_pdf())
         out = tmp_path / "out.pdf"
-        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "-sr", str(src), str(out)])
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--sr", str(src), str(out)])
         module.main()
         text = PdfReader(str(out)).pages[0].extract_text()
         assert "SR" in text
@@ -307,7 +307,7 @@ class TestFlags:
         src = tmp_path / "input.pdf"
         src.write_bytes(make_pdf())
         out = tmp_path / "out.pdf"
-        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "-dr", str(src), str(out)])
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--dr", str(src), str(out)])
         module.main()
         text = PdfReader(str(out)).pages[0].extract_text()
         assert "DR" in text
@@ -316,7 +316,7 @@ class TestFlags:
     def test_cli_both_flags_exits(self, tmp_path, monkeypatch):
         src = tmp_path / "input.pdf"
         src.write_bytes(make_pdf())
-        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "-sr", "-dr", str(src)])
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--sr", "--dr", str(src)])
         with pytest.raises(SystemExit) as exc:
             module.main()
         assert exc.value.code == 1
@@ -324,9 +324,17 @@ class TestFlags:
     def test_cli_sr_default_output_name(self, tmp_path, monkeypatch):
         src = tmp_path / "report.pdf"
         src.write_bytes(make_pdf())
-        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "-sr", str(src)])
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--sr", str(src)])
         module.main()
         assert (tmp_path / "report_stamped.pdf").exists()
+
+    def test_help_flag_exits_0(self, monkeypatch, capsys):
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--help"])
+        with pytest.raises(SystemExit) as exc:
+            module.main()
+        assert exc.value.code == 0
+        captured = capsys.readouterr()
+        assert "--sr" in captured.out
 
     def test_build_corner_label_returns_valid_pdf(self):
         result = build_corner_label("SR", 612, 792)

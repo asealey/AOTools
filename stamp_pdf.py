@@ -4,11 +4,11 @@
 stamp_pdf.py — Add a scoring stamp to the bottom-right corner of every page in a PDF.
 
 Usage:
-    python3 stamp_pdf.py [-sr | -dr] input.pdf [output.pdf]
+    python3 stamp_pdf.py [--sr | --dr] input.pdf [output.pdf]
 
 Flags:
-    -sr  Add "SR" to the top-right corner only (no bottom-right stamp)
-    -dr  Add "DR" to the top-right corner and the DQ/NS/DFS bottom-right stamp
+    --sr  Add "SR" to the top-right corner only (no bottom-right stamp)
+    --dr  Add "DR" to the top-right corner and the DQ/NS/DFS bottom-right stamp
 
 If output.pdf is omitted, the stamped file is saved as input_stamped.pdf.
 """
@@ -25,6 +25,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
 from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 from pypdf import PdfReader, PdfWriter
 
 
@@ -36,7 +37,14 @@ STAMP_LINES = (
 
 # Pink — RGB 255, 105, 180 (hot pink, visible on white)
 STAMP_COLOR = colors.HexColor("#FF69B4")
-FONT_NAME = "Courier-Bold"
+
+# Andale Mono is a clean, modern monospace font; fall back to Courier-Bold if unavailable
+_ANDALE_MONO_PATH = "/System/Library/Fonts/Supplemental/Andale Mono.ttf"
+try:
+    pdfmetrics.registerFont(TTFont("AndaleMono", _ANDALE_MONO_PATH))
+    FONT_NAME = "AndaleMono"
+except Exception:
+    FONT_NAME = "Courier-Bold"
 STAMP_WIDTH = 1.5 * 72  # 1.5 inches in points (108 pt)
 MARGIN = 18  # points from right/bottom edge
 
@@ -169,27 +177,31 @@ def stamp_pdf(
 def main() -> None:
     args = sys.argv[1:]
 
-    # Parse -sr / -dr flags
+    if "--help" in args:
+        print(__doc__ or "Usage: stamp_pdf.py [--sr | --dr] input.pdf [output.pdf]")
+        sys.exit(0)
+
+    # Parse --sr / --dr flags
     corner_label = ""
     include_stamp = True
-    has_sr = "-sr" in args
-    has_dr = "-dr" in args
+    has_sr = "--sr" in args
+    has_dr = "--dr" in args
 
     if has_sr and has_dr:
-        print("Error: -sr and -dr are mutually exclusive.")
+        print("Error: --sr and --dr are mutually exclusive.")
         sys.exit(1)
 
     if has_sr:
         corner_label = "SR"
         include_stamp = False
-        args = [a for a in args if a != "-sr"]
+        args = [a for a in args if a != "--sr"]
     elif has_dr:
         corner_label = "DR"
         include_stamp = True
-        args = [a for a in args if a != "-dr"]
+        args = [a for a in args if a != "--dr"]
 
     if not args:
-        print(__doc__ or "Usage: stamp_pdf.py [-sr | -dr] input.pdf [output.pdf]")
+        print(__doc__ or "Usage: stamp_pdf.py [--sr | --dr] input.pdf [output.pdf]")
         sys.exit(1)
 
     input_path = args[0]
