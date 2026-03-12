@@ -19,7 +19,8 @@ import pypdf.errors
 
 import stamp_pdf as module
 from stamp_pdf import (
-    build_stamp, stamp_pdf, STAMP_LINES, STAMP_WIDTH, MARGIN, FONT_NAME,
+    build_stamp, build_corner_label, stamp_pdf,
+    STAMP_LINES, STAMP_WIDTH, MARGIN, FONT_NAME,
     MAX_INPUT_BYTES, MAX_PAGES,
 )
 
@@ -238,6 +239,98 @@ class TestMain:
         expected = tmp_path / "heat_stamped.pdf"
         assert expected.suffix == ".pdf"
         assert expected.exists()
+
+
+# ---------------------------------------------------------------------------
+# -sr / -dr flag tests
+# ---------------------------------------------------------------------------
+
+class TestFlags:
+    def test_sr_adds_corner_label(self, tmp_path):
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+        stamp_pdf(str(src), str(out), corner_label="SR", include_stamp=False)
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "SR" in text
+
+    def test_sr_omits_bottom_stamp(self, tmp_path):
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+        stamp_pdf(str(src), str(out), corner_label="SR", include_stamp=False)
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "DQ" not in text
+        assert "NS" not in text
+        assert "DFS" not in text
+
+    def test_dr_adds_corner_label(self, tmp_path):
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+        stamp_pdf(str(src), str(out), corner_label="DR", include_stamp=True)
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "DR" in text
+
+    def test_dr_includes_bottom_stamp(self, tmp_path):
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+        stamp_pdf(str(src), str(out), corner_label="DR", include_stamp=True)
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "DQ" in text
+        assert "NS" in text
+        assert "DFS" in text
+
+    def test_default_no_corner_label(self, tmp_path):
+        """No flag → no corner label, bottom stamp present."""
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+        stamp_pdf(str(src), str(out))
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "SR" not in text
+        assert "DR" not in text
+        assert "DQ" in text
+
+    def test_cli_sr_flag(self, tmp_path, monkeypatch):
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "-sr", str(src), str(out)])
+        module.main()
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "SR" in text
+        assert "DQ" not in text
+
+    def test_cli_dr_flag(self, tmp_path, monkeypatch):
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "-dr", str(src), str(out)])
+        module.main()
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "DR" in text
+        assert "DQ" in text
+
+    def test_cli_both_flags_exits(self, tmp_path, monkeypatch):
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "-sr", "-dr", str(src)])
+        with pytest.raises(SystemExit) as exc:
+            module.main()
+        assert exc.value.code == 1
+
+    def test_cli_sr_default_output_name(self, tmp_path, monkeypatch):
+        src = tmp_path / "report.pdf"
+        src.write_bytes(make_pdf())
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "-sr", str(src)])
+        module.main()
+        assert (tmp_path / "report_stamped.pdf").exists()
+
+    def test_build_corner_label_returns_valid_pdf(self):
+        result = build_corner_label("SR", 612, 792)
+        assert len(PdfReader(result).pages) == 1
 
 
 # ---------------------------------------------------------------------------

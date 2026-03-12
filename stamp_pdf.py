@@ -4,7 +4,11 @@
 stamp_pdf.py — Add a scoring stamp to the bottom-right corner of every page in a PDF.
 
 Usage:
-    python3 stamp_pdf.py input.pdf [output.pdf]
+    python3 stamp_pdf.py [-sr | -dr] input.pdf [output.pdf]
+
+Flags:
+    -sr  Add "SR" to the top-right corner only (no bottom-right stamp)
+    -dr  Add "DR" to the top-right corner and the DQ/NS/DFS bottom-right stamp
 
 If output.pdf is omitted, the stamped file is saved as input_stamped.pdf.
 """
@@ -47,7 +51,7 @@ _LINE_HEIGHT = _FONT_SIZE * 1.4
 
 @functools.lru_cache(maxsize=8)
 def _stamp_bytes(page_width: float, page_height: float) -> bytes:
-    """Build the stamp overlay as raw PDF bytes for a given page size (cached)."""
+    """Build the bottom-right stamp overlay as raw PDF bytes (cached)."""
     buf = io.BytesIO()
     c = canvas.Canvas(buf, pagesize=(page_width, page_height))
     c.setFont(FONT_NAME, _FONT_SIZE)
@@ -60,12 +64,38 @@ def _stamp_bytes(page_width: float, page_height: float) -> bytes:
     return buf.getvalue()
 
 
+@functools.lru_cache(maxsize=16)
+def _corner_label_bytes(label: str, page_width: float, page_height: float) -> bytes:
+    """Build a top-right corner label overlay as raw PDF bytes (cached)."""
+    buf = io.BytesIO()
+    c = canvas.Canvas(buf, pagesize=(page_width, page_height))
+    c.setFont(FONT_NAME, _FONT_SIZE)
+    c.setFillColor(STAMP_COLOR)
+    text_width = pdfmetrics.stringWidth(label, FONT_NAME, _FONT_SIZE)
+    x = page_width - MARGIN - text_width
+    y = page_height - MARGIN - _FONT_SIZE
+    c.drawString(x, y, label)
+    c.save()
+    return buf.getvalue()
+
+
 def build_stamp(page_width: float, page_height: float) -> io.BytesIO:
-    """Return the stamp overlay for a single page as a fresh BytesIO PDF stream."""
+    """Return the bottom-right stamp overlay as a fresh BytesIO PDF stream."""
     return io.BytesIO(_stamp_bytes(page_width, page_height))
 
 
-def stamp_pdf(input_path: str, output_path: str) -> None:
+def build_corner_label(label: str, page_width: float, page_height: float) -> io.BytesIO:
+    """Return a top-right corner label overlay as a fresh BytesIO PDF stream."""
+    return io.BytesIO(_corner_label_bytes(label, page_width, page_height))
+
+
+def stamp_pdf(
+    input_path: str,
+    output_path: str,
+    *,
+    corner_label: str = "",
+    include_stamp: bool = True,
+) -> None:
     src = Path(input_path)
 
     # Reject non-PDF extensions
@@ -105,8 +135,14 @@ def stamp_pdf(input_path: str, output_path: str) -> None:
 
         # Add page to writer first — required before merge_page in pypdf ≥6
         added = writer.add_page(page)
-        stamp_page = PdfReader(build_stamp(width, height)).pages[0]
-        added.merge_page(stamp_page)
+
+        if include_stamp:
+            added.merge_page(PdfReader(build_stamp(width, height)).pages[0])
+
+        if corner_label:
+            added.merge_page(
+                PdfReader(build_corner_label(corner_label, width, height)).pages[0]
+            )
 
     # Write atomically: write to a temp file in the same directory, then
     # rename into place. os.replace() swaps the directory entry rather than
@@ -129,18 +165,37 @@ def stamp_pdf(input_path: str, output_path: str) -> None:
 
 
 def main() -> None:
-    if len(sys.argv) < 2:
-        print(__doc__ or "Usage: stamp_pdf.py input.pdf [output.pdf]")
+    args = sys.argv[1:]
+
+    # Parse -sr / -dr flags
+    corner_label = ""
+    include_stamp = True
+    has_sr = "-sr" in args
+    has_dr = "-dr" in args
+
+    if has_sr and has_dr:
+        print("Error: -sr and -dr are mutually exclusive.")
         sys.exit(1)
 
-    input_path = sys.argv[1]
-    if len(sys.argv) >= 3:
-        output_path = sys.argv[2]
-    else:
-        p = Path(input_path)
-        output_path = str(p.with_stem(p.stem + "_stamped"))
+    if has_sr:
+        corner_label = "SR"
+        include_stamp = False
+        args = [a for a in args if a != "-sr"]
+    elif has_dr:
+        corner_label = "DR"
+        include_stamp = True
+        args = [a for a in args if a != "-dr"]
 
-    stamp_pdf(input_path, output_path)
+    if not args:
+        print(__doc__ or "Usage: stamp_pdf.py [-sr | -dr] input.pdf [output.pdf]")
+        sys.exit(1)
+
+    input_path = args[0]
+    output_path = args[1] if len(args) >= 2 else str(
+        Path(input_path).with_stem(Path(input_path).stem + "_stamped")
+    )
+
+    stamp_pdf(input_path, output_path, corner_label=corner_label, include_stamp=include_stamp)
 
 
 if __name__ == "__main__":
