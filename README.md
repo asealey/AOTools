@@ -10,9 +10,13 @@ Adds a DQ / NS / DFS scoring stamp to the bottom-right corner of every page in a
 
 Install dependencies:
 
-```
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+Activate the venv at the start of each session with `source .venv/bin/activate`.
 
 ## Usage
 
