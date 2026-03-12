@@ -25,14 +25,14 @@ from pypdf import PdfReader, PdfWriter
 
 
 STAMP_LINES = (
-    "DQ __________",
-    "NS __________",
+    "DQ ___________",
+    "NS ___________",
     "DFS __________",
 )
 
 # Pink — RGB 255, 105, 180 (hot pink, visible on white)
 STAMP_COLOR = colors.HexColor("#FF69B4")
-FONT_NAME = "Helvetica-Bold"
+FONT_NAME = "Courier-Bold"
 STAMP_WIDTH = 1.5 * 72  # 1.5 inches in points (108 pt)
 MARGIN = 18  # points from right/bottom edge
 
