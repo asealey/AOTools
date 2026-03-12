@@ -47,7 +47,7 @@ except Exception:
     FONT_NAME = "Courier-Bold"
 STAMP_WIDTH = 1.5 * 72  # 1.5 inches in points (108 pt)
 MARGIN = 18  # points from right/bottom edge
-STAMP_FONT_NAME = "Courier-Bold"  # bold PDF built-in for the bottom-right stamp
+STAMP_FONT_NAME = "Helvetica-Bold"  # bold PDF built-in for the bottom-right stamp
 
 # Safety limits
 MAX_INPUT_BYTES = 100 * 1024 * 1024  # 100 MB — limits decompression bomb exposure
