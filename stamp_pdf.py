@@ -44,6 +44,8 @@ MARGIN = 18  # points from right/bottom edge
 MAX_INPUT_BYTES = 100 * 1024 * 1024  # 100 MB — limits decompression bomb exposure
 MAX_PAGES = 5_000                    # limits unbounded memory growth
 
+CORNER_LABEL_SIZE = 36  # points — larger than the stamp lines for visibility
+
 # Font metrics are constant — compute once at module load, not per page
 _FONT_SIZE = STAMP_WIDTH / max(pdfmetrics.stringWidth(line, FONT_NAME, 1.0) for line in STAMP_LINES)
 _LINE_HEIGHT = _FONT_SIZE * 1.4
@@ -69,11 +71,11 @@ def _corner_label_bytes(label: str, page_width: float, page_height: float) -> by
     """Build a top-right corner label overlay as raw PDF bytes (cached)."""
     buf = io.BytesIO()
     c = canvas.Canvas(buf, pagesize=(page_width, page_height))
-    c.setFont(FONT_NAME, _FONT_SIZE)
+    c.setFont(FONT_NAME, CORNER_LABEL_SIZE)
     c.setFillColor(STAMP_COLOR)
-    text_width = pdfmetrics.stringWidth(label, FONT_NAME, _FONT_SIZE)
+    text_width = pdfmetrics.stringWidth(label, FONT_NAME, CORNER_LABEL_SIZE)
     x = page_width - MARGIN - text_width
-    y = page_height - MARGIN - _FONT_SIZE
+    y = page_height - MARGIN - CORNER_LABEL_SIZE
     c.drawString(x, y, label)
     c.save()
     return buf.getvalue()
