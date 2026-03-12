@@ -68,6 +68,10 @@ def build_stamp(page_width: float, page_height: float) -> io.BytesIO:
 def stamp_pdf(input_path: str, output_path: str) -> None:
     src = Path(input_path)
 
+    # Reject non-PDF extensions
+    if src.suffix.lower() != ".pdf":
+        raise ValueError(f"Input must be a .pdf file, got: {src.suffix!r}")
+
     # Reject non-regular files (device files, named pipes, /dev/zero, etc.)
     if not src.is_file():
         raise FileNotFoundError(f"Not a regular file: {src}")

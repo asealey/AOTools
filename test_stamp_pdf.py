@@ -268,11 +268,37 @@ class TestSecurity:
         with pytest.raises(pypdf.errors.PdfReadError):
             stamp_pdf(str(src), str(tmp_path / "out.pdf"))
 
-    def test_non_pdf_extension_treated_as_pdf_raises(self, tmp_path):
+    def test_non_pdf_extension_raises_value_error(self, tmp_path):
         src = tmp_path / "image.jpg"
         src.write_bytes(bytes([0xFF, 0xD8, 0xFF, 0xE0]) + b"\x00" * 100)
-        with pytest.raises(pypdf.errors.PdfReadError):
+        with pytest.raises(ValueError, match=r"\.pdf"):
             stamp_pdf(str(src), str(tmp_path / "out.pdf"))
+
+    def test_no_extension_raises(self, tmp_path):
+        src = tmp_path / "heatsheet"
+        src.write_bytes(make_pdf())
+        with pytest.raises(ValueError, match=r"\.pdf"):
+            stamp_pdf(str(src), str(tmp_path / "out.pdf"))
+
+    def test_docx_extension_raises(self, tmp_path):
+        src = tmp_path / "document.docx"
+        src.write_bytes(b"PK\x03\x04")  # zip magic bytes (docx is a zip)
+        with pytest.raises(ValueError, match=r"\.pdf"):
+            stamp_pdf(str(src), str(tmp_path / "out.pdf"))
+
+    def test_pdf_uppercase_extension_accepted(self, tmp_path):
+        src = tmp_path / "input.PDF"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+        stamp_pdf(str(src), str(out))
+        assert out.exists()
+
+    def test_pdf_mixed_case_extension_accepted(self, tmp_path):
+        src = tmp_path / "input.Pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+        stamp_pdf(str(src), str(out))
+        assert out.exists()
 
     def test_output_directory_nonexistent_raises(self, tmp_path):
         src = tmp_path / "input.pdf"
@@ -399,7 +425,8 @@ class TestSecurity:
         dev_null = Path("/dev/null")
         if not dev_null.exists():
             pytest.skip("/dev/null not available")
-        with pytest.raises(FileNotFoundError, match="Not a regular file"):
+        # /dev/null has no extension → ValueError; if it had .pdf, → FileNotFoundError
+        with pytest.raises((ValueError, FileNotFoundError)):
             stamp_pdf("/dev/null", "/tmp/out.pdf")
 
     def test_atomic_write_no_partial_on_disk_error(self, tmp_path, monkeypatch):
