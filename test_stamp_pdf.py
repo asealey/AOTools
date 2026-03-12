@@ -340,6 +340,48 @@ class TestFlags:
         result = build_corner_label("SR", 612, 792)
         assert len(PdfReader(result).pages) == 1
 
+    def test_auto_creates_both_files(self, tmp_path, monkeypatch):
+        src = tmp_path / "report.pdf"
+        src.write_bytes(make_pdf())
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--auto", str(src)])
+        module.main()
+        assert (tmp_path / "report-sr.pdf").exists()
+        assert (tmp_path / "report-dr.pdf").exists()
+
+    def test_auto_sr_file_content(self, tmp_path, monkeypatch):
+        src = tmp_path / "report.pdf"
+        src.write_bytes(make_pdf())
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--auto", str(src)])
+        module.main()
+        text = PdfReader(str(tmp_path / "report-sr.pdf")).pages[0].extract_text()
+        assert "SR" in text
+        assert "DQ" not in text
+
+    def test_auto_dr_file_content(self, tmp_path, monkeypatch):
+        src = tmp_path / "report.pdf"
+        src.write_bytes(make_pdf())
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--auto", str(src)])
+        module.main()
+        text = PdfReader(str(tmp_path / "report-dr.pdf")).pages[0].extract_text()
+        assert "DR" in text
+        assert "DQ" in text
+
+    def test_auto_with_sr_exits(self, tmp_path, monkeypatch):
+        src = tmp_path / "report.pdf"
+        src.write_bytes(make_pdf())
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--auto", "--sr", str(src)])
+        with pytest.raises(SystemExit) as exc:
+            module.main()
+        assert exc.value.code == 1
+
+    def test_auto_with_dr_exits(self, tmp_path, monkeypatch):
+        src = tmp_path / "report.pdf"
+        src.write_bytes(make_pdf())
+        monkeypatch.setattr(sys, "argv", ["stamp_pdf.py", "--auto", "--dr", str(src)])
+        with pytest.raises(SystemExit) as exc:
+            module.main()
+        assert exc.value.code == 1
+
 
 # ---------------------------------------------------------------------------
 # Security tests

@@ -4,11 +4,12 @@
 stamp_pdf.py — Add a scoring stamp to the bottom-right corner of every page in a PDF.
 
 Usage:
-    python3 stamp_pdf.py [--sr | --dr] input.pdf [output.pdf]
+    python3 stamp_pdf.py [--sr | --dr | --auto] input.pdf [output.pdf]
 
 Flags:
-    --sr  Add "SR" to the top-right corner only (no bottom-right stamp)
-    --dr  Add "DR" to the top-right corner and the DQ/NS/DFS bottom-right stamp
+    --sr    Add "SR" to the top-right corner only (no bottom-right stamp)
+    --dr    Add "DR" to the top-right corner and the DQ/NS/DFS bottom-right stamp
+    --auto  Produce both: input-sr.pdf and input-dr.pdf in one pass
 
 If output.pdf is omitted, the stamped file is saved as input_stamped.pdf.
 """
@@ -179,19 +180,31 @@ def main() -> None:
     args = sys.argv[1:]
 
     if "--help" in args:
-        print(__doc__ or "Usage: stamp_pdf.py [--sr | --dr] input.pdf [output.pdf]")
+        print(__doc__ or "Usage: stamp_pdf.py [--sr | --dr | --auto] input.pdf [output.pdf]")
         sys.exit(0)
 
-    # Parse --sr / --dr flags
-    corner_label = ""
-    include_stamp = True
     has_sr = "--sr" in args
     has_dr = "--dr" in args
+    has_auto = "--auto" in args
 
-    if has_sr and has_dr:
-        print("Error: --sr and --dr are mutually exclusive.")
+    if (has_sr + has_dr + has_auto) > 1:
+        print("Error: --sr, --dr, and --auto are mutually exclusive.")
         sys.exit(1)
 
+    if has_auto:
+        args = [a for a in args if a != "--auto"]
+        if not args:
+            print(__doc__ or "Usage: stamp_pdf.py [--sr | --dr | --auto] input.pdf [output.pdf]")
+            sys.exit(1)
+        input_path = args[0]
+        parent = Path(input_path).parent
+        stem = Path(input_path).stem
+        stamp_pdf(input_path, str(parent / f"{stem}-sr.pdf"), corner_label="SR", include_stamp=False)
+        stamp_pdf(input_path, str(parent / f"{stem}-dr.pdf"), corner_label="DR", include_stamp=True)
+        return
+
+    corner_label = ""
+    include_stamp = True
     if has_sr:
         corner_label = "SR"
         include_stamp = False
@@ -202,7 +215,7 @@ def main() -> None:
         args = [a for a in args if a != "--dr"]
 
     if not args:
-        print(__doc__ or "Usage: stamp_pdf.py [--sr | --dr] input.pdf [output.pdf]")
+        print(__doc__ or "Usage: stamp_pdf.py [--sr | --dr | --auto] input.pdf [output.pdf]")
         sys.exit(1)
 
     input_path = args[0]
