@@ -23,7 +23,6 @@ import tempfile
 from pathlib import Path
 
 from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -44,7 +43,7 @@ _ANDALE_MONO_PATH = "/System/Library/Fonts/Supplemental/Andale Mono.ttf"
 try:
     pdfmetrics.registerFont(TTFont("AndaleMono", _ANDALE_MONO_PATH))
     FONT_NAME = "AndaleMono"
-except Exception:
+except Exception:  # pylint: disable=broad-exception-caught
     FONT_NAME = "Courier-Bold"
 STAMP_WIDTH = 1.5 * 72  # 1.5 inches in points (108 pt)
 MARGIN = 18  # points from right/bottom edge
@@ -57,7 +56,9 @@ MAX_PAGES = 5_000                    # limits unbounded memory growth
 CORNER_LABEL_SIZE = 25  # points — 36 * 0.7, reduced 30% from original
 
 # Font metrics are constant — compute once at module load, not per page
-_FONT_SIZE = STAMP_WIDTH / max(pdfmetrics.stringWidth(line, STAMP_FONT_NAME, 1.0) for line in STAMP_LINES)
+_FONT_SIZE = STAMP_WIDTH / max(
+    pdfmetrics.stringWidth(line, STAMP_FONT_NAME, 1.0) for line in STAMP_LINES
+)
 _LINE_HEIGHT = _FONT_SIZE * 1.4
 
 
@@ -108,6 +109,8 @@ def stamp_pdf(
     corner_label: str = "",
     include_stamp: bool = True,
 ) -> None:
+    """Overlay scoring stamps onto input_path and write the result to output_path."""
+    # pylint: disable=too-many-locals
     src = Path(input_path)
 
     # Reject non-PDF extensions
@@ -177,6 +180,7 @@ def stamp_pdf(
 
 
 def main() -> None:
+    """Parse CLI arguments and invoke stamp_pdf."""
     args = sys.argv[1:]
 
     if "--help" in args:
@@ -199,8 +203,10 @@ def main() -> None:
         input_path = args[0]
         parent = Path(input_path).parent
         stem = Path(input_path).stem
-        stamp_pdf(input_path, str(parent / f"{stem}-sr.pdf"), corner_label="SR", include_stamp=False)
-        stamp_pdf(input_path, str(parent / f"{stem}-dr.pdf"), corner_label="DR", include_stamp=True)
+        stamp_pdf(input_path, str(parent / f"{stem}-sr.pdf"),
+                  corner_label="SR", include_stamp=False)
+        stamp_pdf(input_path, str(parent / f"{stem}-dr.pdf"),
+                  corner_label="DR", include_stamp=True)
         return
 
     corner_label = ""

@@ -84,11 +84,24 @@ The tool enforces the following limits to guard against malicious or malformed i
 
 Input must be a `.pdf` file and a regular file (device files and named pipes are rejected). Page dimensions are validated for finite, positive values. Output is written atomically via a temp file so no partial output is left on failure.
 
-## Running tests
+## Development
 
+Install dev dependencies (includes pytest and pylint):
+
+```bash
+pip install -r requirements-dev.txt
 ```
-pip install pytest
+
+Run tests:
+
+```bash
 pytest test_stamp_pdf.py -v
+```
+
+Run linter (currently scores 10.00/10):
+
+```bash
+pylint stamp_pdf.py
 ```
 
 68 tests cover unit behavior, integration across page sizes, CLI argument handling (including `--auto`), and security cases including: corrupt/empty/encrypted PDFs, symlink attacks, path traversal, non-regular file input, decompression bomb limits, page count limits, atomic write safety, and terminal escape injection.
