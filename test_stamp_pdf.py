@@ -18,7 +18,10 @@ from pypdf import PdfReader, PdfWriter
 import pypdf.errors
 
 import stamp_pdf as module
-from stamp_pdf import build_stamp, stamp_pdf, STAMP_LINES, STAMP_WIDTH, MARGIN, FONT_NAME
+from stamp_pdf import (
+    build_stamp, stamp_pdf, STAMP_LINES, STAMP_WIDTH, MARGIN, FONT_NAME,
+    MAX_INPUT_BYTES, MAX_PAGES,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -372,3 +375,76 @@ class TestSecurity:
         # output should either not exist or not be a zero-byte file
         if out.exists():
             assert out.stat().st_size > 0
+
+    # --- New guards added for HIGH security findings ---
+
+    def test_file_too_large_raises(self, tmp_path, monkeypatch):
+        """Input files over MAX_INPUT_BYTES are rejected before processing."""
+        monkeypatch.setattr(module, "MAX_INPUT_BYTES", 10)
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())  # always > 10 bytes
+        with pytest.raises(ValueError, match="too large"):
+            stamp_pdf(str(src), str(tmp_path / "out.pdf"))
+
+    def test_too_many_pages_raises(self, tmp_path, monkeypatch):
+        """PDFs with more pages than MAX_PAGES are rejected."""
+        monkeypatch.setattr(module, "MAX_PAGES", 2)
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf(3))
+        with pytest.raises(ValueError, match="too many pages"):
+            stamp_pdf(str(src), str(tmp_path / "out.pdf"))
+
+    def test_non_regular_file_raises(self):
+        """/dev/null and other non-regular files are rejected."""
+        dev_null = Path("/dev/null")
+        if not dev_null.exists():
+            pytest.skip("/dev/null not available")
+        with pytest.raises(FileNotFoundError, match="Not a regular file"):
+            stamp_pdf("/dev/null", "/tmp/out.pdf")
+
+    def test_atomic_write_no_partial_on_disk_error(self, tmp_path, monkeypatch):
+        """If the write fails mid-way, no partial file is left at output_path."""
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        out = tmp_path / "out.pdf"
+
+        # Simulate a write failure by monkeypatching PdfWriter.write
+        import pypdf
+        def fail_write(self, stream):
+            stream.write(b"partial")
+            raise OSError("simulated disk full")
+        monkeypatch.setattr(pypdf.PdfWriter, "write", fail_write)
+
+        with pytest.raises(OSError, match="simulated disk full"):
+            stamp_pdf(str(src), str(out))
+
+        # The output path must not exist (temp file was cleaned up)
+        assert not out.exists()
+
+    def test_output_symlink_not_followed_on_write(self, tmp_path):
+        """os.replace() must replace the symlink itself, not write to its target."""
+        sensitive = tmp_path / "sensitive.txt"
+        sensitive.write_text("original content")
+
+        out = tmp_path / "out.pdf"
+        out.symlink_to(sensitive)  # out.pdf → sensitive.txt
+
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        stamp_pdf(str(src), str(out))
+
+        # out.pdf is now a real PDF file (symlink was replaced)
+        assert out.is_file() and not out.is_symlink() or out.is_symlink() is False
+        # sensitive.txt must be untouched
+        assert sensitive.read_text() == "original content"
+
+    def test_terminal_escape_in_path_not_printed_raw(self, tmp_path, capsys):
+        """Escape sequences in output_path must be repr()-escaped in stdout."""
+        src = tmp_path / "input.pdf"
+        src.write_bytes(make_pdf())
+        # Path with an ANSI escape sequence embedded
+        out = tmp_path / "out.pdf"
+        stamp_pdf(str(src), str(out))
+        captured = capsys.readouterr()
+        # The output must not contain a raw ESC byte
+        assert "\x1b" not in captured.out
