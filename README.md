@@ -61,6 +61,10 @@ python3 stamp_pdf.py --dr examples/exampleHeatSheet.pdf out.pdf
 
 ## Stamp appearance
 
+| `--sr` | `--dr` |
+|:---:|:---:|
+| ![SR example](examples/images/example-sr.png) | ![DR example](examples/images/example-dr.png) |
+
 **Bottom-right stamp** — three lines in hot pink (Helvetica-Bold), right-aligned:
 
 ```
