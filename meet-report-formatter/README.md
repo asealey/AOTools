@@ -1,32 +1,32 @@
 # meet-report-formatter
 
 Erases the host-team label that HY-TEK Meet Manager prints on every page of
-its report PDFs (Team Entries, Team Fees, etc.) — e.g. "Chehalem Swim Team"
+its report PDFs (Team Entries, Team Fees, etc.) — e.g. "Example Swim Team"
 in the top-left corner of every page.
 
 ## Requirements
 
 - Python 3.9+
+- [uv](https://docs.astral.sh/uv/)
 - [pypdf](https://pypdf.readthedocs.io/) `>=6,<7`
 
 Install dependencies:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+uv sync
 ```
-
-Activate the venv at the start of each session with `source .venv/bin/activate`.
 
 ## Usage
 
 ```
-python3 format_report.py input.pdf [output.pdf]
+uv run format_report.py input.pdf [output.pdf]
 ```
 
 If `output.pdf` is omitted the result is saved as `input_formatted.pdf` in
 the same directory.
+
+Note: `uv run` activates the project's managed venv automatically — no need
+to source anything by hand.
 
 ## How it works
 
@@ -47,7 +47,11 @@ Different Meet Manager exports encode that header line differently:
   horizontal-jump number (in the thousands) where normal kerning stays under
   ~150, to create the visual gap between the two. The tool splits the array
   at that gap and blanks only the leading (team-name) portion, leaving the
-  "Page N" text after the gap untouched.
+  "Page N" text after the gap untouched. Blanking those glyphs would
+  otherwise drop their advance width from the pen's math and pull "Page N"
+  left out of its original right-justified position, so the tool looks up
+  the erased glyphs' widths in the page's font metrics and folds that width
+  into the gap number, keeping "Page N" exactly where Meet Manager put it.
 
 The header line is also located in either a flipped (`Tm`/`cm` with a −1
 y-scale) or standard PDF coordinate system — both appear in real Meet
@@ -59,9 +63,9 @@ directions rather than assuming one.
 The original ask includes eventually replacing the label with a
 caller-supplied name, not just erasing it. That turned out to be unsafe with
 the current approach: Meet Manager embeds **subsetted** fonts that only
-contain the glyphs actually used elsewhere on the page. "Chehalem Swim Team"
+contain the glyphs actually used elsewhere on the page. "Example Swim Team"
 has no embedded 'r' or 'k' glyph, for example — writing a replacement name
-like "CST Sharks" into the same content stream renders missing/broken
+like "ES Sharks" into the same content stream renders missing/broken
 glyphs.
 
 `--replace` is stubbed to fail loudly rather than silently corrupt output.
@@ -72,22 +76,18 @@ rather than editing Meet Manager's original content stream in place.
 
 ## Development
 
-Install dev dependencies (includes pytest and pylint):
-
-```bash
-pip install -r requirements-dev.txt
-```
+Dev dependencies (pytest, pylint) are installed automatically by `uv sync`.
 
 Run tests:
 
 ```bash
-pytest test_format_report.py -v
+uv run pytest test_format_report.py -v
 ```
 
 Run linter:
 
 ```bash
-pylint format_report.py
+uv run pylint format_report.py
 ```
 
 ## Examples
@@ -102,5 +102,5 @@ Manager report PDFs usually contain swimmers' names, ages, and times — drop
 your own private samples there for manual testing:
 
 ```
-python3 format_report.py examples/your-sample.pdf examples/your-sample_formatted.pdf
+uv run format_report.py examples/your-sample.pdf examples/your-sample_formatted.pdf
 ```

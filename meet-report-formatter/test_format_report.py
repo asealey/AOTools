@@ -8,9 +8,16 @@ Run with:
 import io
 from pathlib import Path
 
+import pymupdf
 import pytest
 from pypdf import PdfReader, PdfWriter
-from pypdf.generic import DictionaryObject, NameObject
+from pypdf.generic import (
+    ArrayObject,
+    ContentStream,
+    DictionaryObject,
+    NameObject,
+    NumberObject,
+)
 
 from format_report import format_report
 
@@ -47,7 +54,7 @@ def _make_header_content_stream(team_name: str, use_tm_for_team: bool = False) -
     return "\n".join(lines).encode("latin-1")
 
 
-def make_meet_manager_pdf(team_name: str = "Chehalem Swim Team",
+def make_meet_manager_pdf(team_name: str = "Example Swim Team",
                            num_pages: int = 1,
                            use_tm_for_team: bool = False) -> bytes:
     """Build a minimal PDF whose pages carry a Meet-Manager-shaped header."""
@@ -87,12 +94,114 @@ def write_temp_pdf(data: bytes, tmp_path: Path, name: str = "input.pdf") -> Path
 
 
 # ---------------------------------------------------------------------------
+# Helper — build a minimal PDF whose header packs the team name and "Page N"
+# into a single TJ array separated by a large kerning-style gap, matching
+# the export shape seen in ngsl-invitational-2022.pdf and the OSAA reports
+# (as opposed to the two-Tj-operator shape _make_header_content_stream
+# above simulates). All glyphs are given a fixed 500/1000-em width via
+# /Widths so the compensating-gap math can be checked exactly.
+# ---------------------------------------------------------------------------
+
+GLYPH_WIDTH = 500  # 1/1000 em, applied uniformly to FirstChar..LastChar below
+
+
+def make_packed_tj_pdf(team_name: str, page_text: str = "Page 1") -> bytes:
+    """Build a minimal PDF whose header is one TJ array:
+    [team_name glyphs..., big_gap, page_text glyphs...], with a /Widths
+    table so the erased run's advance width is computable in the test."""
+    font_size = 10
+    gap = -2000  # thousandths; well past LARGE_GAP_THRESHOLD
+    tj_array = "".join(f"({ch})" for ch in team_name) + f" {gap} " + f"({page_text})"
+
+    content = "\n".join([
+        "BT",
+        f"/F1 {font_size} Tf",
+        "1 0 0 -1 18 45.5 Tm",
+        f"[{tj_array}] TJ",
+        "ET",
+    ]).encode("latin-1")
+
+    writer = PdfWriter()
+    page = writer.add_blank_page(width=612, height=792)
+
+    from pypdf.generic import StreamObject
+    content_obj = StreamObject()
+    content_obj.set_data(content)
+    page[NameObject("/Contents")] = writer._add_object(content_obj)
+
+    num_chars = 128
+    font = DictionaryObject({
+        NameObject("/Type"): NameObject("/Font"),
+        NameObject("/Subtype"): NameObject("/TrueType"),
+        NameObject("/BaseFont"): NameObject("/Helvetica"),
+        NameObject("/FirstChar"): NumberObject(0),
+        NameObject("/Widths"): ArrayObject(
+            NumberObject(GLYPH_WIDTH) for _ in range(num_chars)
+        ),
+    })
+    page[NameObject("/Resources")] = DictionaryObject({
+        NameObject("/Font"): DictionaryObject({
+            NameObject("/F1"): writer._add_object(font),
+        })
+    })
+
+    buf = io.BytesIO()
+    writer.write(buf)
+    return buf.getvalue()
+
+
+# ---------------------------------------------------------------------------
+# Packed-TJ-array header (team name and "Page N" in one TJ, separated by a
+# large kerning gap) — the export shape where blanking glyphs without
+# compensating for their lost advance width used to shift "Page N" left.
+# ---------------------------------------------------------------------------
+
+class TestPackedTjHeader:
+    def test_page_text_survives_and_team_name_is_gone(self, tmp_path):
+        pdf_bytes = make_packed_tj_pdf("Example Swim Team")
+        src = write_temp_pdf(pdf_bytes, tmp_path)
+        out = tmp_path / "out.pdf"
+
+        format_report(str(src), str(out))
+
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "Example" not in text
+        assert "Page 1" in text
+
+    def test_gap_number_compensates_exactly_for_removed_glyph_width(self, tmp_path):
+        """The erased run was 17 glyphs at 500/1000 em, 10pt font — i.e. an
+        85pt advance the pen no longer gets from drawing them. The gap
+        number (in thousandths of text space) must shrink by exactly
+        85 / 10 * 1000 = 8500 to make up for it."""
+        team_name = "Example Swim Team"  # 17 characters
+        original_gap = -2000
+        pdf_bytes = make_packed_tj_pdf(team_name)
+        src = write_temp_pdf(pdf_bytes, tmp_path)
+        out = tmp_path / "out.pdf"
+
+        format_report(str(src), str(out))
+
+        reader = PdfReader(str(out))
+        cs = ContentStream(reader.pages[0]["/Contents"], reader)
+        tj_array = next(
+            operands[0] for operands, operator in cs.operations if operator == b"TJ"
+        )
+        gap_value = next(
+            float(item) for item in tj_array if isinstance(item, (int, float))
+        )
+
+        removed_width = len(team_name) * GLYPH_WIDTH / 1000.0 * 10  # font_size=10
+        expected_gap = original_gap - removed_width / 10 * 1000.0
+        assert gap_value == pytest.approx(expected_gap)
+
+
+# ---------------------------------------------------------------------------
 # Core behavior
 # ---------------------------------------------------------------------------
 
 class TestFormatReport:
     def test_erases_team_name_relative_td(self, tmp_path):
-        pdf_bytes = make_meet_manager_pdf("Chehalem Swim Team", num_pages=1,
+        pdf_bytes = make_meet_manager_pdf("Example Swim Team", num_pages=1,
                                            use_tm_for_team=False)
         src = write_temp_pdf(pdf_bytes, tmp_path)
         out = tmp_path / "out.pdf"
@@ -101,11 +210,11 @@ class TestFormatReport:
 
         reader = PdfReader(str(out))
         text = reader.pages[0].extract_text()
-        assert "Chehalem" not in text
+        assert "Example" not in text
         assert "Page 1" in text
 
     def test_erases_team_name_absolute_tm(self, tmp_path):
-        pdf_bytes = make_meet_manager_pdf("Chehalem Swim Team", num_pages=1,
+        pdf_bytes = make_meet_manager_pdf("Example Swim Team", num_pages=1,
                                            use_tm_for_team=True)
         src = write_temp_pdf(pdf_bytes, tmp_path)
         out = tmp_path / "out.pdf"
@@ -114,7 +223,7 @@ class TestFormatReport:
 
         reader = PdfReader(str(out))
         text = reader.pages[0].extract_text()
-        assert "Chehalem" not in text
+        assert "Example" not in text
         assert "Page 1" in text
 
     def test_erases_across_multiple_pages(self, tmp_path):
@@ -143,7 +252,7 @@ class TestFormatReport:
         assert "Totally Different Aquatics Club" not in text
 
     def test_body_text_below_header_is_untouched(self, tmp_path):
-        pdf_bytes = make_meet_manager_pdf("Chehalem Swim Team")
+        pdf_bytes = make_meet_manager_pdf("Example Swim Team")
         src = write_temp_pdf(pdf_bytes, tmp_path)
         out = tmp_path / "out.pdf"
 
@@ -153,7 +262,7 @@ class TestFormatReport:
         assert "Body text below" in text
 
     def test_default_output_path(self, tmp_path, monkeypatch):
-        pdf_bytes = make_meet_manager_pdf("Chehalem Swim Team")
+        pdf_bytes = make_meet_manager_pdf("Example Swim Team")
         src = write_temp_pdf(pdf_bytes, tmp_path)
         default_out = tmp_path / "input_formatted.pdf"
 
@@ -177,7 +286,7 @@ class TestSafety:
             format_report(str(tmp_path / "missing.pdf"), str(tmp_path / "out.pdf"))
 
     def test_rejects_oversized_input(self, tmp_path, monkeypatch):
-        pdf_bytes = make_meet_manager_pdf("Chehalem Swim Team")
+        pdf_bytes = make_meet_manager_pdf("Example Swim Team")
         src = write_temp_pdf(pdf_bytes, tmp_path)
         monkeypatch.setattr("format_report.MAX_INPUT_BYTES", 10)
         with pytest.raises(ValueError, match="too large"):
@@ -190,7 +299,7 @@ class TestSafety:
             format_report(str(d), str(tmp_path / "out.pdf"))
 
     def test_writes_atomically_no_partial_file_on_failure(self, tmp_path, monkeypatch):
-        pdf_bytes = make_meet_manager_pdf("Chehalem Swim Team")
+        pdf_bytes = make_meet_manager_pdf("Example Swim Team")
         src = write_temp_pdf(pdf_bytes, tmp_path)
         out = tmp_path / "out.pdf"
 
@@ -213,7 +322,7 @@ class TestCLI:
         import sys
         import format_report as module
 
-        pdf_bytes = make_meet_manager_pdf("Chehalem Swim Team")
+        pdf_bytes = make_meet_manager_pdf("Example Swim Team")
         src = write_temp_pdf(pdf_bytes, tmp_path)
 
         monkeypatch.setattr(sys, "argv", ["format_report.py", "--replace", "X", str(src)])
@@ -278,6 +387,55 @@ class TestRealExamples:
             text = page.extract_text()
             assert header_label not in text
             assert "Page " in text
+
+            # Guards against partial erasure (e.g. only the label's first
+            # character removed) slipping past the exact-string check above.
+            # Scoped to the header line itself, since some of the label's
+            # words legitimately reappear in body text below it (e.g. the
+            # meet organizer line under the OSAA reports).
+            header_line = next(l for l in text.splitlines() if "Page " in l)
+            for word in header_label.split():
+                assert word not in header_line
+
+    @pytest.mark.parametrize("filename,expected_pages,header_label", REAL_EXAMPLES)
+    def test_header_stays_right_justified(
+        self, tmp_path, filename, expected_pages, header_label
+    ):
+        """
+        Erasing the team name must not shift 'HY-TEK's MEET MANAGER...'
+        out of its original right-justified position — regression test for
+        a bug where blanking a packed TJ array's leading glyph run dropped
+        its advance width from the pen math without compensating for it
+        (see _blank_leading_run), pulling the rest of the header left.
+
+        Rendered to pixels rather than checked via text extraction: pypdf's
+        layout-mode column position is unreliable once the leading span is
+        blank, so pixel position against the real rasterizer is the only
+        ground truth that matches what actually prints/displays.
+        """
+        src = EXAMPLES_DIR / filename
+        out = tmp_path / "out.pdf"
+
+        format_report(str(src), str(out))
+
+        # All real examples are Letter-width (612pt); "HY-TEK's MEET
+        # MANAGER..." always starts past x=310 and team names always end
+        # before it, so clipping there isolates it from both team-name text
+        # and the decorative rule lines Meet Manager draws around x=299.
+        def hy_tek_left_edge_px(pdf_path):
+            page = pymupdf.open(str(pdf_path))[0]
+            clip = pymupdf.Rect(310, 30, page.rect.width, 50)
+            pix = page.get_pixmap(clip=clip, dpi=200)
+            for x in range(pix.width):
+                for y in range(pix.height):
+                    if sum(pix.pixel(x, y)) < 600:  # non-white pixel
+                        return x
+            return None
+
+        original_x = hy_tek_left_edge_px(src)
+        formatted_x = hy_tek_left_edge_px(out)
+        assert original_x is not None and formatted_x is not None
+        assert abs(formatted_x - original_x) <= 2
 
     @pytest.mark.parametrize("filename,expected_pages,header_label", REAL_EXAMPLES)
     def test_body_text_preserved(self, tmp_path, filename, expected_pages, header_label):

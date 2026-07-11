@@ -5,26 +5,25 @@ Adds a DQ / NS / DFS scoring stamp to the bottom-right corner of every page in a
 ## Requirements
 
 - Python 3.9+
+- [uv](https://docs.astral.sh/uv/)
 - [pypdf](https://pypdf.readthedocs.io/) `>=6,<7`
 - [reportlab](https://www.reportlab.com/opensource/) `>=4`
 
 Install dependencies:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+uv sync
 ```
-
-Activate the venv at the start of each session with `source .venv/bin/activate`.
 
 ## Usage
 
 ```
-python3 stamp_pdf.py [--sr | --dr | --auto] input.pdf [output.pdf]
+uv run stamp_pdf.py [--sr | --dr | --auto] input.pdf [output.pdf]
 ```
 
 If `output.pdf` is omitted the stamped file is saved as `input_stamped.pdf` in the same directory.
+
+Note: `uv run` activates the project's managed venv automatically — no need to source anything by hand.
 
 ### Flags
 
@@ -41,7 +40,7 @@ If `output.pdf` is omitted the stamped file is saved as `input_stamped.pdf` in t
 Produces two output files derived from the input filename:
 
 ```
-python3 stamp_pdf.py --auto ../examples/ngsl-invitational-2022.pdf
+uv run stamp_pdf.py --auto ../examples/ngsl-invitational-2022.pdf
 # → ../examples/ngsl-invitational-2022-sr.pdf
 # → ../examples/ngsl-invitational-2022-dr.pdf
 ```
@@ -49,13 +48,13 @@ python3 stamp_pdf.py --auto ../examples/ngsl-invitational-2022.pdf
 ### Single-flag examples
 
 ```
-python3 stamp_pdf.py ../examples/ngsl-invitational-2022.pdf
+uv run stamp_pdf.py ../examples/ngsl-invitational-2022.pdf
 # → ../examples/ngsl-invitational-2022_stamped.pdf
 
-python3 stamp_pdf.py --sr ../examples/ngsl-invitational-2022.pdf
+uv run stamp_pdf.py --sr ../examples/ngsl-invitational-2022.pdf
 # → ../examples/ngsl-invitational-2022_stamped.pdf  (SR corner only)
 
-python3 stamp_pdf.py --dr ../examples/ngsl-invitational-2022.pdf out.pdf
+uv run stamp_pdf.py --dr ../examples/ngsl-invitational-2022.pdf out.pdf
 # → out.pdf  (DR corner + DQ/NS/DFS stamp)
 ```
 
@@ -90,25 +89,21 @@ Input must be a `.pdf` file and a regular file (device files and named pipes are
 
 ## Development
 
-Install dev dependencies (includes pytest and pylint):
-
-```bash
-pip install -r requirements-dev.txt
-```
+Dev dependencies (pytest, pylint, pymupdf) are installed automatically by `uv sync`.
 
 Run tests:
 
 ```bash
-pytest test_stamp_pdf.py -v
+uv run pytest test_stamp_pdf.py -v
 ```
 
 Run linter (currently scores 10.00/10):
 
 ```bash
-pylint stamp_pdf.py
+uv run pylint stamp_pdf.py
 ```
 
-68 tests cover unit behavior, integration across page sizes, CLI argument handling (including `--auto`), and security cases including: corrupt/empty/encrypted PDFs, symlink attacks, path traversal, non-regular file input, decompression bomb limits, page count limits, atomic write safety, and terminal escape injection.
+74 tests cover unit behavior, integration across page sizes, CLI argument handling (including `--auto`), and security cases including: corrupt/empty/encrypted PDFs, symlink attacks, path traversal, non-regular file input, decompression bomb limits, page count limits, atomic write safety, and terminal escape injection.
 
 `TestRealExamples` additionally runs the tool end-to-end against every file in [../examples/](../examples/) as a regression check against real Meet Manager output (not just synthetic PDFs).
 
