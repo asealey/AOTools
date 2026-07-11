@@ -12,4 +12,6 @@ Swim meet officiating tools — heat sheet stamping, Daktronics timing log parsi
 
 Each tool is self-contained with its own README, dependencies, and tests. See the tool's own directory for usage.
 
+Python tools use [uv](https://docs.astral.sh/uv/) for dependency management (`uv sync`, `uv run`) rather than `venv`/`pip`. New Python tools should follow the same pattern.
+
 [examples/](examples/) holds real, publicly-published Meet Manager PDFs shared across tools for manual testing and regression tests. Each tool also has its own local `examples/` for tool-private samples that aren't safe to publish.

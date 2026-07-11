@@ -7,26 +7,26 @@ in the top-left corner of every page.
 ## Requirements
 
 - Python 3.9+
+- [uv](https://docs.astral.sh/uv/)
 - [pypdf](https://pypdf.readthedocs.io/) `>=6,<7`
 
 Install dependencies:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+uv sync
 ```
-
-Activate the venv at the start of each session with `source .venv/bin/activate`.
 
 ## Usage
 
 ```
-python3 format_report.py input.pdf [output.pdf]
+uv run format_report.py input.pdf [output.pdf]
 ```
 
 If `output.pdf` is omitted the result is saved as `input_formatted.pdf` in
 the same directory.
+
+Note: `uv run` activates the project's managed venv automatically — no need
+to source anything by hand.
 
 ## How it works
 
@@ -72,22 +72,18 @@ rather than editing Meet Manager's original content stream in place.
 
 ## Development
 
-Install dev dependencies (includes pytest and pylint):
-
-```bash
-pip install -r requirements-dev.txt
-```
+Dev dependencies (pytest, pylint) are installed automatically by `uv sync`.
 
 Run tests:
 
 ```bash
-pytest test_format_report.py -v
+uv run pytest test_format_report.py -v
 ```
 
 Run linter:
 
 ```bash
-pylint format_report.py
+uv run pylint format_report.py
 ```
 
 ## Examples
@@ -102,5 +98,5 @@ Manager report PDFs usually contain swimmers' names, ages, and times — drop
 your own private samples there for manual testing:
 
 ```
-python3 format_report.py examples/your-sample.pdf examples/your-sample_formatted.pdf
+uv run format_report.py examples/your-sample.pdf examples/your-sample_formatted.pdf
 ```

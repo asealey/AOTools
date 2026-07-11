@@ -1,2 +1,0 @@
-pypdf>=6,<7
-reportlab>=4
