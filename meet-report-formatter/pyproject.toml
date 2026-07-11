@@ -11,4 +11,5 @@ dependencies = [
 dev = [
     "pytest>=8",
     "pylint>=3",
+    "pymupdf",  # renders header region for the right-justification regression test
 ]

@@ -6,7 +6,7 @@ Manager report PDF.
 
 Meet Manager prints the host team's name as the leftmost text on the header
 line of every page (e.g. "HY-TEK's MEET MANAGER 7.0 - 7/10/2026  Page 1
-Chehalem Swim Team"). This tool finds that text run — identified by its
+Example Swim Team"). This tool finds that text run — identified by its
 position, not its content, so it works regardless of which team is printed —
 and blanks it.
 
@@ -29,7 +29,7 @@ import tempfile
 from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
-from pypdf.generic import ContentStream, NameObject, TextStringObject
+from pypdf.generic import ContentStream, FloatObject, NameObject, TextStringObject
 
 # Meet Manager's left page margin, in points. The host-team label is the
 # first text run whose effective x-position lands at (or very near) this
@@ -75,22 +75,145 @@ def _blank_text_operand(operands):
         operands[0] = TextStringObject("")
 
 
-def _blank_leading_run(tj_array):
+def _font_widths(page, font_name):
+    """
+    Return (widths_list, first_char, default_width) for the simple font
+    named font_name in page's /Font resources, or None if it can't be
+    read as a simple font with a /Widths array (e.g. a /Type0 CID font).
+    """
+    if font_name is None:
+        return None
+    try:
+        font = page["/Resources"]["/Font"][font_name].get_object()
+    except KeyError:
+        return None
+    widths = font.get("/Widths")
+    first_char = font.get("/FirstChar")
+    if widths is None or first_char is None:
+        return None
+    descriptor = font.get("/FontDescriptor")
+    default_width = 0
+    if descriptor is not None:
+        default_width = descriptor.get_object().get("/MissingWidth", 0)
+    return [float(w) for w in widths], int(first_char), float(default_width)
+
+
+def _glyph_run_width(text, font_metrics, font_size, char_spacing, word_spacing):
+    """
+    Text-space width (in points) that Meet Manager's own renderer would have
+    consumed drawing `text` at font_size with the given /Tc and /Tw — i.e.
+    the horizontal distance the erased glyphs were "budgeted" for. ASCII
+    text only: character codes are taken as ord(char), which matches both
+    WinAnsiEncoding and the implicit standard encoding used by these fonts
+    in the printable-ASCII range that team names fall in.
+    """
+    widths, first_char, default_width = font_metrics
+    total = 0.0
+    for ch in text:
+        code = ord(ch)
+        idx = code - first_char
+        glyph_width = widths[idx] if 0 <= idx < len(widths) else default_width
+        total += glyph_width / 1000.0 * font_size + char_spacing
+        if code == 32:
+            total += word_spacing
+    return total
+
+
+def _blank_leading_run(tj_array, font_metrics, font_size, char_spacing, word_spacing):
     """
     Blank only the leading portion of a TJ array, up to (not including) the
     first large horizontal-jump number — used when the team name and the
     "Page N" text are packed into a single TJ operator rather than drawn as
     separate text-positioning operators.
 
+    Blanking a glyph run removes its contribution to the pen's horizontal
+    advance (the run's own character widths no longer apply), which would
+    otherwise pull everything after it — "HY-TEK's MEET MANAGER... Page N"
+    — left out of its original right-justified position. To keep it in
+    place, the removed run's total advance width is folded into a single
+    compensating kerning number spliced in where the run used to be, so the
+    pen ends up exactly where it would have after the original glyphs drew.
+
     Returns True if a large gap was found and the leading run was blanked.
     """
     for i, item in enumerate(tj_array):
         if isinstance(item, (int, float)) and abs(float(item)) >= LARGE_GAP_THRESHOLD:
+            removed_width = 0.0
             for j in range(i):
                 if isinstance(tj_array[j], str):
+                    if font_metrics is not None:
+                        removed_width += _glyph_run_width(
+                            tj_array[j], font_metrics, font_size,
+                            char_spacing, word_spacing,
+                        )
                     tj_array[j] = TextStringObject("")
+            if removed_width and font_size:
+                # A TJ number n shifts the pen by -n/1000*font_size, i.e. a
+                # *smaller* (more negative) number advances the pen further
+                # right. Erasing the run's glyphs drops their rightward
+                # advance, so the gap number must shrink by the same amount
+                # to keep the pen landing in the same place.
+                tj_array[i] = FloatObject(
+                    float(tj_array[i]) - removed_width / font_size * 1000.0
+                )
             return True
     return False
+
+
+class _TextState:
+    """Tracks the subset of PDF text-positioning/font state needed to find
+    the header run and, if it's a packed TJ array, compute glyph widths for
+    the compensating kerning gap: cursor position, current font, and the
+    /Tc, /Tw spacing parameters that feed into glyph advance."""
+
+    def __init__(self):
+        self.cursor_x = None
+        self.cursor_y = None
+        self.font_name = None
+        self.font_size = None
+        self.char_spacing = 0.0
+        self.word_spacing = 0.0
+
+    def update(self, operator, operands):
+        """Apply one content-stream operator's effect on cursor/font state."""
+        if operator == b"Tm" and len(operands) == 6:
+            self.cursor_x, self.cursor_y = float(operands[4]), float(operands[5])
+        elif operator in (b"Td", b"TD") and len(operands) == 2:
+            dx, dy = float(operands[0]), float(operands[1])
+            if self.cursor_x is None:
+                self.cursor_x, self.cursor_y = dx, dy
+            else:
+                self.cursor_x += dx
+                self.cursor_y += dy
+        elif operator == b"Tf" and len(operands) == 2:
+            self.font_name, self.font_size = operands[0], float(operands[1])
+        elif operator == b"Tc" and len(operands) == 1:
+            self.char_spacing = float(operands[0])
+        elif operator == b"Tw" and len(operands) == 1:
+            self.word_spacing = float(operands[0])
+
+    def at_header_position(self, page_height):
+        """True if the cursor is at the left margin, near the top of the page."""
+        return (
+            self.cursor_x is not None
+            and self.cursor_y is not None
+            and abs(self.cursor_x - LEFT_MARGIN_X) <= POSITION_TOLERANCE
+            and _near_top(self.cursor_y, page_height)
+        )
+
+
+def _blank_header_run(operator, operands, page, state):
+    """Blank a Tj/TJ operator's text at the header position, compensating
+    for lost glyph-advance width if it's a packed TJ array with a gap."""
+    first = operands[0] if operands else None
+    found_gap = False
+    if operator == b"TJ" and isinstance(first, list):
+        font_metrics = _font_widths(page, state.font_name)
+        found_gap = _blank_leading_run(
+            first, font_metrics, state.font_size, state.char_spacing, state.word_spacing
+        )
+    if not found_gap:
+        _blank_text_operand(operands)
 
 
 def _edit_page_header(reader, page):
@@ -101,37 +224,18 @@ def _edit_page_header(reader, page):
     Returns True if a matching run was found and edited.
     """
     cs = ContentStream(page["/Contents"], reader)
-    ops = cs.operations
+    page_height = float(page.mediabox.height)
 
-    box = page.mediabox
-    page_height = float(box.height)
-
-    cursor_x, cursor_y = None, None
+    state = _TextState()
     edited = False
 
-    for operands, operator in ops:
-        if operator == b"Tm" and len(operands) == 6:
-            cursor_x, cursor_y = float(operands[4]), float(operands[5])
-        elif operator in (b"Td", b"TD") and len(operands) == 2:
-            dx, dy = float(operands[0]), float(operands[1])
-            if cursor_x is None:
-                cursor_x, cursor_y = dx, dy
-            else:
-                cursor_x += dx
-                cursor_y += dy
-        elif operator in (b"Tj", b"TJ"):
-            if (
-                cursor_x is not None
-                and cursor_y is not None
-                and abs(cursor_x - LEFT_MARGIN_X) <= POSITION_TOLERANCE
-                and _near_top(cursor_y, page_height)
-            ):
-                first = operands[0] if operands else None
-                if operator == b"TJ" and isinstance(first, list) and _blank_leading_run(first):
-                    edited = True
-                else:
-                    _blank_text_operand(operands)
-                    edited = True
+    for operands, operator in cs.operations:
+        if operator in (b"Tj", b"TJ"):
+            if state.at_header_position(page_height):
+                _blank_header_run(operator, operands, page, state)
+                edited = True
+        else:
+            state.update(operator, operands)
 
     if edited:
         page[NameObject("/Contents")] = cs
