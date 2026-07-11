@@ -103,7 +103,7 @@ Run linter (currently scores 10.00/10):
 uv run pylint stamp_pdf.py
 ```
 
-68 tests cover unit behavior, integration across page sizes, CLI argument handling (including `--auto`), and security cases including: corrupt/empty/encrypted PDFs, symlink attacks, path traversal, non-regular file input, decompression bomb limits, page count limits, atomic write safety, and terminal escape injection.
+74 tests cover unit behavior, integration across page sizes, CLI argument handling (including `--auto`), and security cases including: corrupt/empty/encrypted PDFs, symlink attacks, path traversal, non-regular file input, decompression bomb limits, page count limits, atomic write safety, and terminal escape injection.
 
 `TestRealExamples` additionally runs the tool end-to-end against every file in [../examples/](../examples/) as a regression check against real Meet Manager output (not just synthetic PDFs).
 
