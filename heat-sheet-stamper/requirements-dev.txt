@@ -1,0 +1,4 @@
+-r requirements.txt
+pylint
+pytest
+pymupdf  # PDF-to-image rendering for README screenshot generation
