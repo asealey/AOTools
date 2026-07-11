@@ -1,0 +1,6402 @@
+RACE LANE LENGTH  TIME OF DAY   RUN TIME TYPE
+ 
+---- ---- ------ ------------ ---------- ----
+ 
+Set Race Number 476
+ 
+Set Event 13  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+*476   9)                      Lane Off
+ 
+*476  10)                      Lane Off
+ 
+Set Event 39  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+*476   1)        08:14:07.848       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.850       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.855       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.859       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.863       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.871       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.877       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.897       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.911       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.913       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.965       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.968       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.971       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:07.976       0.00  Touchpad Near-Close
+ 
+*476   2)        08:14:26.043       0.00  Touchpad Near-Close
+ 
+*476   2)        08:14:26.047       0.00  Touchpad Near-Close
+ 
+*476   2)        08:14:26.049       0.00  Touchpad Near-Close
+ 
+*476   2)        08:14:26.065       0.00  Touchpad Near-Close
+ 
+*476   2)        08:14:26.071       0.00  Touchpad Near-Close
+ 
+*476   2)        08:14:26.086       0.00  Touchpad Near-Close
+ 
+*476   2)        08:14:26.089       0.00  Touchpad Near-Close
+ 
+*476   2)        08:14:26.095       0.00  Touchpad Near-Close
+ 
+*476   1)        08:14:26.801       0.00  Power Bit Near-Open 
+ 
+*476   1)        08:14:26.802       0.00  Power Bit Near-Close
+ 
+*476   3)        08:14:50.109       0.00  Touchpad Near-Close
+ 
+*476   3)        08:14:50.113       0.00  Touchpad Near-Close
+ 
+*476   3)        08:14:50.123       0.00  Touchpad Near-Close
+ 
+*476   3)        08:14:50.146       0.00  Touchpad Near-Close
+ 
+*476   3)        08:14:50.150       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.701       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.709       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.713       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.719       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.730       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.756       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.763       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.780       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.814       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.831       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.865       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.881       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.915       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:10.931       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:12.396       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:12.439       0.00  Touchpad Near-Close
+ 
+*476   4)        08:15:12.468       0.00  Touchpad Near-Close
+ 
+*476   5)        08:15:43.477       0.00  Touchpad Near-Close
+ 
+*476   5)        08:15:43.485       0.00  Touchpad Near-Close
+ 
+*476   5)        08:15:43.492       0.00  Touchpad Near-Close
+ 
+*476   5)        08:15:43.506       0.00  Touchpad Near-Close
+ 
+*476   5)        08:15:43.529       0.00  Touchpad Near-Close
+ 
+*476   5)        08:15:43.534       0.00  Touchpad Near-Close
+ 
+*476   5)        08:15:43.536       0.00  Touchpad Near-Close
+ 
+*476   5)        08:15:43.538       0.00  Touchpad Near-Close
+ 
+*476   6)        08:16:00.762       0.00  Touchpad Near-Close
+ 
+*476   6)        08:16:00.772       0.00  Touchpad Near-Close
+ 
+*476   6)        08:16:00.774       0.00  Touchpad Near-Close
+ 
+*476   6)        08:16:00.776       0.00  Touchpad Near-Close
+ 
+*476   6)        08:16:00.837       0.00  Touchpad Near-Close
+ 
+*476   6)        08:16:00.839       0.00  Touchpad Near-Close
+ 
+*476   6)        08:16:00.859       0.00  Touchpad Near-Close
+ 
+*476   7)        08:16:22.360       0.00  Touchpad Near-Close
+ 
+*476   7)        08:16:22.417       0.00  Touchpad Near-Close
+ 
+*476   8)        08:16:29.345       0.00  Power Bit Near-Open 
+ 
+*476   7)        08:16:29.345       0.00  Power Bit Near-Open 
+ 
+*476   6)        08:16:29.345       0.00  Power Bit Near-Open 
+ 
+*476   5)        08:16:29.345       0.00  Power Bit Near-Open 
+ 
+*476   4)        08:16:29.345       0.00  Power Bit Near-Open 
+ 
+*476   3)        08:16:29.345       0.00  Power Bit Near-Open 
+ 
+*476   2)        08:16:29.345       0.00  Power Bit Near-Open 
+ 
+*476   1)        08:16:29.345       0.00  Power Bit Near-Open 
+ 
+Set Race Number 476
+ 
+*476    )        08:21:17.703       0.00  Start-Close
+ 
+*476    )        08:21:17.951       0.24  Start-Open 
+ 
+ 476   1)    0                  WARNING
+ 
+ 476   2)    0                  WARNING
+ 
+ 476   3)    0                  WARNING
+ 
+ 476   4)    0                  WARNING
+ 
+ 476   5)    0                  WARNING
+ 
+ 476   6)    0                  WARNING
+ 
+ 476   7)    0                  WARNING
+ 
+ 476   8)    0                  WARNING
+ 
+Reset of Race    03/15/26 08:23:10.110
+ 
+Set Race Number 477
+ 
+*477    )        08:23:16.585       0.00  Start-Close
+ 
+*477    )        08:23:16.834       0.24  Start-Open 
+ 
+ 477   1)    0                  WARNING
+ 
+ 477   2)    0                  WARNING
+ 
+ 477   3)    0                  WARNING
+ 
+ 477   4)    0                  WARNING
+ 
+ 477   5)    0                  WARNING
+ 
+ 477   6)    0                  WARNING
+ 
+ 477   7)    0                  WARNING
+ 
+ 477   8)    0                  WARNING
+ 
+*477    )        08:24:18.783    1:02.19  Start-Close
+ 
+*477    )        08:24:18.784    1:02.19  Start-Open 
+ 
+*477    )        08:24:18.799    1:02.21  Start-Close
+ 
+*477    )        08:24:18.800    1:02.21  Start-Open 
+ 
+Reset of Race    03/15/26 08:25:10.602
+ 
+*477   2)        08:25:25.952       0.00  Power Bit Near-Close
+ 
+*477   1)        08:25:25.952       0.00  Power Bit Near-Close
+ 
+*477   9)        08:25:25.952       0.00  Power Bit Near-Close
+ 
+*477  10)        08:25:25.952       0.00  Power Bit Near-Close
+ 
+*477   8)        08:25:25.953       0.00  Power Bit Near-Close
+ 
+*477   7)        08:25:25.953       0.00  Power Bit Near-Close
+ 
+*477   6)        08:25:25.953       0.00  Power Bit Near-Close
+ 
+*477   5)        08:25:25.953       0.00  Power Bit Near-Close
+ 
+*477   4)        08:25:25.953       0.00  Power Bit Near-Close
+ 
+*477   3)        08:25:25.953       0.00  Power Bit Near-Close
+ 
+*477   9)        08:25:25.953       0.00  Power Bit Near-Open 
+ 
+*477  10)        08:25:25.953       0.00  Power Bit Near-Open 
+ 
+*477   4)        08:25:25.960       0.00  Power Bit Near-Open 
+ 
+*477   3)        08:25:25.960       0.00  Power Bit Near-Open 
+ 
+*477   2)        08:25:25.960       0.00  Power Bit Near-Open 
+ 
+*477   1)        08:25:25.960       0.00  Power Bit Near-Open 
+ 
+*477   8)        08:25:25.961       0.00  Power Bit Near-Open 
+ 
+*477   7)        08:25:25.961       0.00  Power Bit Near-Open 
+ 
+*477   6)        08:25:25.961       0.00  Power Bit Near-Open 
+ 
+*477   5)        08:25:25.961       0.00  Power Bit Near-Open 
+ 
+*477   3)        08:25:28.123       0.00  Button 3 Near-Close
+ 
+*477   1)        08:25:28.135       0.00  Button 1 Near-Close
+ 
+*477   5)        08:25:28.140       0.00  Button 1 Near-Close
+ 
+*477   4)        08:25:28.147       0.00  Power Bit Near-Close
+ 
+*477   5)        08:25:28.148       0.00  Button 2 Near-Close
+ 
+*477   4)        08:25:28.148       0.00  Power Bit Near-Open 
+ 
+*477   6)        08:25:28.511       0.00  Button 3 Near-Close
+ 
+*477   5)        08:25:28.511       0.00  Button 3 Near-Close
+ 
+*477   4)        08:25:28.511       0.00  Button 3 Near-Close
+ 
+*477   3)        08:25:28.511       0.00  Button 3 Near-Close
+ 
+*477   2)        08:25:28.511       0.00  Button 3 Near-Close
+ 
+*477   1)        08:25:28.511       0.00  Button 3 Near-Close
+ 
+*477   9)        08:25:28.511       0.00  Button 3 Near-Close
+ 
+*477  10)        08:25:28.511       0.00  Button 3 Near-Close
+ 
+*477   8)        08:25:28.512       0.00  Power Bit Near-Close
+ 
+*477   7)        08:25:28.512       0.00  Power Bit Near-Close
+ 
+*477   6)        08:25:28.512       0.00  Power Bit Near-Close
+ 
+*477   5)        08:25:28.512       0.00  Power Bit Near-Close
+ 
+*477   4)        08:25:28.512       0.00  Power Bit Near-Close
+ 
+*477   3)        08:25:28.512       0.00  Power Bit Near-Close
+ 
+*477   2)        08:25:28.512       0.00  Power Bit Near-Close
+ 
+*477   1)        08:25:28.512       0.00  Power Bit Near-Close
+ 
+Set Race Number 478
+ 
+*478    )        08:25:46.521       0.00  Start-Close
+ 
+*478    )        08:25:46.769       0.24  Start-Open 
+ 
+ 478   8)        08:25:55.667             Finish Arm
+ 
+ 478   8)                          14.98  B2   
+ 
+*478   8)        08:26:01.505      14.98  Button 2 Near-Close
+ 
+ 478   8)                          15.49  B1   
+ 
+*478   8)        08:26:02.011      15.49  Button 1 Near-Close
+ 
+*478   8)        08:26:02.398      15.87  Button 2 Near-Close
+ 
+*478   8)        08:26:02.635      16.11  Button 1 Near-Close
+ 
+*478   8)        08:26:02.841      16.32  Button 2 Near-Close
+ 
+*478   8)        08:26:02.872      16.35  Button 1 Near-Close
+ 
+*478   8)        08:26:03.087      16.56  Button 1 Near-Close
+ 
+*478   8)        08:26:03.138      16.61  Button 2 Near-Close
+ 
+*478   8)        08:26:03.755      17.23  Button 1 Near-Close
+ 
+*478   8)        08:26:06.274      19.75  Button 1 Near-Close
+ 
+*478   8)        08:26:06.308      19.78  Button 2 Near-Close
+ 
+*478   2)        08:26:17.213      30.69  Button 2 Near-Close
+ 
+*478   2)        08:26:17.481      30.96  Button 2 Near-Close
+ 
+*478   2)        08:26:20.305      33.78  Button 1 Near-Close
+ 
+*478   2)        08:26:20.532      34.01  Button 1 Near-Close
+ 
+ 478   1)    0                  WARNING
+ 
+ 478   2)    0                  WARNING
+ 
+ 478   3)    0                  WARNING
+ 
+ 478   4)    0                  WARNING
+ 
+ 478   5)    0                  WARNING
+ 
+ 478   6)    0                  WARNING
+ 
+ 478   7)    0                  WARNING
+ 
+ 478   8)    2                  WARNING
+ 
+ 478   8)    4                   1:06.86  TP
+ 
+*478   8)        08:26:53.382    1:06.86  Touchpad Near-Close
+ 
+*478   8)        08:26:54.269    1:07.74  Touchpad Near-Close
+ 
+ 478   7)    2                   1:10.64  TP
+ 
+*478   7)        08:26:57.161    1:10.64  Touchpad Near-Close
+ 
+*478   7)        08:26:59.578    1:13.05  Touchpad Near-Close
+ 
+*478   7)        08:27:04.976    1:18.45  Button 1 Near-Close
+ 
+*478   7)        08:27:04.983    1:18.46  Button 2 Near-Close
+ 
+ 478   7)    4                   1:27.94  TP
+ 
+*478   7)        08:27:14.464    1:27.94  Touchpad Near-Close
+ 
+*478   7)        08:27:15.082    1:28.56  Touchpad Near-Close
+ 
+*478   7)        08:27:15.670    1:29.14  Touchpad Near-Close
+ 
+ 478   6)    2                   1:32.28  TP
+ 
+*478   6)        08:27:18.802    1:32.28  Touchpad Near-Close
+ 
+*478   6)        08:27:24.010    1:37.48  Button 1 Near-Close
+ 
+*478   6)        08:27:24.041    1:37.52  Button 2 Near-Close
+ 
+ 478   5)    2                   1:39.59  TP
+ 
+*478   5)        08:27:26.111    1:39.59  Touchpad Near-Close
+ 
+*478   5)        08:27:26.454    1:39.93  Touchpad Near-Close
+ 
+*478   5)        08:27:30.494    1:43.97  Button 1 Near-Close
+ 
+*478   5)        08:27:30.512    1:43.99  Button 2 Near-Close
+ 
+*478   5)        08:27:31.037    1:44.51  Button 1 Near-Close
+ 
+*478   5)        08:27:31.046    1:44.52  Button 2 Near-Close
+ 
+ 478   2)    2                   1:45.62  TP
+ 
+*478   2)        08:27:32.148    1:45.62  Touchpad Near-Close
+ 
+ 478   4)    2                   1:47.67  TP
+ 
+*478   4)        08:27:34.196    1:47.67  Touchpad Near-Close
+ 
+*478   4)        08:27:34.683    1:48.16  Touchpad Near-Close
+ 
+*478   4)        08:27:38.870    1:52.34  Button 2 Near-Close
+ 
+*478   4)        08:27:39.028    1:52.50  Button 1 Near-Close
+ 
+*478   4)        08:27:39.467    1:52.94  Button 2 Near-Close
+ 
+*478   4)        08:27:39.507    1:52.98  Button 1 Near-Close
+ 
+*478   3)        08:27:48.339    2:01.81  Button 1 Near-Close
+ 
+*478   3)        08:27:48.622    2:02.10  Button 1 Near-Close
+ 
+*478   3)        08:27:48.759    2:02.23  Button 2 Near-Close
+ 
+ 478   3)    2                   2:19.95  TP
+ 
+*478   3)        08:28:06.473    2:19.95  Touchpad Near-Close
+ 
+*478   3)        08:28:07.494    2:20.97  Touchpad Near-Close
+ 
+*478   3)        08:28:08.599    2:22.07  Touchpad Near-Close
+ 
+*478   3)        08:28:11.039    2:24.51  Button 2 Near-Close
+ 
+*478   3)        08:28:11.060    2:24.53  Button 1 Near-Close
+ 
+*478   3)        08:28:11.081    2:24.56  Button 2 Near-Close
+ 
+*478   3)        08:28:11.202    2:24.68  Button 2 Near-Close
+ 
+*478   3)        08:28:11.350    2:24.82  Button 2 Near-Close
+ 
+*478   3)        08:28:11.363    2:24.84  Button 1 Near-Close
+ 
+*478   3)        08:28:11.728    2:25.20  Button 1 Near-Close
+ 
+*478   3)        08:28:11.741    2:25.22  Button 2 Near-Close
+ 
+*478   3)        08:28:11.940    2:25.41  Button 1 Near-Close
+ 
+*478   3)        08:28:11.983    2:25.46  Button 2 Near-Close
+ 
+*478   3)        08:28:11.986    2:25.46  Button 2 Near-Close
+ 
+*478   3)        08:28:12.057    2:25.53  Button 2 Near-Close
+ 
+*478   1)        08:28:32.564    2:46.04  Button 1 Near-Close
+ 
+*478   1)        08:28:32.575    2:46.05  Button 2 Near-Close
+ 
+*478   1)        08:28:32.855    2:46.33  Button 1 Near-Close
+ 
+*478   1)        08:28:32.862    2:46.34  Button 2 Near-Close
+ 
+*478   1)        08:28:33.089    2:46.56  Button 1 Near-Close
+ 
+*478   1)        08:28:33.113    2:46.59  Button 2 Near-Close
+ 
+*478   1)        08:28:33.345    2:46.82  Button 1 Near-Close
+ 
+*478   1)        08:28:33.436    2:46.91  Button 2 Near-Close
+ 
+*478   1)        08:28:33.613    2:47.09  Button 1 Near-Close
+ 
+*478   1)        08:28:33.753    2:47.23  Button 2 Near-Close
+ 
+*478   1)        08:28:33.881    2:47.36  Button 1 Near-Close
+ 
+*478   1)        08:28:34.032    2:47.51  Button 2 Near-Close
+ 
+*478   1)        08:28:34.140    2:47.61  Button 1 Near-Close
+ 
+*478   1)        08:28:34.327    2:47.80  Button 2 Near-Close
+ 
+*478   1)        08:28:34.384    2:47.86  Button 1 Near-Close
+ 
+*478   1)        08:28:34.609    2:48.08  Button 2 Near-Close
+ 
+*478   1)        08:28:34.629    2:48.10  Button 1 Near-Close
+ 
+ 478   6)        08:28:57.721             Finish Arm
+ 
+ 478   1)        08:28:59.408             Finish Arm
+ 
+Reset of Race    03/15/26 08:29:07.920
+ 
+Set Race Number 479
+ 
+*479    )        08:29:14.857       0.00  Start-Close
+ 
+*479    )        08:29:15.106       0.24  Start-Open 
+ 
+ 479   8)        08:29:17.49             Finish Arm
+ 
+ 479   7)        08:29:17.457             Finish Arm
+ 
+ 479   6)        08:29:17.893             Finish Arm
+ 
+ 479   5)        08:29:18.555             Finish Arm
+ 
+ 479   4)        08:29:18.962             Finish Arm
+ 
+ 479   3)        08:29:19.584             Finish Arm
+ 
+ 479   2)        08:29:20.357             Finish Arm
+ 
+ 479   1)        08:29:20.780             Finish Arm
+ 
+ 479   5)                          13.24  B2   
+ 
+*479   5)        08:29:28.098      13.24  Button 2 Near-Close
+ 
+ 479   5)                          13.29  B1   
+ 
+*479   5)        08:29:28.156      13.29  Button 1 Near-Close
+ 
+ 479   5)    4                     17.43  TP
+ 
+*479   5)        08:29:32.293      17.43  Touchpad Near-Close
+ 
+ 479   4)    4                     19.89  TP
+ 
+*479   4)        08:29:34.750      19.89  Touchpad Near-Close
+ 
+ 479   4)                          24.56  B1   
+ 
+*479   4)        08:29:39.424      24.56  Button 1 Near-Close
+ 
+ 479   4)                          24.71  B2   
+ 
+*479   4)        08:29:39.573      24.71  Button 2 Near-Close
+ 
+ 479   1)    4                     30.14  TP
+ 
+*479   1)        08:29:45.005      30.14  Touchpad Near-Close
+ 
+ 479   2)    4                     31.58  TP
+ 
+*479   2)        08:29:46.440      31.58  Touchpad Near-Close
+ 
+*479   2)        08:29:46.481      31.62  Touchpad Near-Close
+ 
+ 479   6)                          32.40  B1   
+ 
+*479   6)        08:29:47.263      32.40  Button 1 Near-Close
+ 
+ 479   6)                          33.81  B2   
+ 
+*479   6)        08:29:48.670      33.81  Button 2 Near-Close
+ 
+ 479   2)                          34.89  B1   
+ 
+*479   2)        08:29:49.754      34.89  Button 1 Near-Close
+ 
+ 479   2)                          34.95  B2   
+ 
+*479   2)        08:29:49.811      34.95  Button 2 Near-Close
+ 
+ 479   6)    4                     35.60  TP
+ 
+*479   6)        08:29:50.462      35.60  Touchpad Near-Close
+ 
+ 479   1)                          41.62  B2   
+ 
+*479   1)        08:29:56.483      41.62  Button 2 Near-Close
+ 
+ 479   1)                          41.70  B1   
+ 
+*479   1)        08:29:56.562      41.70  Button 1 Near-Close
+ 
+ 479   7)                          44.57  B2   
+ 
+*479   7)        08:29:59.437      44.57  Button 2 Near-Close
+ 
+ 479   7)                          44.64  B1   
+ 
+*479   7)        08:29:59.504      44.64  Button 1 Near-Close
+ 
+ 479   3)    4                     50.00  TP
+ 
+*479   3)        08:30:04.865      50.00  Touchpad Near-Close
+ 
+*479   4)        08:30:06.279      51.42  Touchpad Near-Close
+ 
+ 479   8)                          53.95  B2   
+ 
+*479   8)        08:30:08.813      53.95  Button 2 Near-Close
+ 
+ 479   7)    2                  WARNING
+ 
+ 479   8)    2                  WARNING
+ 
+ 479   8)                          54.11  B1   
+ 
+*479   8)        08:30:08.968      54.11  Button 1 Near-Close
+ 
+*479   8)        08:30:09.347      54.48  Button 2 Near-Close
+ 
+*479   8)        08:30:09.391      54.53  Button 1 Near-Close
+ 
+ 479   8)    4                     56.86  TP
+ 
+*479   8)        08:30:11.722      56.86  Touchpad Near-Close
+ 
+*479   8)        08:30:12.007      57.14  Touchpad Near-Close
+ 
+ 479   3)                          57.88  B2   
+ 
+*479   3)        08:30:12.741      57.88  Button 2 Near-Close
+ 
+ 479   3)                          57.94  B1   
+ 
+*479   3)        08:30:12.807      57.94  Button 1 Near-Close
+ 
+ 479   7)    4                   1:00.28  TP
+ 
+*479   7)        08:30:15.142    1:00.28  Touchpad Near-Close
+ 
+*479   4)        08:30:19.514    1:04.65  Button 2 Near-Close
+ 
+*479   4)        08:30:19.571    1:04.71  Button 1 Near-Close
+ 
+Reset of Race    03/15/26 08:30:22.479
+ 
+*479   4)        08:35:20.820       0.00  Touchpad Near-Close
+ 
+Set Race Number 480
+ 
+*480    )        08:35:29.233       0.00  Start-Close
+ 
+*480    )        08:35:29.481       0.24  Start-Open 
+ 
+*480   4)        08:35:29.931       0.69  Touchpad Near-Close
+ 
+*480   1)                      Lane Off
+ 
+*480   2)                      Lane Off
+ 
+*480   3)                      Lane Off
+ 
+*480   5)                      Lane Off
+ 
+*480   6)                      Lane Off
+ 
+*480   7)                      Lane Off
+ 
+*480   8)                      Lane Off
+ 
+ 480   4)    0                  WARNING
+ 
+ 480   4)    2                            +
+ 
+ 480   4)                        1:42.14  B1   
+ 
+*480   4)        08:37:11.379    1:42.14  Button 1 Near-Close
+ 
+ 480   4)    4                   1:42.18  TP
+ 
+*480   4)        08:37:11.421    1:42.18  Touchpad Near-Close
+ 
+ 480   4)                        1:42.35  B2   
+ 
+*480   4)        08:37:11.583    1:42.35  Button 2 Near-Close
+ 
+*480   4)        08:37:16.206    1:46.97  Touchpad Near-Close
+ 
+*480   4)        08:37:24.923    1:55.69  Touchpad Near-Close
+ 
+*480   1)                      Lane On
+ 
+*480   2)                      Lane On
+ 
+*480   3)                      Lane On
+ 
+*480   5)                      Lane On
+ 
+*480   6)                      Lane On
+ 
+*480   7)                      Lane On
+ 
+*480   8)                      Lane On
+ 
+Reset of Race    03/15/26 08:37:26.960
+ 
+Set Event 40  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+Set Event 41  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+*480   6)        08:37:43.945       0.00  Touchpad Near-Close
+ 
+*480   6)        08:37:44.056       0.00  Touchpad Near-Close
+ 
+Set Race Number 481
+ 
+*481    )        08:37:59.469       0.00  Start-Close
+ 
+*481    )        08:37:59.718       0.24  Start-Open 
+ 
+*481   4)        08:37:59.942       0.47  Touchpad Near-Close
+ 
+*481   6)        08:38:00.001       0.53  Touchpad Near-Close
+ 
+*481   1)                      Lane Off
+ 
+*481   2)                      Lane Off
+ 
+*481   3)                      Lane Off
+ 
+*481   7)                      Lane Off
+ 
+*481   8)                      Lane Off
+ 
+*481   5)                      Lane Off
+ 
+ 481   6)    2                     40.28  TP
+ 
+*481   6)        08:38:39.749      40.28  Touchpad Near-Close
+ 
+*481   6)        08:38:41.170      41.70  Touchpad Near-Close
+ 
+ 481   4)    0                  WARNING
+ 
+ 481   4)    2                     57.05  TP
+ 
+*481   4)        08:38:56.525      57.05  Touchpad Near-Close
+ 
+*481   4)        08:38:56.745      57.27  Touchpad Near-Close
+ 
+*481   4)        08:39:01.764    1:02.29  Touchpad Near-Close
+ 
+ 481   6)    4                   1:31.31  TP
+ 
+*481   6)        08:39:30.784    1:31.31  Touchpad Near-Close
+ 
+*481   6)        08:39:32.639    1:33.17  Touchpad Near-Close
+ 
+*481   6)        08:39:35.557    1:36.08  Touchpad Near-Close
+ 
+ 481   4)    4                   1:49.41  TP
+ 
+*481   4)        08:39:48.882    1:49.41  Touchpad Near-Close
+ 
+ 481   6)    6                   2:20.41  TP
+ 
+*481   6)        08:40:19.882    2:20.41  Touchpad Near-Close
+ 
+*481   6)        08:40:27.837    2:28.36  Touchpad Near-Close
+ 
+*481   6)        08:40:30.169    2:30.70  Touchpad Near-Close
+ 
+*481   6)        08:40:30.286    2:30.81  Touchpad Near-Close
+ 
+ 481   4)    6                            +
+ 
+ 481   6)    8                   3:01.87  TP
+ 
+*481   6)        08:41:01.344    3:01.87  Touchpad Near-Close
+ 
+ 481   6)                        3:02.02  B1   
+ 
+*481   6)        08:41:01.494    3:02.02  Button 1 Near-Close
+ 
+ 481   6)                        3:02.15  B2   
+ 
+*481   6)        08:41:01.619    3:02.15  Button 2 Near-Close
+ 
+ 481   4)                        3:21.93  B2   
+ 
+*481   4)        08:41:21.403    3:21.93  Button 2 Near-Close
+ 
+ 481   4)                        3:21.96  B1   
+ 
+*481   4)        08:41:21.429    3:21.96  Button 1 Near-Close
+ 
+*481   6)        08:41:24.689    3:25.22  Touchpad Near-Close
+ 
+ 481   4)    8                   3:26.76  TP
+ 
+*481   4)        08:41:26.235    3:26.76  Touchpad Near-Close
+ 
+*481   1)                      Lane On
+ 
+*481   2)                      Lane On
+ 
+*481   3)                      Lane On
+ 
+*481   5)                      Lane On
+ 
+*481   7)                      Lane On
+ 
+Reset of Race    03/15/26 08:41:43.816
+ 
+*481   8)                      Lane On
+ 
+Set Event 39  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+Set Event 40  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+Set Event 41  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 42  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 43  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+*481   6)        08:42:00.272       0.00  Touchpad Near-Close
+ 
+*481   6)        08:42:01.422       0.00  Touchpad Near-Close
+ 
+*481   4)        08:42:01.800       0.00  Touchpad Near-Close
+ 
+*481   6)        08:42:02.262       0.00  Touchpad Near-Close
+ 
+*481   4)        08:42:04.534       0.00  Touchpad Near-Close
+ 
+Set Race Number 482
+ 
+*482    )        08:42:12.118       0.00  Start-Close
+ 
+*482    )        08:42:12.366       0.24  Start-Open 
+ 
+Set Event 42  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 43  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+*482   1)                      Lane Off
+ 
+*482   2)                      Lane Off
+ 
+ 482   6)    2                     39.75  TP
+ 
+*482   6)        08:42:51.877      39.75  Touchpad Near-Close
+ 
+*482   3)                      Lane Off
+ 
+*482   5)                      Lane Off
+ 
+*482   7)                      Lane Off
+ 
+*482   8)                      Lane Off
+ 
+ 482   4)    0                  WARNING
+ 
+ 482   4)    2                            +
+ 
+ 482   4)    4                   1:18.78  TP
+ 
+*482   4)        08:43:30.898    1:18.78  Touchpad Near-Close
+ 
+ 482   6)    4                   1:21.81  TP
+ 
+*482   6)        08:43:33.932    1:21.81  Touchpad Near-Close
+ 
+ 482   4)    6                   1:52.61  TP
+ 
+*482   4)        08:44:04.735    1:52.61  Touchpad Near-Close
+ 
+ 482   6)    6                   1:58.06  TP
+ 
+*482   6)        08:44:10.184    1:58.06  Touchpad Near-Close
+ 
+ 482   4)    8                   2:25.27  TP
+ 
+*482   4)        08:44:37.391    2:25.27  Touchpad Near-Close
+ 
+ 482   4)                        2:25.33  B2   
+ 
+ 482   4)                        2:25.34  B1   
+ 
+*482   4)        08:44:37.454    2:25.33  Button 2 Near-Close
+ 
+*482   4)        08:44:37.463    2:25.34  Button 1 Near-Close
+ 
+ 482   6)                        2:36.89  B2   
+ 
+*482   6)        08:44:49.009    2:36.89  Button 2 Near-Close
+ 
+ 482   6)                        2:36.93  B1   
+ 
+*482   6)        08:44:49.055    2:36.93  Button 1 Near-Close
+ 
+ 482   6)    8                   2:37.13  TP
+ 
+*482   6)        08:44:49.255    2:37.13  Touchpad Near-Close
+ 
+*482   6)        08:44:53.626    2:41.50  Touchpad Near-Close
+ 
+*482   1)                      Lane On
+ 
+*482   2)                      Lane On
+ 
+*482   3)                      Lane On
+ 
+*482   5)                      Lane On
+ 
+Reset of Race    03/15/26 08:45:06.850
+ 
+*482   7)                      Lane On
+ 
+*482   8)                      Lane On
+ 
+Set Event 44  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 45  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+*482   7)        08:45:16.301       0.00  Touchpad Near-Close
+ 
+*482   7)        08:45:19.871       0.00  Touchpad Near-Close
+ 
+*482   2)        08:45:20.911       0.00  Touchpad Near-Close
+ 
+*482   1)        08:45:21.776       0.00  Touchpad Near-Close
+ 
+*482   8)        08:45:22.204       0.00  Touchpad Near-Close
+ 
+*482   7)        08:45:22.843       0.00  Touchpad Near-Close
+ 
+*482   2)        08:45:24.939       0.00  Touchpad Near-Close
+ 
+*482   8)        08:45:28.504       0.00  Touchpad Near-Close
+ 
+Set Race Number 483
+ 
+*483    )        08:45:31.923       0.00  Start-Close
+ 
+*483    )        08:45:32.171       0.24  Start-Open 
+ 
+*483   7)        08:45:32.213       0.29  Touchpad Near-Close
+ 
+*483   1)        08:45:32.218       0.29  Touchpad Near-Close
+ 
+ 483   6)    2                     32.03  TP
+ 
+*483   6)        08:46:03.959      32.03  Touchpad Near-Close
+ 
+ 483   7)    2                     34.07  TP
+ 
+*483   7)        08:46:05.998      34.07  Touchpad Near-Close
+ 
+ 483   1)    2                     37.55  TP
+ 
+*483   1)        08:46:09.478      37.55  Touchpad Near-Close
+ 
+*483   7)        08:46:12.026      40.10  Touchpad Near-Close
+ 
+*483   3)                      Lane Off
+ 
+*483   4)                      Lane Off
+ 
+ 483   8)    2                     42.10  TP
+ 
+*483   8)        08:46:14.028      42.10  Touchpad Near-Close
+ 
+*483   5)                      Lane Off
+ 
+*483   8)        08:46:18.826      46.90  Touchpad Near-Close
+ 
+ 483   2)    2                            +
+ 
+ 483   6)    2                  WARNING
+ 
+ 483   2)    4                   1:22.06  TP
+ 
+*483   2)        08:46:53.986    1:22.06  Touchpad Near-Close
+ 
+*483   2)        08:46:54.132    1:22.20  Touchpad Near-Close
+ 
+*483   2)        08:46:54.151    1:22.22  Touchpad Near-Close
+ 
+ 483   7)    2                  WARNING
+ 
+ 483   6)    4                            +
+ 
+ 483   1)    4                   1:26.25  TP
+ 
+*483   1)        08:46:58.177    1:26.25  Touchpad Near-Close
+ 
+ 483   7)    4                            +
+ 
+ 483   8)    4                   1:28.68  TP
+ 
+*483   8)        08:47:00.609    1:28.68  Touchpad Near-Close
+ 
+*483   8)        08:47:11.971    1:40.04  Touchpad Near-Close
+ 
+*483   8)        08:47:12.806    1:40.88  Touchpad Near-Close
+ 
+ 483   6)    6                   1:42.55  TP
+ 
+*483   6)        08:47:14.474    1:42.55  Touchpad Near-Close
+ 
+ 483   2)    6                   1:49.35  TP
+ 
+*483   2)        08:47:21.277    1:49.35  Touchpad Near-Close
+ 
+ 483   7)    6                   2:01.71  TP
+ 
+*483   7)        08:47:33.639    2:01.71  Touchpad Near-Close
+ 
+ 483   1)    6                   2:03.66  TP
+ 
+*483   1)        08:47:35.592    2:03.66  Touchpad Near-Close
+ 
+*483   1)        08:47:35.682    2:03.75  Touchpad Near-Close
+ 
+ 483   6)    8                   2:09.16  TP
+ 
+*483   6)        08:47:41.092    2:09.16  Touchpad Near-Close
+ 
+ 483   6)                        2:09.29  B1   
+ 
+*483   6)        08:47:41.220    2:09.29  Button 1 Near-Close
+ 
+ 483   6)                        2:09.35  B2   
+ 
+*483   6)        08:47:41.279    2:09.35  Button 2 Near-Close
+ 
+*483   6)        08:47:43.133    2:11.21  Touchpad Near-Close
+ 
+ 483   8)    6                   2:17.28  TP
+ 
+*483   8)        08:47:49.209    2:17.28  Touchpad Near-Close
+ 
+*483   6)        08:47:50.204    2:18.28  Touchpad Near-Close
+ 
+ 483   2)    8                   2:19.52  TP
+ 
+ 483   2)                        2:19.56  B1   
+ 
+*483   2)        08:47:51.451    2:19.52  Touchpad Near-Close
+ 
+*483   2)        08:47:51.485    2:19.56  Button 1 Near-Close
+ 
+ 483   2)                        2:19.71  B2   
+ 
+*483   2)        08:47:51.636    2:19.71  Button 2 Near-Close
+ 
+*483   8)        08:47:53.521    2:21.59  Touchpad Near-Close
+ 
+*483   8)        08:47:59.133    2:27.21  Touchpad Near-Close
+ 
+ 483   7)    8                   2:28.44  TP
+ 
+*483   7)        08:48:00.368    2:28.44  Touchpad Near-Close
+ 
+ 483   7)                        2:28.49  B2   
+ 
+ 483   7)                        2:28.50  B1   
+ 
+*483   7)        08:48:00.416    2:28.49  Button 2 Near-Close
+ 
+*483   7)        08:48:00.430    2:28.50  Button 1 Near-Close
+ 
+*483   8)        08:48:01.660    2:29.73  Touchpad Near-Close
+ 
+ 483   1)                        2:34.85  B1   
+ 
+ 483   1)                        2:34.86  B2   
+ 
+*483   1)        08:48:06.781    2:34.85  Button 1 Near-Close
+ 
+*483   1)        08:48:06.788    2:34.86  Button 2 Near-Close
+ 
+*483   7)        08:48:07.373    2:35.45  Touchpad Near-Close
+ 
+ 483   8)    8                   2:49.21  TP
+ 
+*483   8)        08:48:21.142    2:49.21  Touchpad Near-Close
+ 
+ 483   8)                        2:49.30  B2   
+ 
+*483   8)        08:48:21.231    2:49.30  Button 2 Near-Close
+ 
+ 483   8)                        2:49.40  B1   
+ 
+*483   8)        08:48:21.323    2:49.40  Button 1 Near-Close
+ 
+*483   8)        08:48:22.655    2:50.73  Touchpad Near-Close
+ 
+ 483   1)    6                  WARNING
+ 
+ 483   7)                        2:59.63  B3   
+ 
+ 483   2)                        2:59.63  B3   
+ 
+ 483   1)    8                   2:59.63  TP
+ 
+ 483   1)                        2:59.63  B3   
+ 
+*483   1)        08:48:31.556    2:59.63  Power Bit Near-Close
+ 
+*483   4)        08:48:31.557    2:59.63  Power Bit Near-Open 
+ 
+*483   3)        08:48:31.557    2:59.63  Power Bit Near-Open 
+ 
+*483   2)        08:48:31.557    2:59.63  Power Bit Near-Open 
+ 
+*483   1)        08:48:31.557    2:59.63  Power Bit Near-Open 
+ 
+*483   1)        08:48:31.558    2:59.63  Power Bit Near-Close
+ 
+*483   8)        08:48:31.559    2:59.63  Power Bit Near-Close
+ 
+*483   7)        08:48:31.559    2:59.63  Power Bit Near-Close
+ 
+*483   6)        08:48:31.559    2:59.63  Power Bit Near-Close
+ 
+*483   5)        08:48:31.559    2:59.63  Power Bit Near-Close
+ 
+*483   4)        08:48:31.559    2:59.63  Power Bit Near-Close
+ 
+*483   3)        08:48:31.559    2:59.63  Power Bit Near-Close
+ 
+*483   2)        08:48:31.559    2:59.63  Power Bit Near-Close
+ 
+*483   3)                      Lane On
+ 
+*483   4)                      Lane On
+ 
+Reset of Race    03/15/26 08:49:18.552
+ 
+*483   5)                      Lane On
+ 
+Set Event 46  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 47  - Heat 1 - Round Final
+ 
+Set Race Lengths to 1
+ 
+Set Race Number 484
+ 
+*484    )        09:07:54.424       0.00  Start-Close
+ 
+*484    )        09:07:54.672       0.24  Start-Open 
+ 
+*484   1)                      Lane Off
+ 
+*484   2)                      Lane Off
+ 
+*484   6)                      Lane Off
+ 
+*484   7)                      Lane Off
+ 
+*484   8)                      Lane Off
+ 
+ 484   4)                          26.80  B1   
+ 
+ 484   4)                          26.81  B2   
+ 
+*484   4)        09:08:21.233      26.80  Button 1 Near-Close
+ 
+*484   4)        09:08:21.236      26.81  Button 2 Near-Close
+ 
+ 484   5)    1                     28.37  TP
+ 
+*484   5)        09:08:22.800      28.37  Touchpad Near-Close
+ 
+ 484   5)                          28.47  B1   
+ 
+*484   5)        09:08:22.898      28.47  Button 1 Near-Close
+ 
+ 484   5)                          28.50  B2   
+ 
+*484   5)        09:08:22.924      28.50  Button 2 Near-Close
+ 
+ 484   3)                          29.37  B1   
+ 
+*484   3)        09:08:23.799      29.37  Button 1 Near-Close
+ 
+ 484   3)                          29.43  B2   
+ 
+*484   3)        09:08:23.857      29.43  Button 2 Near-Close
+ 
+*484   5)        09:08:24.006      29.58  Touchpad Near-Close
+ 
+*484   5)        09:08:27.756      33.33  Touchpad Near-Close
+ 
+*484   5)        09:08:28.922      34.49  Touchpad Near-Close
+ 
+ 484   4)    1                     35.03  TP
+ 
+*484   4)        09:08:29.458      35.03  Touchpad Near-Close
+ 
+ 484   3)    1                     41.91  TP
+ 
+*484   3)        09:08:36.342      41.91  Touchpad Near-Close
+ 
+*484   1)                      Lane On
+ 
+*484   2)                      Lane On
+ 
+*484   6)                      Lane On
+ 
+*484   7)                      Lane On
+ 
+*484   8)                      Lane On
+ 
+Reset of Race    03/15/26 09:09:04.124
+ 
+Set Race Number 485
+ 
+*485    )        09:09:04.177       0.00  Start-Close
+ 
+*485    )        09:09:04.425       0.24  Start-Open 
+ 
+Set Event 47  - Heat 2 - Round Final
+ 
+ 485   5)    1                     20.22  TP
+ 
+*485   5)        09:09:24.403      20.22  Touchpad Near-Close
+ 
+ 485   5)                          20.29  B2   
+ 
+ 485   5)                          20.31  B1   
+ 
+*485   5)        09:09:24.469      20.29  Button 2 Near-Close
+ 
+*485   5)        09:09:24.494      20.31  Button 1 Near-Close
+ 
+ 485   2)                          20.39  B1   
+ 
+*485   2)        09:09:24.575      20.39  Button 1 Near-Close
+ 
+ 485   2)                          20.45  B2   
+ 
+ 485   2)    1                     20.45  TP
+ 
+*485   2)        09:09:24.628      20.45  Button 2 Near-Close
+ 
+*485   2)        09:09:24.635      20.45  Touchpad Near-Close
+ 
+ 485   3)                          20.86  B2   
+ 
+*485   3)        09:09:25.044      20.86  Button 2 Near-Close
+ 
+ 485   3)                          20.98  B1   
+ 
+*485   3)        09:09:25.159      20.98  Button 1 Near-Close
+ 
+ 485   4)                          21.49  B2   
+ 
+ 485   4)                          21.50  B1   
+ 
+*485   4)        09:09:25.674      21.49  Button 2 Near-Close
+ 
+*485   4)        09:09:25.677      21.50  Button 1 Near-Close
+ 
+*485   2)        09:09:26.373      22.19  Touchpad Near-Close
+ 
+*485   2)        09:09:27.598      23.42  Touchpad Near-Close
+ 
+*485   2)        09:09:29.448      25.27  Touchpad Near-Close
+ 
+ 485   3)    1                     26.42  TP
+ 
+*485   3)        09:09:30.606      26.42  Touchpad Near-Close
+ 
+ 485   7)                          26.51  B2   
+ 
+ 485   7)                          26.51  B1   
+ 
+*485   7)        09:09:30.691      26.51  Button 2 Near-Close
+ 
+*485   7)        09:09:30.693      26.51  Button 1 Near-Close
+ 
+ 485   6)                          27.11  B1   
+ 
+*485   6)        09:09:31.290      27.11  Button 1 Near-Close
+ 
+ 485   6)                          27.14  B2   
+ 
+*485   6)        09:09:31.326      27.14  Button 2 Near-Close
+ 
+*485   5)        09:09:31.803      27.62  Touchpad Near-Close
+ 
+ 485   6)    1                     29.60  TP
+ 
+*485   6)        09:09:33.778      29.60  Touchpad Near-Close
+ 
+*485   6)        09:09:34.816      30.63  Touchpad Near-Close
+ 
+*485   2)        09:09:36.044      31.86  Touchpad Near-Close
+ 
+ 485   7)    1                     32.37  TP
+ 
+*485   7)        09:09:36.550      32.37  Touchpad Near-Close
+ 
+ 485   4)    1                     33.60  TP
+ 
+*485   4)        09:09:37.779      33.60  Touchpad Near-Close
+ 
+*485   7)        09:09:41.082      36.90  Touchpad Near-Close
+ 
+Reset of Race    03/15/26 09:09:46.227
+ 
+Set Event 48  - Heat 1 - Round Final
+ 
+Set Race Lengths to 1
+ 
+Set Race Number 486
+ 
+*486    )        09:10:04.148       0.00  Start-Close
+ 
+*486    )        09:10:04.396       0.24  Start-Open 
+ 
+ 486   4)                          17.86  B2   
+ 
+ 486   4)                          17.86  B1   
+ 
+*486   4)        09:10:22.011      17.86  Button 2 Near-Close
+ 
+*486   4)        09:10:22.017      17.86  Button 1 Near-Close
+ 
+ 486   5)                          20.88  B2   
+ 
+*486   5)        09:10:25.033      20.88  Button 2 Near-Close
+ 
+ 486   5)                          20.98  B1   
+ 
+*486   5)        09:10:25.130      20.98  Button 1 Near-Close
+ 
+ 486   5)    1                     22.07  TP
+ 
+*486   5)        09:10:26.226      22.07  Touchpad Near-Close
+ 
+ 486   6)                          23.40  B1   
+ 
+ 486   6)                          23.41  B2   
+ 
+*486   6)        09:10:27.550      23.40  Button 1 Near-Close
+ 
+*486   6)        09:10:27.558      23.41  Button 2 Near-Close
+ 
+ 486   6)    1                     26.94  TP
+ 
+*486   6)        09:10:31.089      26.94  Touchpad Near-Close
+ 
+ 486   3)                          27.71  B1   
+ 
+ 486   3)    1                     27.71  TP
+ 
+*486   3)        09:10:31.864      27.71  Button 1 Near-Close
+ 
+*486   3)        09:10:31.867      27.71  Touchpad Near-Close
+ 
+*486   3)        09:10:31.891      27.74  Touchpad Near-Close
+ 
+ 486   3)                          27.84  B2   
+ 
+*486   3)        09:10:31.997      27.84  Button 2 Near-Close
+ 
+*486   3)        09:10:36.287      32.13  Touchpad Near-Close
+ 
+*486   3)        09:10:38.091      33.94  Touchpad Near-Close
+ 
+ 486   2)                          44.65  B2   
+ 
+*486   2)        09:10:48.801      44.65  Button 2 Near-Close
+ 
+*486   3)        09:10:48.829      44.68  Touchpad Near-Close
+ 
+ 486   2)                          45.01  B1   
+ 
+*486   2)        09:10:49.165      45.01  Button 1 Near-Close
+ 
+ 486   2)    1                     46.89  TP
+ 
+*486   2)        09:10:51.041      46.89  Touchpad Near-Close
+ 
+ 486   1)    0                  WARNING
+ 
+ 486   4)    0                  WARNING
+ 
+ 486   7)    0                  WARNING
+ 
+ 486   8)    0                  WARNING
+ 
+Reset of Race    03/15/26 09:10:59.475
+ 
+*486   2)        09:10:59.558       0.00  Touchpad Near-Close
+ 
+*486   2)        09:11:05.304       0.00  Touchpad Near-Close
+ 
+Set Event 39  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+Set Race Number 487
+ 
+*487   9)                      Lane Off
+ 
+*487  10)                      Lane Off
+ 
+Set Event 39  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+Set Event 39  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+Set Event 40  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+Set Event 41  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 42  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 43  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 44  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 45  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 46  - Heat 1 - Round Final
+ 
+Set Race Lengths to 8
+ 
+Set Event 47  - Heat 1 - Round Final
+ 
+Set Race Lengths to 1
+ 
+Set Event 48  - Heat 1 - Round Final
+ 
+Set Race Lengths to 1
+ 
+Set Event 49  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+*487   3)        09:13:46.889       0.00  Touchpad Near-Close
+ 
+*487   3)        09:13:47.970       0.00  Touchpad Near-Close
+ 
+*487   3)        09:13:48.950       0.00  Touchpad Near-Close
+ 
+*487   3)        09:13:50.073       0.00  Touchpad Near-Close
+ 
+Set Race Number 487
+ 
+*487    )        09:14:02.178       0.00  Start-Close
+ 
+*487    )        09:14:02.426       0.24  Start-Open 
+ 
+*487   1)                      Lane Off
+ 
+*487   2)                      Lane Off
+ 
+*487   6)                      Lane Off
+ 
+*487   7)                      Lane Off
+ 
+*487   8)                      Lane Off
+ 
+ 487   5)    2                     45.38  TP
+ 
+*487   5)        09:14:47.567      45.38  Touchpad Near-Close
+ 
+ 487   3)    2                     52.51  TP
+ 
+*487   3)        09:14:54.690      52.51  Touchpad Near-Close
+ 
+*487   3)        09:14:54.973      52.79  Touchpad Near-Close
+ 
+ 487   4)    0                  WARNING
+ 
+ 487   4)    2                     56.50  TP
+ 
+*487   4)        09:14:58.678      56.50  Touchpad Near-Close
+ 
+ 487   5)    4                   1:39.05  TP
+ 
+ 487   5)                        1:39.09  B2   
+ 
+*487   5)        09:15:41.237    1:39.05  Touchpad Near-Close
+ 
+ 487   5)                        1:39.15  B1   
+ 
+*487   5)        09:15:41.268    1:39.09  Button 2 Near-Close
+ 
+*487   5)        09:15:41.330    1:39.15  Button 1 Near-Close
+ 
+*487   5)        09:15:51.398    1:49.22  Touchpad Near-Close
+ 
+*487   5)        09:15:52.644    1:50.46  Touchpad Near-Close
+ 
+ 487   3)    4                   1:53.98  TP
+ 
+*487   3)        09:15:56.167    1:53.98  Touchpad Near-Close
+ 
+ 487   3)                        1:54.08  B1   
+ 
+*487   3)        09:15:56.266    1:54.08  Button 1 Near-Close
+ 
+ 487   3)                        1:54.19  B2   
+ 
+*487   3)        09:15:56.370    1:54.19  Button 2 Near-Close
+ 
+*487   3)        09:16:00.750    1:58.57  Touchpad Near-Close
+ 
+*487   3)        09:16:01.876    1:59.69  Touchpad Near-Close
+ 
+ 487   4)                        2:02.12  B1   
+ 
+*487   4)        09:16:04.300    2:02.12  Button 1 Near-Close
+ 
+ 487   4)                        2:02.25  B2   
+ 
+*487   4)        09:16:04.429    2:02.25  Button 2 Near-Close
+ 
+*487   3)        09:16:04.452    2:02.27  Touchpad Near-Close
+ 
+ 487   4)    4                   2:04.76  TP
+ 
+*487   4)        09:16:06.944    2:04.76  Touchpad Near-Close
+ 
+*487   1)                      Lane On
+ 
+*487   2)                      Lane On
+ 
+*487   6)                      Lane On
+ 
+*487   7)                      Lane On
+ 
+Reset of Race    03/15/26 09:16:14.347
+ 
+*487   8)                      Lane On
+ 
+Set Event 49  - Heat 2 - Round Final
+ 
+Set Race Number 488
+ 
+*488    )        09:16:25.849       0.00  Start-Close
+ 
+*488    )        09:16:26.097       0.24  Start-Open 
+ 
+*488   8)                      Lane Off
+ 
+ 488   5)    2                     37.37  TP
+ 
+*488   5)        09:17:03.226      37.37  Touchpad Near-Close
+ 
+*488   5)        09:17:03.779      37.93  Touchpad Near-Close
+ 
+ 488   4)    2                     39.95  TP
+ 
+*488   4)        09:17:05.802      39.95  Touchpad Near-Close
+ 
+*488   4)        09:17:05.961      40.11  Touchpad Near-Close
+ 
+ 488   3)    2                     43.12  TP
+ 
+*488   3)        09:17:08.973      43.12  Touchpad Near-Close
+ 
+*488   3)        09:17:09.180      43.33  Touchpad Near-Close
+ 
+ 488   6)    2                     43.52  TP
+ 
+*488   6)        09:17:09.374      43.52  Touchpad Near-Close
+ 
+ 488   7)    2                     43.94  TP
+ 
+*488   7)        09:17:09.791      43.94  Touchpad Near-Close
+ 
+ 488   2)    2                     47.01  TP
+ 
+*488   2)        09:17:12.863      47.01  Touchpad Near-Close
+ 
+*488   2)        09:17:13.056      47.20  Touchpad Near-Close
+ 
+ 488   1)    0                  WARNING
+ 
+ 488   1)    2                            +
+ 
+ 488   5)    4                   1:20.68  TP
+ 
+*488   5)        09:17:46.538    1:20.68  Touchpad Near-Close
+ 
+ 488   5)                        1:20.77  B2   
+ 
+*488   5)        09:17:46.626    1:20.77  Button 2 Near-Close
+ 
+ 488   5)                        1:20.89  B1   
+ 
+*488   5)        09:17:46.744    1:20.89  Button 1 Near-Close
+ 
+*488   5)        09:17:46.881    1:21.03  Touchpad Near-Close
+ 
+ 488   4)    4                   1:24.70  TP
+ 
+ 488   4)                        1:24.72  B1   
+ 
+*488   4)        09:17:50.554    1:24.70  Touchpad Near-Close
+ 
+ 488   4)                        1:24.81  B2   
+ 
+*488   4)        09:17:50.571    1:24.72  Button 1 Near-Close
+ 
+*488   4)        09:17:50.668    1:24.81  Button 2 Near-Close
+ 
+ 488   3)    4                   1:33.44  TP
+ 
+*488   3)        09:17:59.289    1:33.44  Touchpad Near-Close
+ 
+ 488   3)                        1:33.49  B1   
+ 
+*488   3)        09:17:59.341    1:33.49  Button 1 Near-Close
+ 
+ 488   3)                        1:33.54  B2   
+ 
+*488   3)        09:17:59.396    1:33.54  Button 2 Near-Close
+ 
+ 488   6)    4                   1:33.84  TP
+ 
+*488   6)        09:17:59.691    1:33.84  Touchpad Near-Close
+ 
+ 488   6)                        1:33.88  B2   
+ 
+*488   6)        09:17:59.734    1:33.88  Button 2 Near-Close
+ 
+ 488   6)                        1:33.96  B1   
+ 
+*488   6)        09:17:59.815    1:33.96  Button 1 Near-Close
+ 
+ 488   7)                        1:36.01  B2   
+ 
+ 488   7)                        1:36.03  B1   
+ 
+*488   7)        09:18:01.866    1:36.01  Button 2 Near-Close
+ 
+*488   7)        09:18:01.883    1:36.03  Button 1 Near-Close
+ 
+ 488   7)    4                   1:36.53  TP
+ 
+*488   7)        09:18:02.383    1:36.53  Touchpad Near-Close
+ 
+ 488   2)    4                   1:37.84  TP
+ 
+*488   2)        09:18:03.690    1:37.84  Touchpad Near-Close
+ 
+*488   2)        09:18:03.796    1:37.94  Touchpad Near-Close
+ 
+ 488   2)                        1:37.99  B2   
+ 
+*488   2)        09:18:03.842    1:37.99  Button 2 Near-Close
+ 
+ 488   2)                        1:38.30  B1   
+ 
+*488   2)        09:18:04.152    1:38.30  Button 1 Near-Close
+ 
+*488   7)        09:18:10.431    1:44.58  Touchpad Near-Close
+ 
+*488   7)        09:18:10.681    1:44.83  Touchpad Near-Close
+ 
+*488   2)        09:18:10.895    1:45.04  Touchpad Near-Close
+ 
+ 488   1)                        1:45.32  B1   
+ 
+*488   1)        09:18:11.176    1:45.32  Button 1 Near-Close
+ 
+*488   2)        09:18:11.226    1:45.37  Touchpad Near-Close
+ 
+ 488   1)                        1:45.42  B2   
+ 
+*488   1)        09:18:11.275    1:45.42  Button 2 Near-Close
+ 
+*488   2)        09:18:11.732    1:45.88  Touchpad Near-Close
+ 
+*488   2)        09:18:12.868    1:47.01  Touchpad Near-Close
+ 
+*488   7)        09:18:14.188    1:48.33  Touchpad Near-Close
+ 
+*488   7)        09:18:14.274    1:48.42  Touchpad Near-Close
+ 
+ 488   1)    2                  WARNING
+ 
+ 488   1)    4                   1:52.83  TP
+ 
+*488   1)        09:18:18.687    1:52.83  Touchpad Near-Close
+ 
+Reset of Race    03/15/26 09:18:23.861
+ 
+*488   8)                      Lane On
+ 
+Set Event 50  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+*488   6)        09:18:25.418       0.00  Touchpad Near-Close
+ 
+*488   6)        09:18:26.631       0.00  Touchpad Near-Close
+ 
+*488   6)        09:18:28.526       0.00  Touchpad Near-Close
+ 
+*488   6)        09:18:29.902       0.00  Touchpad Near-Close
+ 
+*488   6)        09:18:31.749       0.00  Touchpad Near-Close
+ 
+Set Race Number 489
+ 
+*489    )        09:18:42.409       0.00  Start-Close
+ 
+*489    )        09:18:42.658       0.24  Start-Open 
+ 
+*489   6)                      Lane Off
+ 
+*489   7)                      Lane Off
+ 
+*489   8)                      Lane Off
+ 
+ 489   5)    2                     37.63  TP
+ 
+*489   5)        09:19:20.047      37.63  Touchpad Near-Close
+ 
+*489   5)        09:19:20.086      37.67  Touchpad Near-Close
+ 
+ 489   4)    2                     39.01  TP
+ 
+*489   4)        09:19:21.426      39.01  Touchpad Near-Close
+ 
+*489   4)        09:19:21.656      39.24  Touchpad Near-Close
+ 
+*489   4)        09:19:21.713      39.30  Touchpad Near-Close
+ 
+ 489   1)    2                     41.78  TP
+ 
+*489   1)        09:19:24.191      41.78  Touchpad Near-Close
+ 
+*489   1)        09:19:24.783      42.37  Touchpad Near-Close
+ 
+ 489   3)    2                     47.53  TP
+ 
+*489   3)        09:19:29.945      47.53  Touchpad Near-Close
+ 
+*489   3)        09:19:30.027      47.61  Touchpad Near-Close
+ 
+*489   3)        09:19:30.218      47.80  Touchpad Near-Close
+ 
+ 489   2)    2                     51.58  TP
+ 
+*489   2)        09:19:33.993      51.58  Touchpad Near-Close
+ 
+*489   2)        09:19:34.513      52.10  Touchpad Near-Close
+ 
+ 489   5)    4                   1:17.84  TP
+ 
+*489   5)        09:20:00.249    1:17.84  Touchpad Near-Close
+ 
+ 489   5)                        1:17.96  B1   
+ 
+*489   5)        09:20:00.373    1:17.96  Button 1 Near-Close
+ 
+ 489   5)                        1:18.03  B2   
+ 
+*489   5)        09:20:00.444    1:18.03  Button 2 Near-Close
+ 
+ 489   4)    4                   1:23.84  TP
+ 
+ 489   4)                        1:23.86  B2   
+ 
+ 489   4)                        1:23.90  B1   
+ 
+*489   4)        09:20:06.257    1:23.84  Touchpad Near-Close
+ 
+*489   4)        09:20:06.272    1:23.86  Button 2 Near-Close
+ 
+*489   4)        09:20:06.318    1:23.90  Button 1 Near-Close
+ 
+ 489   1)                        1:27.91  B1   
+ 
+*489   1)        09:20:10.324    1:27.91  Button 1 Near-Close
+ 
+ 489   1)                        1:27.95  B2   
+ 
+*489   1)        09:20:10.359    1:27.95  Button 2 Near-Close
+ 
+ 489   1)    2                  WARNING
+ 
+ 489   3)    4                   1:43.85  TP
+ 
+ 489   3)                        1:43.87  B2   
+ 
+ 489   3)                        1:43.89  B1   
+ 
+*489   3)        09:20:26.263    1:43.85  Touchpad Near-Close
+ 
+*489   3)        09:20:26.284    1:43.87  Button 2 Near-Close
+ 
+*489   3)        09:20:26.299    1:43.89  Button 1 Near-Close
+ 
+ 489   2)                        1:51.25  B1   
+ 
+*489   2)        09:20:33.665    1:51.25  Button 1 Near-Close
+ 
+ 489   2)                        1:51.39  B2   
+ 
+*489   2)        09:20:33.804    1:51.39  Button 2 Near-Close
+ 
+*489   5)        09:20:35.101    1:52.69  Touchpad Near-Close
+ 
+*489   4)        09:20:37.315    1:54.90  Touchpad Near-Close
+ 
+ 489   2)    2                  WARNING
+ 
+*489   3)        09:20:43.679    2:01.27  Touchpad Near-Close
+ 
+*489   6)                      Lane On
+ 
+*489   7)                      Lane On
+ 
+*489   8)                      Lane On
+ 
+Reset of Race    03/15/26 09:20:45.193
+ 
+Set Event 51  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+*489   1)        09:20:55.139       0.00  Touchpad Near-Close
+ 
+*489   2)        09:20:57.311       0.00  Touchpad Near-Close
+ 
+Set Race Number 490
+ 
+*490    )        09:20:58.157       0.00  Start-Close
+ 
+*490    )        09:20:58.405       0.24  Start-Open 
+ 
+*490   4)        09:20:59.273       1.11  Touchpad Near-Close
+ 
+*490   4)        09:20:59.320       1.16  Touchpad Near-Close
+ 
+*490   4)        09:20:59.401       1.24  Touchpad Near-Close
+ 
+*490   3)        09:20:59.913       1.75  Touchpad Near-Close
+ 
+*490   3)        09:21:01.939       3.78  Touchpad Near-Close
+ 
+*490   3)        09:21:02.173       4.01  Touchpad Near-Close
+ 
+*490   3)                      Lane Off
+ 
+*490   7)                      Lane Off
+ 
+*490   8)                      Lane Off
+ 
+ 490   5)    2                     34.53  TP
+ 
+*490   5)        09:21:32.689      34.53  Touchpad Near-Close
+ 
+ 490   4)    2                     34.60  TP
+ 
+*490   4)        09:21:32.767      34.60  Touchpad Near-Close
+ 
+*490   4)        09:21:33.007      34.84  Touchpad Near-Close
+ 
+ 490   6)    2                     36.17  TP
+ 
+*490   6)        09:21:34.331      36.17  Touchpad Near-Close
+ 
+ 490   2)    2                     39.75  TP
+ 
+*490   2)        09:21:37.915      39.75  Touchpad Near-Close
+ 
+*490   2)        09:21:38.033      39.87  Touchpad Near-Close
+ 
+ 490   1)    2                     45.85  TP
+ 
+*490   1)        09:21:44.017      45.85  Touchpad Near-Close
+ 
+*490   1)        09:21:44.189      46.03  Touchpad Near-Close
+ 
+ 490   4)    4                   1:11.76  TP
+ 
+*490   4)        09:22:09.924    1:11.76  Touchpad Near-Close
+ 
+ 490   4)                        1:11.87  B2   
+ 
+*490   4)        09:22:10.029    1:11.87  Button 2 Near-Close
+ 
+ 490   4)                        1:11.91  B1   
+ 
+*490   4)        09:22:10.077    1:11.91  Button 1 Near-Close
+ 
+ 490   5)    4                   1:13.11  TP
+ 
+ 490   5)                        1:13.14  B1   
+ 
+*490   5)        09:22:11.276    1:13.11  Touchpad Near-Close
+ 
+*490   5)        09:22:11.300    1:13.14  Button 1 Near-Close
+ 
+ 490   5)                        1:13.22  B2   
+ 
+*490   5)        09:22:11.386    1:13.22  Button 2 Near-Close
+ 
+ 490   6)    4                   1:15.68  TP
+ 
+*490   6)        09:22:13.841    1:15.68  Touchpad Near-Close
+ 
+ 490   6)                        1:15.83  B2   
+ 
+ 490   6)                        1:15.84  B1   
+ 
+*490   6)        09:22:13.996    1:15.83  Button 2 Near-Close
+ 
+*490   6)        09:22:14.005    1:15.84  Button 1 Near-Close
+ 
+ 490   2)                        1:23.40  B1   
+ 
+*490   2)        09:22:21.565    1:23.40  Button 1 Near-Close
+ 
+ 490   2)                        1:23.66  B2   
+ 
+*490   2)        09:22:21.820    1:23.66  Button 2 Near-Close
+ 
+ 490   2)    2                  WARNING
+ 
+ 490   2)    4                   1:41.04  TP
+ 
+*490   2)        09:22:39.205    1:41.04  Touchpad Near-Close
+ 
+ 490   1)                        1:43.48  B1   
+ 
+*490   1)        09:22:41.640    1:43.48  Button 1 Near-Close
+ 
+ 490   1)                        1:43.53  B2   
+ 
+*490   1)        09:22:41.689    1:43.53  Button 2 Near-Close
+ 
+ 490   1)    2                  WARNING
+ 
+*490   3)                      Lane On
+ 
+*490   7)                      Lane On
+ 
+*490   8)                      Lane On
+ 
+Reset of Race    03/15/26 09:22:50.354
+ 
+Set Event 51  - Heat 2 - Round Preliminary
+ 
+Set Race Number 491
+ 
+*491    )        09:23:03.035       0.00  Start-Close
+ 
+*491    )        09:23:03.283       0.24  Start-Open 
+ 
+*491   4)        09:23:05.982       2.94  Touchpad Near-Close
+ 
+*491   2)        09:23:06.148       3.11  Touchpad Near-Close
+ 
+*491   6)        09:23:06.475       3.44  Touchpad Near-Close
+ 
+*491   6)        09:23:08.429       5.39  Touchpad Near-Close
+ 
+*491   1)        09:23:10.990       7.95  Touchpad Near-Close
+ 
+*491   1)        09:23:13.065      10.03  Touchpad Near-Close
+ 
+*491   1)        09:23:17.349      14.31  Touchpad Near-Close
+ 
+*491   5)                      Lane Off
+ 
+*491   8)                      Lane Off
+ 
+ 491   4)    2                     34.20  TP
+ 
+*491   4)        09:23:37.241      34.20  Touchpad Near-Close
+ 
+ 491   6)    2                     35.66  TP
+ 
+*491   6)        09:23:38.701      35.66  Touchpad Near-Close
+ 
+ 491   2)    2                     37.39  TP
+ 
+*491   2)        09:23:40.426      37.39  Touchpad Near-Close
+ 
+ 491   3)    2                     37.89  TP
+ 
+ 491   1)    2                     37.92  TP
+ 
+*491   3)        09:23:40.926      37.89  Touchpad Near-Close
+ 
+*491   1)        09:23:40.957      37.92  Touchpad Near-Close
+ 
+ 491   7)    2                     38.46  TP
+ 
+*491   7)        09:23:41.503      38.46  Touchpad Near-Close
+ 
+*491   7)        09:23:41.562      38.52  Touchpad Near-Close
+ 
+ 491   4)    4                   1:10.51  TP
+ 
+*491   4)        09:24:13.547    1:10.51  Touchpad Near-Close
+ 
+ 491   4)                        1:10.55  B1   
+ 
+*491   4)        09:24:13.592    1:10.55  Button 1 Near-Close
+ 
+ 491   4)                        1:10.68  B2   
+ 
+*491   4)        09:24:13.724    1:10.68  Button 2 Near-Close
+ 
+ 491   6)    4                   1:14.77  TP
+ 
+*491   6)        09:24:17.812    1:14.77  Touchpad Near-Close
+ 
+ 491   6)                        1:14.88  B1   
+ 
+ 491   6)                        1:14.89  B2   
+ 
+*491   6)        09:24:17.920    1:14.88  Button 1 Near-Close
+ 
+*491   6)        09:24:17.932    1:14.89  Button 2 Near-Close
+ 
+ 491   1)    4                   1:17.79  TP
+ 
+*491   1)        09:24:20.832    1:17.79  Touchpad Near-Close
+ 
+ 491   2)    4                   1:17.85  TP
+ 
+*491   2)        09:24:20.894    1:17.85  Touchpad Near-Close
+ 
+ 491   1)                        1:17.93  B2   
+ 
+ 491   1)                        1:17.94  B1   
+ 
+ 491   2)                        1:18.04  B1   
+ 
+ 491   2)                        1:18.05  B2   
+ 
+*491   1)        09:24:20.968    1:17.93  Button 2 Near-Close
+ 
+*491   1)        09:24:20.981    1:17.94  Button 1 Near-Close
+ 
+*491   2)        09:24:21.080    1:18.04  Button 1 Near-Close
+ 
+*491   2)        09:24:21.089    1:18.05  Button 2 Near-Close
+ 
+ 491   3)    4                   1:18.81  TP
+ 
+ 491   3)                        1:18.84  B2   
+ 
+ 491   3)                        1:18.86  B1   
+ 
+*491   3)        09:24:21.845    1:18.81  Touchpad Near-Close
+ 
+*491   3)        09:24:21.877    1:18.84  Button 2 Near-Close
+ 
+*491   3)        09:24:21.904    1:18.86  Button 1 Near-Close
+ 
+ 491   7)    4                   1:19.54  TP
+ 
+*491   7)        09:24:22.575    1:19.54  Touchpad Near-Close
+ 
+ 491   7)                        1:19.62  B2   
+ 
+*491   7)        09:24:22.662    1:19.62  Button 2 Near-Close
+ 
+ 491   7)                        1:19.64  B1   
+ 
+*491   7)        09:24:22.684    1:19.64  Button 1 Near-Close
+ 
+*491   3)        09:24:24.118    1:21.08  Touchpad Near-Close
+ 
+*491   5)                      Lane On
+ 
+*491   8)                      Lane On
+ 
+Reset of Race    03/15/26 09:24:29.968
+ 
+Set Event 52  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+Set Race Number 492
+ 
+*492    )        09:24:50.264       0.00  Start-Close
+ 
+*492    )        09:24:50.513       0.24  Start-Open 
+ 
+*492   1)        09:24:52.910       2.64  Touchpad Near-Close
+ 
+*492   1)        09:24:53.004       2.74  Touchpad Near-Close
+ 
+*492   1)        09:24:53.626       3.36  Touchpad Near-Close
+ 
+*492   3)        09:24:53.708       3.44  Touchpad Near-Close
+ 
+*492   3)        09:24:55.953       5.68  Touchpad Near-Close
+ 
+*492   7)                      Lane Off
+ 
+*492   8)                      Lane Off
+ 
+ 492   5)    2                     35.46  TP
+ 
+*492   5)        09:25:25.733      35.46  Touchpad Near-Close
+ 
+*492   4)                      Lane Off
+ 
+*492   3)                      Lane Off
+ 
+*492   2)                      Lane Off
+ 
+*492   1)                      Lane Off
+ 
+ 492   6)    2                     46.44  TP
+ 
+*492   6)        09:25:36.711      46.44  Touchpad Near-Close
+ 
+*492   6)        09:25:36.882      46.61  Touchpad Near-Close
+ 
+ 492   5)    4                   1:14.74  TP
+ 
+*492   5)        09:26:05.010    1:14.74  Touchpad Near-Close
+ 
+ 492   5)                        1:14.81  B1   
+ 
+ 492   5)                        1:14.84  B2   
+ 
+*492   5)        09:26:05.082    1:14.81  Button 1 Near-Close
+ 
+*492   5)        09:26:05.107    1:14.84  Button 2 Near-Close
+ 
+*492   5)        09:26:05.648    1:15.38  Touchpad Near-Close
+ 
+ 492   6)    4                   1:43.92  TP
+ 
+*492   6)        09:26:34.189    1:43.92  Touchpad Near-Close
+ 
+ 492   6)                        1:44.01  B2   
+ 
+*492   6)        09:26:34.283    1:44.01  Button 2 Near-Close
+ 
+ 492   6)                        1:44.06  B1   
+ 
+*492   6)        09:26:34.332    1:44.06  Button 1 Near-Close
+ 
+*492   6)        09:26:36.904    1:46.64  Touchpad Near-Close
+ 
+*492   1)                      Lane On
+ 
+*492   2)                      Lane On
+ 
+*492   3)                      Lane On
+ 
+*492   4)                      Lane On
+ 
+*492   7)                      Lane On
+ 
+*492   8)                      Lane On
+ 
+Reset of Race    03/15/26 09:26:42.503
+ 
+Set Event 52  - Heat 2 - Round Preliminary
+ 
+Set Race Number 493
+ 
+*493    )        09:26:53.560       0.00  Start-Close
+ 
+*493    )        09:26:53.808       0.24  Start-Open 
+ 
+*493   5)        09:26:54.794       1.23  Touchpad Near-Close
+ 
+*493   1)                      Lane Off
+ 
+*493   7)                      Lane Off
+ 
+*493   8)                      Lane Off
+ 
+ 493   4)    2                     33.06  TP
+ 
+*493   4)        09:27:26.625      33.06  Touchpad Near-Close
+ 
+ 493   3)    2                     35.11  TP
+ 
+*493   3)        09:27:28.673      35.11  Touchpad Near-Close
+ 
+ 493   5)    2                     35.55  TP
+ 
+*493   5)        09:27:29.114      35.55  Touchpad Near-Close
+ 
+ 493   6)    2                     38.53  TP
+ 
+*493   6)        09:27:32.096      38.53  Touchpad Near-Close
+ 
+ 493   2)    2                     46.27  TP
+ 
+*493   2)        09:27:39.837      46.27  Touchpad Near-Close
+ 
+ 493   4)    4                   1:09.07  TP
+ 
+*493   4)        09:28:02.636    1:09.07  Touchpad Near-Close
+ 
+ 493   4)                        1:09.17  B2   
+ 
+*493   4)        09:28:02.735    1:09.17  Button 2 Near-Close
+ 
+ 493   4)                        1:09.24  B1   
+ 
+*493   4)        09:28:02.804    1:09.24  Button 1 Near-Close
+ 
+ 493   3)    4                   1:14.42  TP
+ 
+*493   3)        09:28:07.982    1:14.42  Touchpad Near-Close
+ 
+ 493   5)    4                   1:14.48  TP
+ 
+ 493   3)                        1:14.51  B2   
+ 
+ 493   5)                        1:14.54  B1   
+ 
+ 493   5)                        1:14.55  B2   
+ 
+ 493   3)                        1:14.56  B1   
+ 
+*493   5)        09:28:08.044    1:14.48  Touchpad Near-Close
+ 
+*493   3)        09:28:08.075    1:14.51  Button 2 Near-Close
+ 
+*493   5)        09:28:08.100    1:14.54  Button 1 Near-Close
+ 
+*493   5)        09:28:08.111    1:14.55  Button 2 Near-Close
+ 
+*493   3)        09:28:08.121    1:14.56  Button 1 Near-Close
+ 
+ 493   6)    4                   1:22.58  TP
+ 
+*493   6)        09:28:16.144    1:22.58  Touchpad Near-Close
+ 
+ 493   6)                        1:22.63  B1   
+ 
+ 493   6)                        1:22.64  B2   
+ 
+*493   6)        09:28:16.193    1:22.63  Button 1 Near-Close
+ 
+*493   6)        09:28:16.202    1:22.64  Button 2 Near-Close
+ 
+*493   6)        09:28:16.497    1:22.93  Touchpad Near-Close
+ 
+*493   6)        09:28:16.521    1:22.96  Touchpad Near-Close
+ 
+ 493   2)                        1:36.88  B1   
+ 
+*493   2)        09:28:30.447    1:36.88  Button 1 Near-Close
+ 
+ 493   2)                        1:37.21  B2   
+ 
+*493   2)        09:28:30.778    1:37.21  Button 2 Near-Close
+ 
+*493   1)                      Lane On
+ 
+*493   7)                      Lane On
+ 
+Reset of Race    03/15/26 09:28:38.969
+ 
+*493   8)                      Lane On
+ 
+Set Event 53  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+Set Race Number 494
+ 
+*494    )        09:28:56.198       0.00  Start-Close
+ 
+*494    )        09:28:56.446       0.24  Start-Open 
+ 
+*494   3)        09:28:58.791       2.59  Touchpad Near-Close
+ 
+*494   5)        09:28:59.335       3.13  Touchpad Near-Close
+ 
+*494   5)        09:28:59.870       3.67  Touchpad Near-Close
+ 
+*494   2)        09:29:00.979       4.78  Touchpad Near-Close
+ 
+*494   2)        09:29:01.263       5.06  Touchpad Near-Close
+ 
+ 494   4)    2                     28.72  TP
+ 
+*494   4)        09:29:24.924      28.72  Touchpad Near-Close
+ 
+ 494   4)                          28.75  B1   
+ 
+*494   4)        09:29:24.955      28.75  Button 1 Near-Close
+ 
+ 494   4)                          28.90  B2   
+ 
+*494   4)        09:29:25.105      28.90  Button 2 Near-Close
+ 
+*494   1)                      Lane Off
+ 
+*494   5)                      Lane Off
+ 
+ 494   3)    2                     30.94  TP
+ 
+*494   3)        09:29:27.145      30.94  Touchpad Near-Close
+ 
+ 494   3)                          30.99  B1   
+ 
+ 494   3)                          31.06  B2   
+ 
+*494   3)        09:29:27.193      30.99  Button 1 Near-Close
+ 
+*494   8)                      Lane Off
+ 
+*494   3)        09:29:27.264      31.06  Button 2 Near-Close
+ 
+ 494   6)    2                     32.65  TP
+ 
+*494   6)        09:29:28.853      32.65  Touchpad Near-Close
+ 
+ 494   6)                          32.74  B1   
+ 
+*494   6)        09:29:28.943      32.74  Button 1 Near-Close
+ 
+ 494   6)                          32.88  B2   
+ 
+*494   6)        09:29:29.081      32.88  Button 2 Near-Close
+ 
+ 494   2)                          34.54  B1   
+ 
+*494   2)        09:29:30.739      34.54  Button 1 Near-Close
+ 
+ 494   2)                          34.57  B2   
+ 
+*494   2)        09:29:30.776      34.57  Button 2 Near-Close
+ 
+ 494   2)    2                     36.71  TP
+ 
+*494   2)        09:29:32.911      36.71  Touchpad Near-Close
+ 
+ 494   7)    2                     39.95  TP
+ 
+*494   7)        09:29:36.149      39.95  Touchpad Near-Close
+ 
+ 494   7)                          40.11  B1   
+ 
+ 494   7)                          40.13  B2   
+ 
+*494   7)        09:29:36.311      40.11  Button 1 Near-Close
+ 
+*494   7)        09:29:36.336      40.13  Button 2 Near-Close
+ 
+*494   1)                      Lane On
+ 
+*494   5)                      Lane On
+ 
+Reset of Race    03/15/26 09:29:43.959
+ 
+*494   8)                      Lane On
+ 
+Set Event 53  - Heat 2 - Round Preliminary
+ 
+*494   3)        09:29:58.494       0.00  Touchpad Near-Close
+ 
+Set Race Number 495
+ 
+*495    )        09:30:06.525       0.00  Start-Close
+ 
+*495    )        09:30:06.773       0.24  Start-Open 
+ 
+*495   2)        09:30:09.676       3.15  Touchpad Near-Close
+ 
+*495   7)        09:30:12.565       6.04  Touchpad Near-Close
+ 
+*495   4)                      Lane Off
+ 
+*495   6)                      Lane Off
+ 
+*495   8)                      Lane Off
+ 
+ 495   5)    2                     29.99  TP
+ 
+*495   5)        09:30:36.520      29.99  Touchpad Near-Close
+ 
+ 495   5)                          30.10  B2   
+ 
+ 495   5)                          30.11  B1   
+ 
+*495   5)        09:30:36.634      30.10  Button 2 Near-Close
+ 
+*495   5)        09:30:36.640      30.11  Button 1 Near-Close
+ 
+ 495   3)    2                     31.19  TP
+ 
+*495   3)        09:30:37.716      31.19  Touchpad Near-Close
+ 
+ 495   3)                          31.31  B1   
+ 
+*495   3)        09:30:37.835      31.31  Button 1 Near-Close
+ 
+ 495   3)                          31.34  B2   
+ 
+*495   3)        09:30:37.872      31.34  Button 2 Near-Close
+ 
+ 495   2)    2                     32.51  TP
+ 
+*495   2)        09:30:39.043      32.51  Touchpad Near-Close
+ 
+ 495   2)                          32.59  B2   
+ 
+ 495   2)                          32.63  B1   
+ 
+*495   2)        09:30:39.115      32.59  Button 2 Near-Close
+ 
+*495   2)        09:30:39.159      32.63  Button 1 Near-Close
+ 
+*495   5)        09:30:40.133      33.60  Touchpad Near-Close
+ 
+ 495   7)                          34.83  B2   
+ 
+*495   7)        09:30:41.359      34.83  Button 2 Near-Close
+ 
+ 495   7)    2                     34.88  TP
+ 
+ 495   7)                          34.89  B1   
+ 
+*495   7)        09:30:41.414      34.88  Touchpad Near-Close
+ 
+*495   7)        09:30:41.420      34.89  Button 1 Near-Close
+ 
+ 495   1)                          41.81  B1   
+ 
+*495   1)        09:30:48.338      41.81  Button 1 Near-Close
+ 
+ 495   1)    2                     41.88  TP
+ 
+*495   1)        09:30:48.408      41.88  Touchpad Near-Close
+ 
+ 495   1)                          41.93  B2   
+ 
+*495   1)        09:30:48.455      41.93  Button 2 Near-Close
+ 
+*495   4)                      Lane On
+ 
+*495   6)                      Lane On
+ 
+Reset of Race    03/15/26 09:30:56.884
+ 
+*495   8)                      Lane On
+ 
+Set Event 54  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+*495   5)        09:31:02.698       0.00  Touchpad Near-Close
+ 
+*495   3)        09:31:07.407       0.00  Touchpad Near-Close
+ 
+*495   5)        09:31:18.145       0.00  Touchpad Near-Close
+ 
+Set Race Number 496
+ 
+*496    )        09:31:31.786       0.00  Start-Close
+ 
+*496    )        09:31:32.034       0.24  Start-Open 
+ 
+*496   3)        09:31:33.909       2.12  Touchpad Near-Close
+ 
+*496   1)                      Lane Off
+ 
+*496   8)                      Lane Off
+ 
+ 496   4)    2                     26.55  TP
+ 
+*496   4)        09:31:58.340      26.55  Touchpad Near-Close
+ 
+ 496   4)                          26.59  B1   
+ 
+*496   4)        09:31:58.380      26.59  Button 1 Near-Close
+ 
+ 496   4)                          26.71  B2   
+ 
+*496   4)        09:31:58.500      26.71  Button 2 Near-Close
+ 
+ 496   3)    2                     29.10  TP
+ 
+*496   3)        09:32:00.893      29.10  Touchpad Near-Close
+ 
+ 496   3)                          29.16  B2   
+ 
+*496   3)        09:32:00.955      29.16  Button 2 Near-Close
+ 
+ 496   3)                          29.21  B1   
+ 
+*496   3)        09:32:01.001      29.21  Button 1 Near-Close
+ 
+ 496   5)    2                     29.83  TP
+ 
+*496   5)        09:32:01.624      29.83  Touchpad Near-Close
+ 
+ 496   5)                          29.96  B1   
+ 
+ 496   5)                          29.98  B2   
+ 
+*496   5)        09:32:01.748      29.96  Button 1 Near-Close
+ 
+*496   5)        09:32:01.766      29.98  Button 2 Near-Close
+ 
+ 496   6)    2                     30.62  TP
+ 
+*496   6)        09:32:02.409      30.62  Touchpad Near-Close
+ 
+ 496   6)                          30.70  B2   
+ 
+*496   6)        09:32:02.488      30.70  Button 2 Near-Close
+ 
+ 496   6)                          30.79  B1   
+ 
+*496   6)        09:32:02.583      30.79  Button 1 Near-Close
+ 
+ 496   2)    2                     31.08  TP
+ 
+*496   2)        09:32:02.872      31.08  Touchpad Near-Close
+ 
+ 496   2)                          31.23  B2   
+ 
+*496   2)        09:32:03.025      31.23  Button 2 Near-Close
+ 
+ 496   2)                          31.28  B1   
+ 
+*496   2)        09:32:03.068      31.28  Button 1 Near-Close
+ 
+ 496   7)    2                     34.56  TP
+ 
+ 496   7)                          34.59  B2   
+ 
+*496   7)        09:32:06.353      34.56  Touchpad Near-Close
+ 
+*496   7)        09:32:06.380      34.59  Button 2 Near-Close
+ 
+ 496   7)                          34.75  B1   
+ 
+*496   7)        09:32:06.544      34.75  Button 1 Near-Close
+ 
+*496   1)                      Lane On
+ 
+*496   8)                      Lane On
+ 
+Reset of Race    03/15/26 09:32:13.134
+ 
+Set Event 54  - Heat 2 - Round Preliminary
+ 
+*496   7)        09:32:14.916       0.00  Touchpad Near-Close
+ 
+*496   4)        09:32:18.475       0.00  Touchpad Near-Close
+ 
+*496   4)        09:32:18.592       0.00  Touchpad Near-Close
+ 
+*496   4)        09:32:20.665       0.00  Touchpad Near-Close
+ 
+*496   4)        09:32:25.370       0.00  Touchpad Near-Close
+ 
+Set Race Number 497
+ 
+*497    )        09:32:44.064       0.00  Start-Close
+ 
+*497    )        09:32:44.312       0.24  Start-Open 
+ 
+*497   3)        09:32:45.821       1.75  Touchpad Near-Close
+ 
+*497   6)        09:32:46.821       2.75  Touchpad Near-Close
+ 
+*497   4)        09:32:47.035       2.97  Touchpad Near-Close
+ 
+*497   3)        09:32:47.201       3.13  Touchpad Near-Close
+ 
+*497   6)        09:32:48.618       4.55  Touchpad Near-Close
+ 
+*497   2)                      Lane Off
+ 
+*497   3)                      Lane Off
+ 
+*497   7)                      Lane Off
+ 
+*497   8)                      Lane Off
+ 
+ 497   4)    2                     28.26  TP
+ 
+*497   4)        09:33:12.332      28.26  Touchpad Near-Close
+ 
+ 497   4)                          28.35  B1   
+ 
+ 497   4)                          28.37  B2   
+ 
+*497   4)        09:33:12.420      28.35  Button 1 Near-Close
+ 
+*497   4)        09:33:12.436      28.37  Button 2 Near-Close
+ 
+ 497   5)    2                     28.61  TP
+ 
+ 497   5)                          28.61  B1   
+ 
+ 497   5)                          28.61  B2   
+ 
+*497   5)        09:33:12.674      28.61  Touchpad Near-Close
+ 
+*497   5)        09:33:12.675      28.61  Button 1 Near-Close
+ 
+*497   5)        09:33:12.675      28.61  Button 2 Near-Close
+ 
+ 497   6)    2                     30.40  TP
+ 
+*497   6)        09:33:14.466      30.40  Touchpad Near-Close
+ 
+ 497   6)                          30.51  B1   
+ 
+*497   6)        09:33:14.583      30.51  Button 1 Near-Close
+ 
+ 497   6)                          30.56  B2   
+ 
+*497   6)        09:33:14.633      30.56  Button 2 Near-Close
+ 
+ 497   1)    2                     35.89  TP
+ 
+*497   1)        09:33:19.958      35.89  Touchpad Near-Close
+ 
+ 497   1)                          36.01  B1   
+ 
+ 497   1)                          36.03  B2   
+ 
+*497   1)        09:33:20.081      36.01  Button 1 Near-Close
+ 
+*497   1)        09:33:20.098      36.03  Button 2 Near-Close
+ 
+Set Event 55  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+Set Event 56  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+*497   2)                      Lane On
+ 
+*497   3)                      Lane On
+ 
+*497   7)                      Lane On
+ 
+*497   8)                      Lane On
+ 
+Reset of Race    03/15/26 09:33:39.426
+ 
+Set Race Number 498
+ 
+*498    )        09:33:57.154       0.00  Start-Close
+ 
+*498    )        09:33:57.402       0.24  Start-Open 
+ 
+*498   6)        09:33:59.446       2.29  Touchpad Near-Close
+ 
+ 498   6)    2                     25.71  TP
+ 
+*498   6)        09:34:22.869      25.71  Touchpad Near-Close
+ 
+ 498   6)                          25.80  B1   
+ 
+*498   6)        09:34:22.961      25.80  Button 1 Near-Close
+ 
+ 498   6)                          25.89  B2   
+ 
+*498   6)        09:34:23.050      25.89  Button 2 Near-Close
+ 
+ 498   5)    2                     26.52  TP
+ 
+*498   5)        09:34:23.681      26.52  Touchpad Near-Close
+ 
+*498   6)        09:34:23.722      26.56  Touchpad Near-Close
+ 
+ 498   5)                          26.61  B1   
+ 
+ 498   5)                          26.62  B2   
+ 
+*498   5)        09:34:23.772      26.61  Button 1 Near-Close
+ 
+*498   5)        09:34:23.776      26.62  Button 2 Near-Close
+ 
+ 498   3)    2                     26.70  TP
+ 
+*498   3)        09:34:23.860      26.70  Touchpad Near-Close
+ 
+ 498   3)                          26.84  B2   
+ 
+*498   3)        09:34:23.998      26.84  Button 2 Near-Close
+ 
+ 498   3)                          27.19  B1   
+ 
+*498   3)        09:34:24.349      27.19  Button 1 Near-Close
+ 
+*498   5)        09:34:26.037      28.88  Touchpad Near-Close
+ 
+ 498   2)    2                     28.98  TP
+ 
+*498   2)        09:34:26.136      28.98  Touchpad Near-Close
+ 
+ 498   2)                          29.07  B1   
+ 
+*498   2)        09:34:26.230      29.07  Button 1 Near-Close
+ 
+ 498   2)                          29.12  B2   
+ 
+*498   2)        09:34:26.280      29.12  Button 2 Near-Close
+ 
+ 498   7)                          32.84  B2   
+ 
+ 498   7)    2                     32.86  TP
+ 
+ 498   7)                          32.92  B1   
+ 
+*498   7)        09:34:30.001      32.84  Button 2 Near-Close
+ 
+*498   6)        09:34:30.013      32.85  Touchpad Near-Close
+ 
+*498   7)        09:34:30.014      32.86  Touchpad Near-Close
+ 
+*498   6)        09:34:30.057      32.90  Touchpad Near-Close
+ 
+*498   7)        09:34:30.074      32.92  Button 1 Near-Close
+ 
+*498   6)        09:34:30.211      33.05  Touchpad Near-Close
+ 
+Reset of Race    03/15/26 09:34:37.598
+ 
+*498   7)        09:34:39.085       0.00  Touchpad Near-Close
+ 
+Set Event 57  - Heat 1 - Round Final
+ 
+Set Race Lengths to 1
+ 
+*498   7)        09:34:40.240       0.00  Touchpad Near-Close
+ 
+*498   5)        09:34:40.457       0.00  Touchpad Near-Close
+ 
+*498   5)        09:34:40.576       0.00  Touchpad Near-Close
+ 
+*498   5)        09:34:43.121       0.00  Touchpad Near-Close
+ 
+*498   2)        09:34:48.338       0.00  Touchpad Near-Close
+ 
+Set Event 54  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+Set Event 53  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+Set Event 53  - Heat 2 - Round Preliminary
+ 
+Set Event 52  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+Set Event 53  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+Set Event 54  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+Set Event 54  - Heat 2 - Round Preliminary
+ 
+Set Event 57  - Heat 1 - Round Final
+ 
+Set Race Lengths to 1
+ 
+*498   7)        09:44:57.986       0.00  Touchpad Near-Close
+ 
+*498   4)        09:45:19.764       0.00  Touchpad Near-Close
+ 
+Set Race Number 499
+ 
+*499    )        09:56:55.360       0.00  Start-Close
+ 
+*499    )        09:56:55.608       0.24  Start-Open 
+ 
+*499   1)                      Lane Off
+ 
+*499   2)                      Lane Off
+ 
+*499   7)                      Lane Off
+ 
+*499   8)                      Lane Off
+ 
+ 499   4)                          29.57  B1   
+ 
+*499   4)        09:57:24.935      29.57  Button 1 Near-Close
+ 
+ 499   4)                          29.73  B2   
+ 
+*499   4)        09:57:25.095      29.73  Button 2 Near-Close
+ 
+ 499   4)    1                     30.39  TP
+ 
+*499   4)        09:57:25.755      30.39  Touchpad Near-Close
+ 
+*499   4)        09:57:30.701      35.34  Touchpad Near-Close
+ 
+ 499   5)    1                     35.85  TP
+ 
+*499   5)        09:57:31.215      35.85  Touchpad Near-Close
+ 
+ 499   5)                          36.02  B2   
+ 
+*499   5)        09:57:31.385      36.02  Button 2 Near-Close
+ 
+ 499   5)                          36.06  B1   
+ 
+*499   5)        09:57:31.421      36.06  Button 1 Near-Close
+ 
+ 499   6)                          42.76  B1   
+ 
+*499   6)        09:57:38.122      42.76  Button 1 Near-Close
+ 
+ 499   6)                          42.87  B2   
+ 
+*499   6)        09:57:38.238      42.87  Button 2 Near-Close
+ 
+*499   4)        09:57:45.213      49.85  Touchpad Near-Close
+ 
+*499   5)        09:57:46.164      50.80  Touchpad Near-Close
+ 
+ 499   3)    0                  WARNING
+ 
+ 499   6)    0                  WARNING
+ 
+ 499   3)                          54.43  B1   
+ 
+*499   3)        09:57:49.798      54.43  Button 1 Near-Close
+ 
+ 499   3)                          54.50  B2   
+ 
+*499   3)        09:57:49.867      54.50  Button 2 Near-Close
+ 
+*499   5)        09:57:53.273      57.91  Touchpad Near-Close
+ 
+ 499   3)    1                   1:00.75  TP
+ 
+*499   3)        09:57:56.116    1:00.75  Touchpad Near-Close
+ 
+ 499   6)    1                   1:01.20  TP
+ 
+*499   6)        09:57:56.560    1:01.20  Touchpad Near-Close
+ 
+*499   5)        09:57:57.205    1:01.84  Touchpad Near-Close
+ 
+*499   4)        09:57:57.419    1:02.05  Touchpad Near-Close
+ 
+*499   1)                      Lane On
+ 
+*499   2)                      Lane On
+ 
+*499   7)                      Lane On
+ 
+*499   8)                      Lane On
+ 
+Reset of Race    03/15/26 09:58:00.451
+ 
+*499   6)        09:57:59.599       0.00  Touchpad Near-Close
+ 
+*499   5)        09:58:01.094       0.00  Touchpad Near-Close
+ 
+Set Event 58  - Heat 1 - Round Final
+ 
+Set Race Lengths to 1
+ 
+Set Race Number 500
+ 
+*500    )        09:58:16.082       0.00  Start-Close
+ 
+*500    )        09:58:16.330       0.24  Start-Open 
+ 
+*500   1)                      Lane Off
+ 
+*500   6)                      Lane Off
+ 
+*500   8)                      Lane Off
+ 
+ 500   5)                          29.54  B2   
+ 
+ 500   5)                          29.55  B1   
+ 
+*500   5)        09:58:45.628      29.54  Button 2 Near-Close
+ 
+ 500   5)    1                     29.60  TP
+ 
+*500   5)        09:58:45.637      29.55  Button 1 Near-Close
+ 
+*500   5)        09:58:45.689      29.60  Touchpad Near-Close
+ 
+ 500   4)                          30.06  B2   
+ 
+*500   4)        09:58:46.144      30.06  Button 2 Near-Close
+ 
+ 500   4)                          30.27  B1   
+ 
+*500   4)        09:58:46.359      30.27  Button 1 Near-Close
+ 
+ 500   3)                          30.52  B1   
+ 
+*500   3)        09:58:46.605      30.52  Button 1 Near-Close
+ 
+ 500   3)    1                     30.61  TP
+ 
+*500   3)        09:58:46.695      30.61  Touchpad Near-Close
+ 
+ 500   3)                          30.69  B2   
+ 
+*500   3)        09:58:46.778      30.69  Button 2 Near-Close
+ 
+ 500   2)                          32.02  B2   
+ 
+*500   2)        09:58:48.109      32.02  Button 2 Near-Close
+ 
+ 500   2)                          32.17  B1   
+ 
+*500   2)        09:58:48.260      32.17  Button 1 Near-Close
+ 
+*500   5)        09:58:50.687      34.60  Touchpad Near-Close
+ 
+*500   3)        09:58:51.962      35.88  Touchpad Near-Close
+ 
+ 500   4)    1                     37.97  TP
+ 
+*500   4)        09:58:54.061      37.97  Touchpad Near-Close
+ 
+ 500   7)                          46.89  B2   
+ 
+*500   7)        09:59:02.980      46.89  Button 2 Near-Close
+ 
+ 500   7)                          47.16  B1   
+ 
+*500   7)        09:59:03.249      47.16  Button 1 Near-Close
+ 
+ 500   2)    0                  WARNING
+ 
+ 500   7)    0                  WARNING
+ 
+*500   1)                      Lane On
+ 
+Reset of Race    03/15/26 09:59:12.373
+ 
+*500   6)                      Lane On
+ 
+*500   8)                      Lane On
+ 
+*500   7)        09:59:18.109       0.00  Touchpad Near-Close
+ 
+Set Event 59  - Heat 1 - Round Final
+ 
+Set Race Lengths to 2
+ 
+Set Race Number 501
+ 
+*501    )        09:59:51.782       0.00  Start-Close
+ 
+*501    )        09:59:52.030       0.24  Start-Open 
+ 
+*501   1)                      Lane Off
+ 
+*501   2)                      Lane Off
+ 
+*501   5)                      Lane Off
+ 
+*501   6)                      Lane Off
+ 
+*501   7)                      Lane Off
+ 
+*501   8)                      Lane Off
+ 
+ 501   3)    0                  WARNING
+ 
+ 501   4)    0                  WARNING
+ 
+ 501   4)                          56.18  B1   
+ 
+*501   4)        10:00:47.962      56.18  Button 1 Near-Close
+ 
+ 501   4)                          56.23  B2   
+ 
+*501   4)        10:00:48.012      56.23  Button 2 Near-Close
+ 
+ 501   4)    2                     56.95  TP
+ 
+*501   4)        10:00:48.737      56.95  Touchpad Near-Close
+ 
+ 501   3)                        1:03.46  B1   
+ 
+*501   3)        10:00:55.250    1:03.46  Button 1 Near-Close
+ 
+ 501   3)    2                   1:03.49  TP
+ 
+*501   3)        10:00:55.273    1:03.49  Touchpad Near-Close
+ 
+ 501   3)                        1:03.59  B2   
+ 
+*501   3)        10:00:55.379    1:03.59  Button 2 Near-Close
+ 
+*501   1)                      Lane On
+ 
+*501   2)                      Lane On
+ 
+*501   5)                      Lane On
+ 
+*501   6)                      Lane On
+ 
+*501   7)                      Lane On
+ 
+*501   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:01:04.982
+ 
+Set Event 59  - Heat 2 - Round Final
+ 
+Set Race Number 502
+ 
+*502    )        10:01:15.505       0.00  Start-Close
+ 
+*502    )        10:01:15.754       0.24  Start-Open 
+ 
+*502   2)                      Lane Off
+ 
+ 502   4)    2                     40.22  TP
+ 
+ 502   4)                          40.23  B1   
+ 
+*502   4)        10:01:55.725      40.22  Touchpad Near-Close
+ 
+*502   4)        10:01:55.737      40.23  Button 1 Near-Close
+ 
+ 502   4)                          40.36  B2   
+ 
+*502   4)        10:01:55.865      40.36  Button 2 Near-Close
+ 
+ 502   8)                          44.90  B1   
+ 
+*502   8)        10:02:00.407      44.90  Button 1 Near-Close
+ 
+ 502   8)                          44.95  B2   
+ 
+*502   8)        10:02:00.460      44.95  Button 2 Near-Close
+ 
+ 502   5)                          48.16  B1   
+ 
+*502   5)        10:02:03.665      48.16  Button 1 Near-Close
+ 
+ 502   5)                          48.21  B2   
+ 
+*502   5)        10:02:03.722      48.21  Button 2 Near-Close
+ 
+ 502   3)    2                     50.44  TP
+ 
+ 502   3)                          50.48  B2   
+ 
+ 502   3)                          50.48  B1   
+ 
+*502   3)        10:02:05.951      50.44  Touchpad Near-Close
+ 
+*502   3)        10:02:05.987      50.48  Button 2 Near-Close
+ 
+*502   3)        10:02:05.990      50.48  Button 1 Near-Close
+ 
+ 502   5)    2                     52.57  TP
+ 
+*502   5)        10:02:08.079      52.57  Touchpad Near-Close
+ 
+*502   5)        10:02:08.155      52.65  Touchpad Near-Close
+ 
+ 502   1)    0                  WARNING
+ 
+ 502   6)    0                  WARNING
+ 
+ 502   7)    0                  WARNING
+ 
+ 502   8)    0                  WARNING
+ 
+ 502   6)                          56.98  B1   
+ 
+ 502   6)                          57.00  B2   
+ 
+*502   6)        10:02:12.491      56.98  Button 1 Near-Close
+ 
+*502   6)        10:02:12.505      57.00  Button 2 Near-Close
+ 
+ 502   6)    2                     59.28  TP
+ 
+*502   6)        10:02:14.791      59.28  Touchpad Near-Close
+ 
+ 502   1)                        1:05.59  B1   
+ 
+*502   1)        10:02:21.100    1:05.59  Button 1 Near-Close
+ 
+ 502   1)                        1:05.74  B2   
+ 
+*502   1)        10:02:21.253    1:05.74  Button 2 Near-Close
+ 
+*502   6)        10:02:25.451    1:09.94  Touchpad Near-Close
+ 
+ 502   7)                        1:10.24  B2   
+ 
+*502   7)        10:02:25.752    1:10.24  Button 2 Near-Close
+ 
+ 502   7)                        1:10.40  B1   
+ 
+*502   7)        10:02:25.912    1:10.40  Button 1 Near-Close
+ 
+*502   6)        10:02:31.914    1:16.40  Touchpad Near-Close
+ 
+*502   2)                      Lane On
+ 
+Reset of Race    03/15/26 10:02:33.321
+ 
+*502   7)        10:02:33.322       0.00  Touchpad Near-Close
+ 
+Set Event 60  - Heat 1 - Round Final
+ 
+Set Race Lengths to 2
+ 
+*502   8)        10:02:40.306       0.00  Touchpad Near-Close
+ 
+*502   5)        10:02:43.088       0.00  Touchpad Near-Close
+ 
+Set Race Number 503
+ 
+*503    )        10:02:52.290       0.00  Start-Close
+ 
+*503    )        10:02:52.539       0.24  Start-Open 
+ 
+*503   4)        10:02:54.032       1.74  Touchpad Near-Close
+ 
+*503   4)        10:02:55.067       2.77  Touchpad Near-Close
+ 
+*503   4)        10:02:55.089       2.79  Touchpad Near-Close
+ 
+*503   3)        10:02:59.408       7.11  Touchpad Near-Close
+ 
+*503   5)        10:03:00.830       8.54  Touchpad Near-Close
+ 
+*503   5)        10:03:01.494       9.20  Touchpad Near-Close
+ 
+*503   1)                      Lane Off
+ 
+*503   2)                      Lane Off
+ 
+*503   4)                      Lane Off
+ 
+*503   5)                      Lane Off
+ 
+*503   6)                      Lane Off
+ 
+*503   7)                      Lane Off
+ 
+*503   8)                      Lane Off
+ 
+ 503   3)    0                  WARNING
+ 
+ 503   3)                        1:03.50  B1   
+ 
+*503   3)        10:03:55.792    1:03.50  Button 1 Near-Close
+ 
+ 503   3)                        1:03.68  B2   
+ 
+*503   3)        10:03:55.974    1:03.68  Button 2 Near-Close
+ 
+ 503   3)    2                   1:06.20  TP
+ 
+*503   3)        10:03:58.495    1:06.20  Touchpad Near-Close
+ 
+*503   3)        10:04:00.803    1:08.51  Touchpad Near-Close
+ 
+*503   1)                      Lane On
+ 
+*503   2)                      Lane On
+ 
+*503   4)                      Lane On
+ 
+*503   5)                      Lane On
+ 
+*503   6)                      Lane On
+ 
+*503   7)                      Lane On
+ 
+*503   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:04:05.231
+ 
+Set Event 60  - Heat 2 - Round Final
+ 
+Set Race Number 504
+ 
+*504    )        10:04:45.979       0.00  Start-Close
+ 
+*504    )        10:04:46.227       0.24  Start-Open 
+ 
+ 504   4)    2                     44.43  TP
+ 
+*504   4)        10:05:30.412      44.43  Touchpad Near-Close
+ 
+ 504   4)                          44.55  B1   
+ 
+*504   4)        10:05:30.529      44.55  Button 1 Near-Close
+ 
+ 504   4)                          44.65  B2   
+ 
+*504   4)        10:05:30.634      44.65  Button 2 Near-Close
+ 
+ 504   3)    2                     48.24  TP
+ 
+*504   3)        10:05:34.220      48.24  Touchpad Near-Close
+ 
+ 504   3)                          48.28  B1   
+ 
+*504   3)        10:05:34.259      48.28  Button 1 Near-Close
+ 
+ 504   3)                          48.48  B2   
+ 
+*504   3)        10:05:34.465      48.48  Button 2 Near-Close
+ 
+ 504   5)    2                     49.18  TP
+ 
+*504   5)        10:05:35.168      49.18  Touchpad Near-Close
+ 
+ 504   5)                          49.25  B2   
+ 
+ 504   5)                          49.26  B1   
+ 
+*504   5)        10:05:35.232      49.25  Button 2 Near-Close
+ 
+*504   5)        10:05:35.244      49.26  Button 1 Near-Close
+ 
+ 504   2)    2                     50.61  TP
+ 
+*504   2)        10:05:36.596      50.61  Touchpad Near-Close
+ 
+ 504   2)                          50.73  B1   
+ 
+*504   2)        10:05:36.711      50.73  Button 1 Near-Close
+ 
+*504   2)        10:05:36.843      50.86  Touchpad Near-Close
+ 
+ 504   2)                          50.87  B2   
+ 
+*504   2)        10:05:36.849      50.87  Button 2 Near-Close
+ 
+*504   3)        10:05:37.863      51.88  Touchpad Near-Close
+ 
+ 504   1)    0                  WARNING
+ 
+ 504   6)    0                  WARNING
+ 
+ 504   7)    0                  WARNING
+ 
+ 504   8)    0                  WARNING
+ 
+ 504   7)    2                     54.18  TP
+ 
+*504   7)        10:05:40.164      54.18  Touchpad Near-Close
+ 
+ 504   7)                          54.24  B2   
+ 
+*504   7)        10:05:40.225      54.24  Button 2 Near-Close
+ 
+ 504   7)                          54.35  B1   
+ 
+*504   7)        10:05:40.337      54.35  Button 1 Near-Close
+ 
+ 504   1)                          58.86  B2   
+ 
+*504   1)        10:05:44.842      58.86  Button 2 Near-Close
+ 
+ 504   1)                          58.91  B1   
+ 
+*504   1)        10:05:44.891      58.91  Button 1 Near-Close
+ 
+*504   3)        10:05:49.983    1:04.00  Touchpad Near-Close
+ 
+*504   3)        10:05:55.439    1:09.46  Touchpad Near-Close
+ 
+ 504   8)                        1:12.01  B1   
+ 
+*504   8)        10:05:57.991    1:12.01  Button 1 Near-Close
+ 
+ 504   8)                        1:12.32  B2   
+ 
+*504   8)        10:05:58.301    1:12.32  Button 2 Near-Close
+ 
+ 504   8)    2                   1:18.49  TP
+ 
+*504   8)        10:06:04.472    1:18.49  Touchpad Near-Close
+ 
+Reset of Race    03/15/26 10:06:10.616
+ 
+Set Event 61  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+*504   7)        10:06:17.940       0.00  Touchpad Near-Close
+ 
+*504   7)        10:06:21.054       0.00  Touchpad Near-Close
+ 
+*504   8)        10:06:24.138       0.00  Touchpad Near-Close
+ 
+Set Race Number 505
+ 
+*505    )        10:06:37.848       0.00  Start-Close
+ 
+*505    )        10:06:38.096       0.24  Start-Open 
+ 
+*505   4)        10:06:40.573       2.72  Touchpad Near-Close
+ 
+*505   5)        10:06:41.564       3.71  Touchpad Near-Close
+ 
+*505   3)        10:06:41.668       3.82  Touchpad Near-Close
+ 
+*505   4)        10:06:42.335       4.48  Touchpad Near-Close
+ 
+*505   5)        10:06:46.130       8.28  Touchpad Near-Close
+ 
+*505   2)        10:06:50.557      12.70  Touchpad Near-Close
+ 
+*505   1)                      Lane Off
+ 
+*505   7)                      Lane Off
+ 
+*505   8)                      Lane Off
+ 
+ 505   5)    2                     38.58  TP
+ 
+*505   5)        10:07:16.432      38.58  Touchpad Near-Close
+ 
+ 505   5)                          38.65  B1   
+ 
+*505   5)        10:07:16.498      38.65  Button 1 Near-Close
+ 
+ 505   4)                          38.69  B1   
+ 
+*505   4)        10:07:16.547      38.69  Button 1 Near-Close
+ 
+ 505   5)                          38.73  B2   
+ 
+ 505   4)    2                     38.74  TP
+ 
+ 505   4)                          38.81  B2   
+ 
+*505   5)        10:07:16.586      38.73  Button 2 Near-Close
+ 
+*505   4)        10:07:16.591      38.74  Touchpad Near-Close
+ 
+*505   4)        10:07:16.665      38.81  Button 2 Near-Close
+ 
+ 505   3)                          40.60  B1   
+ 
+ 505   3)    2                     40.62  TP
+ 
+*505   3)        10:07:18.451      40.60  Button 1 Near-Close
+ 
+ 505   3)                          40.69  B2   
+ 
+*505   3)        10:07:18.472      40.62  Touchpad Near-Close
+ 
+*505   3)        10:07:18.538      40.69  Button 2 Near-Close
+ 
+ 505   6)                          45.41  B2   
+ 
+ 505   6)                          45.43  B1   
+ 
+*505   6)        10:07:23.263      45.41  Button 2 Near-Close
+ 
+*505   6)        10:07:23.278      45.43  Button 1 Near-Close
+ 
+*505   4)        10:07:24.813      46.96  Touchpad Near-Close
+ 
+ 505   2)    0                  WARNING
+ 
+ 505   6)    0                  WARNING
+ 
+ 505   6)    2                   1:01.48  TP
+ 
+*505   6)        10:07:39.336    1:01.48  Touchpad Near-Close
+ 
+*505   6)        10:07:40.212    1:02.36  Touchpad Near-Close
+ 
+ 505   2)                        1:04.05  B2   
+ 
+*505   2)        10:07:41.904    1:04.05  Button 2 Near-Close
+ 
+ 505   2)                        1:04.12  B1   
+ 
+*505   2)        10:07:41.969    1:04.12  Button 1 Near-Close
+ 
+*505   6)        10:07:42.741    1:04.89  Touchpad Near-Close
+ 
+*505   6)        10:07:42.798    1:04.95  Touchpad Near-Close
+ 
+*505   1)                      Lane On
+ 
+*505   7)                      Lane On
+ 
+Reset of Race    03/15/26 10:07:52.971
+ 
+*505   8)                      Lane On
+ 
+Set Event 61  - Heat 2 - Round Preliminary
+ 
+*505   4)        10:08:00.708       0.00  Touchpad Near-Close
+ 
+*505   3)        10:08:01.529       0.00  Touchpad Near-Close
+ 
+*505   6)        10:08:04.935       0.00  Touchpad Near-Close
+ 
+*505   3)        10:08:17.131       0.00  Touchpad Near-Close
+ 
+*505   3)        10:08:19.400       0.00  Touchpad Near-Close
+ 
+*505   6)        10:08:21.169       0.00  Touchpad Near-Close
+ 
+Set Race Number 506
+ 
+*506    )        10:08:24.618       0.00  Start-Close
+ 
+*506    )        10:08:24.866       0.24  Start-Open 
+ 
+*506   5)        10:08:25.838       1.22  Touchpad Near-Close
+ 
+*506   6)        10:08:26.131       1.51  Touchpad Near-Close
+ 
+*506   3)        10:08:27.325       2.70  Touchpad Near-Close
+ 
+*506   1)                      Lane Off
+ 
+*506   7)                      Lane Off
+ 
+*506   8)                      Lane Off
+ 
+ 506   4)                          34.04  B2   
+ 
+*506   4)        10:08:58.661      34.04  Button 2 Near-Close
+ 
+ 506   4)    2                     34.06  TP
+ 
+*506   4)        10:08:58.684      34.06  Touchpad Near-Close
+ 
+ 506   4)                          34.29  B1   
+ 
+*506   4)        10:08:58.916      34.29  Button 1 Near-Close
+ 
+ 506   3)                          39.37  B1   
+ 
+ 506   3)    2                     39.38  TP
+ 
+*506   3)        10:09:03.992      39.37  Button 1 Near-Close
+ 
+ 506   3)                          39.46  B2   
+ 
+*506   3)        10:09:03.999      39.38  Touchpad Near-Close
+ 
+*506   3)        10:09:04.086      39.46  Button 2 Near-Close
+ 
+ 506   5)                          39.94  B1   
+ 
+*506   5)        10:09:04.562      39.94  Button 1 Near-Close
+ 
+ 506   5)                          40.13  B2   
+ 
+*506   5)        10:09:04.749      40.13  Button 2 Near-Close
+ 
+ 506   5)    2                     40.15  TP
+ 
+*506   5)        10:09:04.773      40.15  Touchpad Near-Close
+ 
+ 506   2)    2                     41.51  TP
+ 
+*506   2)        10:09:06.133      41.51  Touchpad Near-Close
+ 
+ 506   2)                          41.69  B1   
+ 
+*506   2)        10:09:06.316      41.69  Button 1 Near-Close
+ 
+ 506   2)                          41.79  B2   
+ 
+*506   2)        10:09:06.416      41.79  Button 2 Near-Close
+ 
+*506   3)        10:09:07.464      42.84  Touchpad Near-Close
+ 
+ 506   6)                          49.45  B2   
+ 
+ 506   6)                          49.47  B1   
+ 
+*506   6)        10:09:14.075      49.45  Button 2 Near-Close
+ 
+*506   6)        10:09:14.088      49.47  Button 1 Near-Close
+ 
+ 506   6)    0                  WARNING
+ 
+*506   1)                      Lane On
+ 
+*506   7)                      Lane On
+ 
+*506   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:09:29.587
+ 
+*506   3)        10:09:31.725       0.00  Touchpad Near-Close
+ 
+Set Event 62  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+Set Race Number 507
+ 
+*507    )        10:09:52.760       0.00  Start-Close
+ 
+*507    )        10:09:53.008       0.24  Start-Open 
+ 
+*507   4)        10:09:54.952       2.19  Touchpad Near-Close
+ 
+*507   5)        10:09:55.508       2.74  Touchpad Near-Close
+ 
+*507   5)        10:09:57.062       4.30  Touchpad Near-Close
+ 
+*507   3)        10:09:58.873       6.11  Touchpad Near-Close
+ 
+*507   2)        10:09:59.715       6.95  Touchpad Near-Close
+ 
+*507   2)        10:09:59.978       7.21  Touchpad Near-Close
+ 
+*507   1)                      Lane Off
+ 
+*507   2)                      Lane Off
+ 
+*507   7)                      Lane Off
+ 
+*507   8)                      Lane Off
+ 
+ 507   4)    2                     36.84  TP
+ 
+*507   4)        10:10:29.603      36.84  Touchpad Near-Close
+ 
+ 507   4)                          36.88  B2   
+ 
+*507   4)        10:10:29.648      36.88  Button 2 Near-Close
+ 
+ 507   4)                          36.97  B1   
+ 
+*507   4)        10:10:29.735      36.97  Button 1 Near-Close
+ 
+ 507   5)    2                     40.90  TP
+ 
+ 507   5)                          40.94  B1   
+ 
+*507   5)        10:10:33.665      40.90  Touchpad Near-Close
+ 
+*507   5)        10:10:33.708      40.94  Button 1 Near-Close
+ 
+ 507   5)                          41.03  B2   
+ 
+*507   5)        10:10:33.792      41.03  Button 2 Near-Close
+ 
+ 507   3)    2                     46.18  TP
+ 
+ 507   3)                          46.21  B1   
+ 
+*507   3)        10:10:38.942      46.18  Touchpad Near-Close
+ 
+*507   3)        10:10:38.977      46.21  Button 1 Near-Close
+ 
+ 507   3)                          46.43  B2   
+ 
+*507   3)        10:10:39.191      46.43  Button 2 Near-Close
+ 
+ 507   6)                          46.92  B1   
+ 
+ 507   6)                          46.93  B2   
+ 
+*507   6)        10:10:39.689      46.92  Button 1 Near-Close
+ 
+*507   6)        10:10:39.693      46.93  Button 2 Near-Close
+ 
+ 507   6)    2                     48.19  TP
+ 
+*507   6)        10:10:40.957      48.19  Touchpad Near-Close
+ 
+*507   1)                      Lane On
+ 
+*507   2)                      Lane On
+ 
+*507   7)                      Lane On
+ 
+Reset of Race    03/15/26 10:10:47.235
+ 
+*507   8)                      Lane On
+ 
+Set Event 62  - Heat 2 - Round Preliminary
+ 
+*507   5)        10:11:03.569       0.00  Touchpad Near-Close
+ 
+Set Race Number 508
+ 
+*508    )        10:11:05.115       0.00  Start-Close
+ 
+*508    )        10:11:05.363       0.24  Start-Open 
+ 
+*508   4)        10:11:08.397       3.28  Touchpad Near-Close
+ 
+*508   4)        10:11:08.441       3.32  Touchpad Near-Close
+ 
+*508   1)                      Lane Off
+ 
+*508   3)                      Lane Off
+ 
+*508   4)                      Lane Off
+ 
+*508   7)                      Lane Off
+ 
+*508   8)                      Lane Off
+ 
+ 508   5)    2                     39.94  TP
+ 
+ 508   5)                          39.95  B2   
+ 
+*508   5)        10:11:45.062      39.94  Touchpad Near-Close
+ 
+*508   5)        10:11:45.072      39.95  Button 2 Near-Close
+ 
+ 508   5)                          40.06  B1   
+ 
+*508   5)        10:11:45.183      40.06  Button 1 Near-Close
+ 
+*508   5)        10:11:47.014      41.89  Touchpad Near-Close
+ 
+ 508   2)    0                  WARNING
+ 
+ 508   6)    0                  WARNING
+ 
+ 508   2)                          54.77  B1   
+ 
+*508   2)        10:11:59.890      54.77  Button 1 Near-Close
+ 
+ 508   2)                          54.94  B2   
+ 
+*508   2)        10:12:00.059      54.94  Button 2 Near-Close
+ 
+ 508   6)    2                   1:06.91  TP
+ 
+*508   6)        10:12:12.025    1:06.91  Touchpad Near-Close
+ 
+ 508   6)                        1:06.96  B2   
+ 
+ 508   6)                        1:06.97  B1   
+ 
+*508   6)        10:12:12.074    1:06.95  Touchpad Near-Close
+ 
+*508   6)        10:12:12.083    1:06.96  Button 2 Near-Close
+ 
+*508   6)        10:12:12.091    1:06.97  Button 1 Near-Close
+ 
+*508   6)        10:12:12.103    1:06.98  Touchpad Near-Close
+ 
+*508   1)                      Lane On
+ 
+*508   3)                      Lane On
+ 
+*508   4)                      Lane On
+ 
+*508   7)                      Lane On
+ 
+*508   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:12:20.532
+ 
+Set Event 63  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+Set Race Number 509
+ 
+*509    )        10:12:44.230       0.00  Start-Close
+ 
+*509    )        10:12:44.478       0.24  Start-Open 
+ 
+*509   2)        10:12:47.231       3.00  Touchpad Near-Close
+ 
+*509   6)        10:12:47.611       3.38  Touchpad Near-Close
+ 
+*509   6)        10:12:48.331       4.10  Touchpad Near-Close
+ 
+*509   6)        10:12:50.526       6.29  Touchpad Near-Close
+ 
+*509   1)                      Lane Off
+ 
+*509   3)                      Lane Off
+ 
+*509   8)                      Lane Off
+ 
+ 509   4)    2                     36.02  TP
+ 
+*509   4)        10:13:20.250      36.02  Touchpad Near-Close
+ 
+*509   4)        10:13:20.999      36.76  Touchpad Near-Close
+ 
+ 509   5)    2                     40.27  TP
+ 
+*509   5)        10:13:24.504      40.27  Touchpad Near-Close
+ 
+*509   5)        10:13:24.992      40.76  Touchpad Near-Close
+ 
+ 509   2)    2                     47.92  TP
+ 
+*509   2)        10:13:32.152      47.92  Touchpad Near-Close
+ 
+ 509   6)    2                     48.82  TP
+ 
+*509   6)        10:13:33.058      48.82  Touchpad Near-Close
+ 
+*509   2)        10:13:33.088      48.85  Touchpad Near-Close
+ 
+*509   6)        10:13:34.013      49.78  Touchpad Near-Close
+ 
+ 509   7)    0                  WARNING
+ 
+ 509   7)    2                     58.81  TP
+ 
+*509   7)        10:13:43.040      58.81  Touchpad Near-Close
+ 
+*509   7)        10:13:43.042      58.81  Touchpad Near-Close
+ 
+ 509   4)                        1:18.44  B1   
+ 
+*509   4)        10:14:02.672    1:18.44  Button 1 Near-Close
+ 
+ 509   4)    4                   1:18.53  TP
+ 
+*509   4)        10:14:02.763    1:18.53  Touchpad Near-Close
+ 
+ 509   4)                        1:18.59  B2   
+ 
+*509   4)        10:14:02.828    1:18.59  Button 2 Near-Close
+ 
+ 509   5)    4                   1:23.98  TP
+ 
+*509   5)        10:14:08.219    1:23.98  Touchpad Near-Close
+ 
+ 509   5)                        1:24.05  B2   
+ 
+*509   5)        10:14:08.284    1:24.05  Button 2 Near-Close
+ 
+ 509   5)                        1:24.08  B1   
+ 
+*509   5)        10:14:08.310    1:24.08  Button 1 Near-Close
+ 
+*509   5)        10:14:08.983    1:24.75  Touchpad Near-Close
+ 
+*509   4)        10:14:11.386    1:27.15  Touchpad Near-Close
+ 
+*509   4)        10:14:19.367    1:35.13  Touchpad Near-Close
+ 
+ 509   2)    4                   1:41.92  TP
+ 
+*509   2)        10:14:26.150    1:41.92  Touchpad Near-Close
+ 
+ 509   2)                        1:41.96  B1   
+ 
+*509   2)        10:14:26.193    1:41.96  Button 1 Near-Close
+ 
+ 509   2)                        1:42.13  B2   
+ 
+*509   2)        10:14:26.366    1:42.13  Button 2 Near-Close
+ 
+*509   2)        10:14:29.311    1:45.08  Touchpad Near-Close
+ 
+ 509   6)    4                   1:46.09  TP
+ 
+*509   6)        10:14:30.329    1:46.09  Touchpad Near-Close
+ 
+ 509   6)                        1:46.23  B1   
+ 
+*509   6)        10:14:30.468    1:46.23  Button 1 Near-Close
+ 
+ 509   6)                        1:46.29  B2   
+ 
+*509   6)        10:14:30.525    1:46.29  Button 2 Near-Close
+ 
+*509   1)                      Lane On
+ 
+*509   3)                      Lane On
+ 
+*509   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:14:52.145
+ 
+Set Event 63  - Heat 2 - Round Preliminary
+ 
+Set Event 39  - Heat 1 - Round Final
+ 
+Set Race Lengths to 4
+ 
+Set Race Number 510
+ 
+*510    )        10:15:02.736       0.00  Start-Close
+ 
+*510    )        10:15:02.984       0.24  Start-Open 
+ 
+*510   5)        10:15:04.063       1.32  Touchpad Near-Close
+ 
+*510   2)        10:15:08.203       5.46  Touchpad Near-Close
+ 
+*510   2)        10:15:10.009       7.27  Touchpad Near-Close
+ 
+*510   6)        10:15:11.514       8.77  Touchpad Near-Close
+ 
+Set Event 63  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+Set Event 63  - Heat 2 - Round Preliminary
+ 
+ 510   2)    2                     42.12  TP
+ 
+*510   2)        10:15:44.858      42.12  Touchpad Near-Close
+ 
+*510   2)        10:15:46.123      43.38  Touchpad Near-Close
+ 
+*510   2)        10:15:46.236      43.50  Touchpad Near-Close
+ 
+ 510   6)    2                     43.80  TP
+ 
+*510   6)        10:15:46.538      43.80  Touchpad Near-Close
+ 
+ 510   7)    2                     44.20  TP
+ 
+*510   7)        10:15:46.942      44.20  Touchpad Near-Close
+ 
+*510   6)        10:15:47.225      44.48  Touchpad Near-Close
+ 
+*510   1)                      Lane Off
+ 
+ 510   3)    0                  WARNING
+ 
+ 510   4)    0                  WARNING
+ 
+ 510   5)    0                  WARNING
+ 
+ 510   8)    0                  WARNING
+ 
+*510   3)                      Lane Off
+ 
+*510   4)                      Lane Off
+ 
+*510   5)                      Lane Off
+ 
+*510   8)                      Lane Off
+ 
+ 510   2)    4                   1:31.35  TP
+ 
+*510   2)        10:16:34.087    1:31.35  Touchpad Near-Close
+ 
+ 510   2)                        1:31.47  B1   
+ 
+ 510   2)                        1:31.51  B2   
+ 
+*510   2)        10:16:34.207    1:31.47  Button 1 Near-Close
+ 
+*510   2)        10:16:34.247    1:31.51  Button 2 Near-Close
+ 
+ 510   6)                        1:31.68  B2   
+ 
+ 510   6)                        1:31.71  B1   
+ 
+*510   6)        10:16:34.420    1:31.68  Button 2 Near-Close
+ 
+*510   6)        10:16:34.454    1:31.71  Button 1 Near-Close
+ 
+*510   2)        10:16:38.935    1:36.19  Touchpad Near-Close
+ 
+*510   2)        10:16:38.977    1:36.24  Touchpad Near-Close
+ 
+ 510   7)                        1:37.79  B1   
+ 
+ 510   7)                        1:37.79  B2   
+ 
+*510   7)        10:16:40.528    1:37.79  Button 1 Near-Close
+ 
+*510   7)        10:16:40.530    1:37.79  Button 2 Near-Close
+ 
+ 510   7)    4                   1:37.87  TP
+ 
+*510   7)        10:16:40.610    1:37.87  Touchpad Near-Close
+ 
+ 510   6)    2                  WARNING
+ 
+ 510   6)    4                   1:46.34  TP
+ 
+*510   6)        10:16:49.085    1:46.34  Touchpad Near-Close
+ 
+*510   6)        10:16:49.117    1:46.38  Touchpad Near-Close
+ 
+*510   1)                      Lane On
+ 
+*510   3)                      Lane On
+ 
+*510   4)                      Lane On
+ 
+*510   5)                      Lane On
+ 
+*510   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:16:51.849
+ 
+Set Event 64  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+*510   6)        10:16:53.128       0.00  Touchpad Near-Close
+ 
+Set Race Number 511
+ 
+*511    )        10:17:25.214       0.00  Start-Close
+ 
+*511    )        10:17:25.462       0.24  Start-Open 
+ 
+*511   6)        10:17:26.986       1.77  Touchpad Near-Close
+ 
+*511   7)        10:17:28.968       3.75  Touchpad Near-Close
+ 
+ 511   4)    2                     33.63  TP
+ 
+*511   4)        10:17:58.848      33.63  Touchpad Near-Close
+ 
+*511   4)        10:17:58.950      33.73  Touchpad Near-Close
+ 
+*511   4)        10:17:59.629      34.41  Touchpad Near-Close
+ 
+ 511   5)    2                     36.15  TP
+ 
+*511   5)        10:18:01.369      36.15  Touchpad Near-Close
+ 
+ 511   3)    2                     36.25  TP
+ 
+*511   3)        10:18:01.469      36.25  Touchpad Near-Close
+ 
+*511   3)        10:18:02.621      37.40  Touchpad Near-Close
+ 
+*511   5)        10:18:02.732      37.51  Touchpad Near-Close
+ 
+ 511   6)    2                     38.73  TP
+ 
+*511   6)        10:18:03.951      38.73  Touchpad Near-Close
+ 
+ 511   2)    2                     41.62  TP
+ 
+*511   2)        10:18:06.842      41.62  Touchpad Near-Close
+ 
+*511   2)        10:18:07.445      42.23  Touchpad Near-Close
+ 
+*511   2)        10:18:07.478      42.26  Touchpad Near-Close
+ 
+ 511   8)    2                     48.21  TP
+ 
+*511   8)        10:18:13.427      48.21  Touchpad Near-Close
+ 
+*511   8)        10:18:14.086      48.87  Touchpad Near-Close
+ 
+*511   8)        10:18:14.468      49.25  Touchpad Near-Close
+ 
+ 511   1)    0                  WARNING
+ 
+ 511   7)    2                            +
+ 
+ 511   1)    2                            +
+ 
+ 511   4)                        1:13.92  B2   
+ 
+*511   4)        10:18:39.135    1:13.92  Button 2 Near-Close
+ 
+ 511   4)    4                   1:13.95  TP
+ 
+*511   4)        10:18:39.167    1:13.95  Touchpad Near-Close
+ 
+ 511   4)                        1:14.10  B1   
+ 
+*511   4)        10:18:39.315    1:14.10  Button 1 Near-Close
+ 
+ 511   3)    4                   1:17.04  TP
+ 
+*511   3)        10:18:42.260    1:17.04  Touchpad Near-Close
+ 
+ 511   3)                        1:17.08  B1   
+ 
+*511   3)        10:18:42.303    1:17.08  Button 1 Near-Close
+ 
+ 511   3)                        1:17.19  B2   
+ 
+*511   3)        10:18:42.407    1:17.19  Button 2 Near-Close
+ 
+ 511   5)    4                   1:18.39  TP
+ 
+*511   5)        10:18:43.611    1:18.39  Touchpad Near-Close
+ 
+ 511   5)                        1:18.51  B2   
+ 
+ 511   5)                        1:18.51  B1   
+ 
+*511   5)        10:18:43.729    1:18.51  Button 2 Near-Close
+ 
+*511   5)        10:18:43.730    1:18.51  Button 1 Near-Close
+ 
+ 511   6)                        1:21.01  B2   
+ 
+ 511   6)    4                   1:21.01  TP
+ 
+ 511   6)                        1:21.05  B1   
+ 
+*511   6)        10:18:46.231    1:21.01  Button 2 Near-Close
+ 
+*511   6)        10:18:46.233    1:21.01  Touchpad Near-Close
+ 
+*511   6)        10:18:46.265    1:21.05  Button 1 Near-Close
+ 
+*511   5)        10:18:51.147    1:25.93  Touchpad Near-Close
+ 
+ 511   2)    4                   1:27.73  TP
+ 
+*511   2)        10:18:52.946    1:27.73  Touchpad Near-Close
+ 
+ 511   2)                        1:27.83  B1   
+ 
+ 511   2)                        1:27.83  B2   
+ 
+*511   2)        10:18:53.051    1:27.83  Button 1 Near-Close
+ 
+*511   2)        10:18:53.051    1:27.83  Button 2 Near-Close
+ 
+*511   2)        10:18:54.215    1:29.00  Touchpad Near-Close
+ 
+*511   4)        10:18:58.455    1:33.24  Touchpad Near-Close
+ 
+ 511   7)                        1:45.23  B2   
+ 
+*511   7)        10:19:10.453    1:45.23  Button 2 Near-Close
+ 
+ 511   7)    4                   1:45.26  TP
+ 
+ 511   7)                        1:45.27  B1   
+ 
+*511   7)        10:19:10.478    1:45.26  Touchpad Near-Close
+ 
+*511   7)        10:19:10.487    1:45.27  Button 1 Near-Close
+ 
+ 511   8)                        1:47.89  B1   
+ 
+*511   8)        10:19:13.110    1:47.89  Button 1 Near-Close
+ 
+ 511   8)                        1:47.99  B2   
+ 
+*511   8)        10:19:13.211    1:47.99  Button 2 Near-Close
+ 
+ 511   1)    2                  WARNING
+ 
+ 511   8)    2                  WARNING
+ 
+*511   6)        10:19:20.201    1:54.98  Touchpad Near-Close
+ 
+*511   6)        10:19:20.343    1:55.12  Touchpad Near-Close
+ 
+*511   7)        10:19:20.718    1:55.50  Touchpad Near-Close
+ 
+ 511   8)    4                   1:56.03  TP
+ 
+*511   8)        10:19:21.244    1:56.03  Touchpad Near-Close
+ 
+*511   7)        10:19:23.633    1:58.41  Touchpad Near-Close
+ 
+ 511   1)                        2:01.80  B1   
+ 
+*511   1)        10:19:27.018    2:01.80  Button 1 Near-Close
+ 
+ 511   1)                        2:01.98  B2   
+ 
+*511   1)        10:19:27.194    2:01.98  Button 2 Near-Close
+ 
+*511   7)        10:19:31.182    2:05.96  Touchpad Near-Close
+ 
+*511   7)        10:19:34.306    2:09.09  Touchpad Near-Close
+ 
+Reset of Race    03/15/26 10:19:36.634
+ 
+*511   7)        10:19:35.816       0.00  Touchpad Near-Close
+ 
+Set Race Number 512
+ 
+*512    )        10:19:51.363       0.00  Start-Close
+ 
+*512    )        10:19:51.611       0.24  Start-Open 
+ 
+Set Event 65  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+Set Event 66  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+*512   4)        10:19:53.711       2.34  Touchpad Near-Close
+ 
+*512   7)        10:19:54.020       2.65  Touchpad Near-Close
+ 
+*512   7)        10:19:54.028       2.66  Touchpad Near-Close
+ 
+*512   1)                      Lane Off
+ 
+*512   2)                      Lane Off
+ 
+*512   6)                      Lane Off
+ 
+*512   7)                      Lane Off
+ 
+*512   8)                      Lane Off
+ 
+ 512   4)    2                     33.24  TP
+ 
+*512   4)        10:20:24.611      33.24  Touchpad Near-Close
+ 
+ 512   5)    2                     40.80  TP
+ 
+*512   5)        10:20:32.171      40.80  Touchpad Near-Close
+ 
+*512   5)        10:20:32.449      41.08  Touchpad Near-Close
+ 
+*512   5)        10:20:33.206      41.84  Touchpad Near-Close
+ 
+ 512   3)    2                     43.99  TP
+ 
+*512   3)        10:20:35.362      43.99  Touchpad Near-Close
+ 
+ 512   4)    4                   1:12.85  TP
+ 
+*512   4)        10:21:04.215    1:12.85  Touchpad Near-Close
+ 
+ 512   4)                        1:12.92  B1   
+ 
+*512   4)        10:21:04.291    1:12.92  Button 1 Near-Close
+ 
+ 512   4)                        1:12.96  B2   
+ 
+*512   4)        10:21:04.332    1:12.96  Button 2 Near-Close
+ 
+ 512   5)    4                   1:31.83  TP
+ 
+*512   5)        10:21:23.199    1:31.83  Touchpad Near-Close
+ 
+ 512   5)                        1:31.88  B2   
+ 
+ 512   5)                        1:31.90  B1   
+ 
+*512   5)        10:21:23.201    1:31.83  Touchpad Near-Close
+ 
+*512   5)        10:21:23.244    1:31.88  Button 2 Near-Close
+ 
+*512   5)        10:21:23.270    1:31.90  Button 1 Near-Close
+ 
+*512   5)        10:21:23.787    1:32.42  Touchpad Near-Close
+ 
+ 512   3)                        1:34.61  B1   
+ 
+*512   3)        10:21:25.980    1:34.61  Button 1 Near-Close
+ 
+ 512   3)    4                   1:34.76  TP
+ 
+*512   3)        10:21:26.132    1:34.76  Touchpad Near-Close
+ 
+ 512   3)                        1:34.95  B2   
+ 
+*512   3)        10:21:26.321    1:34.95  Button 2 Near-Close
+ 
+*512   1)                      Lane On
+ 
+*512   2)                      Lane On
+ 
+*512   6)                      Lane On
+ 
+*512   7)                      Lane On
+ 
+*512   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:21:37.620
+ 
+*512   3)        10:21:38.010       0.00  Touchpad Near-Close
+ 
+Set Event 67  - Heat 1 - Round Final
+ 
+Set Race Lengths to 1
+ 
+*512   3)        10:21:38.625       0.00  Touchpad Near-Close
+ 
+*512   5)        10:21:41.873       0.00  Touchpad Near-Close
+ 
+*512   5)        10:21:43.021       0.00  Touchpad Near-Close
+ 
+Set Race Number 513
+ 
+*513    )        10:40:51.047       0.00  Start-Close
+ 
+*513    )        10:40:51.295       0.24  Start-Open 
+ 
+*513   1)                      Lane Off
+ 
+*513   2)                      Lane Off
+ 
+*513   7)                      Lane Off
+ 
+*513   8)                      Lane Off
+ 
+ 513   4)                          26.77  B1   
+ 
+*513   4)        10:41:17.823      26.77  Button 1 Near-Close
+ 
+ 513   4)                          26.90  B2   
+ 
+*513   4)        10:41:17.947      26.90  Button 2 Near-Close
+ 
+ 513   6)                          28.45  B1   
+ 
+*513   6)        10:41:19.499      28.45  Button 1 Near-Close
+ 
+ 513   6)                          28.54  B2   
+ 
+*513   6)        10:41:19.589      28.54  Button 2 Near-Close
+ 
+ 513   6)    1                     29.06  TP
+ 
+*513   6)        10:41:20.114      29.06  Touchpad Near-Close
+ 
+ 513   3)                          29.29  B1   
+ 
+ 513   3)                          29.32  B2   
+ 
+*513   3)        10:41:20.341      29.29  Button 1 Near-Close
+ 
+*513   3)        10:41:20.376      29.32  Button 2 Near-Close
+ 
+ 513   5)                          29.38  B2   
+ 
+ 513   5)                          29.40  B1   
+ 
+*513   5)        10:41:20.427      29.38  Button 2 Near-Close
+ 
+*513   5)        10:41:20.448      29.40  Button 1 Near-Close
+ 
+*513   6)        10:41:21.268      30.22  Touchpad Near-Close
+ 
+ 513   5)    1                     33.17  TP
+ 
+ 513   3)    1                     33.21  TP
+ 
+*513   5)        10:41:24.221      33.17  Touchpad Near-Close
+ 
+*513   3)        10:41:24.262      33.21  Touchpad Near-Close
+ 
+*513   5)        10:41:25.060      34.01  Touchpad Near-Close
+ 
+ 513   4)    1                     34.42  TP
+ 
+*513   4)        10:41:25.469      34.42  Touchpad Near-Close
+ 
+*513   5)        10:41:25.642      34.59  Touchpad Near-Close
+ 
+*513   5)        10:41:27.465      36.41  Touchpad Near-Close
+ 
+*513   5)        10:41:27.519      36.47  Touchpad Near-Close
+ 
+*513   5)        10:41:27.562      36.51  Touchpad Near-Close
+ 
+*513   4)        10:41:27.798      36.75  Touchpad Near-Close
+ 
+*513   5)        10:41:28.295      37.24  Touchpad Near-Close
+ 
+*513    )        10:41:44.320      53.27  Start-Close
+ 
+*513    )        10:41:44.568      53.52  Start-Open 
+ 
+*513   1)                      Lane On
+ 
+*513   2)                      Lane On
+ 
+*513   7)                      Lane On
+ 
+*513   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:41:57.954
+ 
+*513   5)        10:42:07.103       0.00  Button 1 Near-Close
+ 
+*513   5)        10:42:07.118       0.00  Touchpad Near-Close
+ 
+*513   5)        10:42:07.156       0.00  Button 2 Near-Close
+ 
+*513   4)        10:42:07.464       0.00  Button 2 Near-Close
+ 
+*513   4)        10:42:07.493       0.00  Touchpad Near-Close
+ 
+*513   4)        10:42:07.586       0.00  Button 1 Near-Close
+ 
+*513   3)        10:42:07.720       0.00  Button 2 Near-Close
+ 
+*513   3)        10:42:07.723       0.00  Button 1 Near-Close
+ 
+*513   3)        10:42:07.799       0.00  Touchpad Near-Close
+ 
+*513   2)        10:42:09.693       0.00  Button 2 Near-Close
+ 
+*513   2)        10:42:09.745       0.00  Button 1 Near-Close
+ 
+*513   6)        10:42:09.748       0.00  Touchpad Near-Close
+ 
+*513   6)        10:42:09.772       0.00  Touchpad Near-Close
+ 
+*513   6)        10:42:09.786       0.00  Button 2 Near-Close
+ 
+*513   6)        10:42:09.851       0.00  Button 1 Near-Close
+ 
+*513   4)        10:42:09.914       0.00  Touchpad Near-Close
+ 
+*513   3)        10:42:11.127       0.00  Touchpad Near-Close
+ 
+*513   1)        10:42:11.268       0.00  Button 2 Near-Close
+ 
+*513   1)        10:42:11.290       0.00  Button 1 Near-Close
+ 
+*513   6)        10:42:11.646       0.00  Touchpad Near-Close
+ 
+*513   8)        10:42:12.049       0.00  Button 1 Near-Close
+ 
+*513   8)        10:42:12.132       0.00  Button 2 Near-Close
+ 
+Set Race Number 514
+ 
+ 514   8)                          28.15  B1   
+ 
+ 514   8)                          28.15  B2   
+ 
+ 514   7)                          29.65  B2   
+ 
+*514   7)        10:42:13.976      29.65  Button 2 Near-Close
+ 
+ 514   7)                          29.93  B1   
+ 
+*514   7)        10:42:14.258      29.93  Button 1 Near-Close
+ 
+ 514   7)    1                     30.41  TP
+ 
+*514   7)        10:42:14.735      30.41  Touchpad Near-Close
+ 
+ 514   8)    1                     30.55  TP
+ 
+*514   8)        10:42:14.872      30.55  Touchpad Near-Close
+ 
+ 514   6)    1                     32.00  TP
+ 
+*514   6)        10:42:16.320      32.00  Touchpad Near-Close
+ 
+ 514   3)    1                     32.34  TP
+ 
+*514   3)        10:42:16.665      32.34  Touchpad Near-Close
+ 
+ 514   2)    1                     34.35  TP
+ 
+*514   2)        10:42:18.676      34.35  Touchpad Near-Close
+ 
+ 514   1)    1                     34.99  TP
+ 
+*514   1)        10:42:19.318      34.99  Touchpad Near-Close
+ 
+Reset of Race    03/15/26 10:42:20.654
+ 
+*514   2)        10:42:19.804       0.00  Touchpad Near-Close
+ 
+*514   2)        10:42:19.910       0.00  Touchpad Near-Close
+ 
+*514   3)        10:42:20.241       0.00  Touchpad Near-Close
+ 
+*514   8)        10:42:20.672       0.00  Touchpad Near-Close
+ 
+*514   7)        10:42:22.249       0.00  Touchpad Near-Close
+ 
+*514   3)        10:42:25.854       0.00  Touchpad Near-Close
+ 
+Set Event 68  - Heat 1 - Round Final
+ 
+Set Race Lengths to 1
+ 
+Set Race Number 515
+ 
+*515    )        10:42:42.688       0.00  Start-Close
+ 
+*515    )        10:42:42.936       0.24  Start-Open 
+ 
+*515   1)                      Lane Off
+ 
+*515   2)                      Lane Off
+ 
+*515   3)                      Lane Off
+ 
+*515   8)                      Lane Off
+ 
+*515   7)                      Lane Off
+ 
+ 515   4)                          25.14  B2   
+ 
+*515   4)        10:43:07.836      25.14  Button 2 Near-Close
+ 
+ 515   4)                          25.42  B1   
+ 
+*515   4)        10:43:08.114      25.42  Button 1 Near-Close
+ 
+*515   6)                      Lane Off
+ 
+ 515   5)                          34.72  B2   
+ 
+*515   5)        10:43:17.410      34.72  Button 2 Near-Close
+ 
+ 515   5)                          34.79  B1   
+ 
+*515   5)        10:43:17.478      34.79  Button 1 Near-Close
+ 
+ 515   5)    1                     34.92  TP
+ 
+*515   5)        10:43:17.617      34.92  Touchpad Near-Close
+ 
+*515   5)        10:43:21.764      39.07  Touchpad Near-Close
+ 
+*515   5)        10:43:27.622      44.93  Touchpad Near-Close
+ 
+ 515   4)    1                     44.98  TP
+ 
+*515   4)        10:43:27.676      44.98  Touchpad Near-Close
+ 
+*515   1)                      Lane On
+ 
+*515   2)                      Lane On
+ 
+*515   3)                      Lane On
+ 
+*515   6)                      Lane On
+ 
+Reset of Race    03/15/26 10:43:35.554
+ 
+*515   7)                      Lane On
+ 
+*515   8)                      Lane On
+ 
+*515   4)        10:43:37.156       0.00  Touchpad Near-Close
+ 
+Set Event 69  - Heat 1 - Round Final
+ 
+Set Race Lengths to 2
+ 
+*515   4)        10:43:39.630       0.00  Touchpad Near-Close
+ 
+*515   4)        10:43:40.207       0.00  Touchpad Near-Close
+ 
+*515   5)        10:43:41.597       0.00  Touchpad Near-Close
+ 
+*515   4)        10:43:45.896       0.00  Touchpad Near-Close
+ 
+*515   3)        10:43:56.520       0.00  Touchpad Near-Close
+ 
+Set Race Number 516
+ 
+*516    )        10:44:05.774       0.00  Start-Close
+ 
+*516   3)        10:44:05.994       0.22  Touchpad Near-Close
+ 
+*516    )        10:44:06.023       0.24  Start-Open 
+ 
+*516   5)        10:44:06.238       0.46  Touchpad Near-Close
+ 
+*516   1)                      Lane Off
+ 
+*516   2)                      Lane Off
+ 
+*516   8)                      Lane Off
+ 
+*516   7)                      Lane Off
+ 
+*516   6)                      Lane Off
+ 
+ 516   4)                          52.65  B2   
+ 
+*516   4)        10:44:58.428      52.65  Button 2 Near-Close
+ 
+ 516   4)                          52.72  B1   
+ 
+*516   4)        10:44:58.495      52.72  Button 1 Near-Close
+ 
+ 516   3)    0                  WARNING
+ 
+ 516   4)    0                  WARNING
+ 
+ 516   5)    0                  WARNING
+ 
+ 516   5)                          56.99  B2   
+ 
+*516   5)        10:45:02.768      56.99  Button 2 Near-Close
+ 
+ 516   5)                          57.10  B1   
+ 
+*516   5)        10:45:02.877      57.10  Button 1 Near-Close
+ 
+ 516   5)    2                     57.74  TP
+ 
+*516   5)        10:45:03.517      57.74  Touchpad Near-Close
+ 
+ 516   3)                          59.04  B1   
+ 
+*516   3)        10:45:04.814      59.04  Button 1 Near-Close
+ 
+ 516   3)    2                     59.34  TP
+ 
+*516   3)        10:45:05.122      59.34  Touchpad Near-Close
+ 
+ 516   3)                          59.46  B2   
+ 
+*516   3)        10:45:05.243      59.46  Button 2 Near-Close
+ 
+*516   3)        10:45:05.300      59.52  Touchpad Near-Close
+ 
+*516   3)        10:45:07.984    1:02.21  Touchpad Near-Close
+ 
+*516   3)        10:45:08.727    1:02.95  Touchpad Near-Close
+ 
+*516   3)        10:45:10.629    1:04.85  Touchpad Near-Close
+ 
+*516   1)                      Lane On
+ 
+*516   2)                      Lane On
+ 
+*516   6)                      Lane On
+ 
+*516   7)                      Lane On
+ 
+*516   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:45:13.624
+ 
+*516   3)        10:45:12.897       0.00  Touchpad Near-Close
+ 
+Set Event 70  - Heat 1 - Round Final
+ 
+Set Race Lengths to 2
+ 
+*516   2)        10:45:20.999       0.00  Touchpad Near-Close
+ 
+*516   3)        10:45:24.573       0.00  Touchpad Near-Close
+ 
+*516   5)        10:45:25.165       0.00  Touchpad Near-Close
+ 
+*516   4)        10:45:28.007       0.00  Touchpad Near-Close
+ 
+Set Event 69  - Heat 1 - Round Final
+ 
+Set Race Lengths to 2
+ 
+*516   7)        10:45:31.182       0.00  Touchpad Near-Close
+ 
+*516   7)        10:45:31.249       0.00  Touchpad Near-Close
+ 
+Set Event 69  - Heat 2 - Round Final
+ 
+*516   4)        10:45:40.153       0.00  Touchpad Near-Close
+ 
+Set Race Number 517
+ 
+*517    )        10:45:42.410       0.00  Start-Close
+ 
+*517    )        10:45:42.658       0.24  Start-Open 
+ 
+*517   2)        10:45:42.825       0.41  Touchpad Near-Close
+ 
+*517   2)        10:45:42.976       0.56  Touchpad Near-Close
+ 
+*517   3)        10:45:43.091       0.68  Touchpad Near-Close
+ 
+*517   7)        10:45:43.433       1.02  Touchpad Near-Close
+ 
+*517   1)                      Lane Off
+ 
+*517   6)                      Lane Off
+ 
+*517   8)                      Lane Off
+ 
+ 517   4)                          51.29  B2   
+ 
+*517   4)        10:46:33.709      51.29  Button 2 Near-Close
+ 
+ 517   7)                          51.54  B2   
+ 
+*517   7)        10:46:33.950      51.54  Button 2 Near-Close
+ 
+ 517   7)                          51.66  B1   
+ 
+*517   7)        10:46:34.076      51.66  Button 1 Near-Close
+ 
+ 517   4)                          51.76  B1   
+ 
+*517   4)        10:46:34.171      51.76  Button 1 Near-Close
+ 
+ 517   2)    0                  WARNING
+ 
+ 517   3)    0                  WARNING
+ 
+ 517   4)    0                  WARNING
+ 
+ 517   5)    0                  WARNING
+ 
+ 517   7)    0                  WARNING
+ 
+ 517   5)                          54.12  B1   
+ 
+*517   5)        10:46:36.532      54.12  Button 1 Near-Close
+ 
+ 517   5)                          54.19  B2   
+ 
+*517   5)        10:46:36.606      54.19  Button 2 Near-Close
+ 
+ 517   2)                          54.35  B1   
+ 
+*517   2)        10:46:36.768      54.35  Button 1 Near-Close
+ 
+*517   2)        10:46:36.770      54.36  Button 1 Near-Close
+ 
+ 517   3)                          54.60  B1   
+ 
+ 517   3)                          54.61  B2   
+ 
+*517   3)        10:46:37.011      54.60  Button 1 Near-Close
+ 
+*517   3)        10:46:37.026      54.61  Button 2 Near-Close
+ 
+ 517   2)                          54.80  B2   
+ 
+*517   2)        10:46:37.216      54.80  Button 2 Near-Close
+ 
+ 517   2)    2                     55.51  TP
+ 
+*517   2)        10:46:37.921      55.51  Touchpad Near-Close
+ 
+*517   2)        10:46:38.286      55.87  Touchpad Near-Close
+ 
+ 517   7)    2                     56.97  TP
+ 
+*517   7)        10:46:39.388      56.97  Touchpad Near-Close
+ 
+*517   7)        10:46:40.295      57.88  Touchpad Near-Close
+ 
+ 517   3)    2                     58.68  TP
+ 
+*517   3)        10:46:41.093      58.68  Touchpad Near-Close
+ 
+*517   2)        10:46:41.462      59.05  Touchpad Near-Close
+ 
+*517   1)        10:46:42.378      59.96  Touchpad Near-Close
+ 
+*517   2)        10:46:43.243    1:00.83  Touchpad Near-Close
+ 
+*517   7)        10:46:45.516    1:03.10  Touchpad Near-Close
+ 
+ 517   5)    2                   1:03.20  TP
+ 
+*517   5)        10:46:45.616    1:03.20  Touchpad Near-Close
+ 
+*517   1)        10:46:46.928    1:04.51  Touchpad Near-Close
+ 
+*517   7)        10:46:48.474    1:06.06  Touchpad Near-Close
+ 
+*517   2)        10:46:49.611    1:07.20  Touchpad Near-Close
+ 
+*517   1)                      Lane On
+ 
+*517   6)                      Lane On
+ 
+*517   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:46:52.64
+ 
+*517   5)        10:46:52.485       0.00  Touchpad Near-Close
+ 
+*517   5)        10:46:52.500       0.00  Touchpad Near-Close
+ 
+Set Event 69  - Heat 3 - Round Final
+ 
+*517   2)        10:46:55.342       0.00  Touchpad Near-Close
+ 
+*517   1)        10:47:04.539       0.00  Touchpad Near-Close
+ 
+*517   2)        10:47:05.513       0.00  Touchpad Near-Close
+ 
+*517   3)        10:47:05.607       0.00  Touchpad Near-Close
+ 
+*517   7)        10:47:09.617       0.00  Touchpad Near-Close
+ 
+*517   5)        10:47:10.450       0.00  Touchpad Near-Close
+ 
+*517   5)        10:47:10.466       0.00  Touchpad Near-Close
+ 
+*517   7)        10:47:11.765       0.00  Touchpad Near-Close
+ 
+*517   2)        10:47:12.999       0.00  Touchpad Near-Close
+ 
+*517   6)        10:47:13.472       0.00  Touchpad Near-Close
+ 
+*517   6)        10:47:13.641       0.00  Touchpad Near-Close
+ 
+*517   5)        10:47:13.791       0.00  Touchpad Near-Close
+ 
+*517   7)        10:47:13.818       0.00  Touchpad Near-Close
+ 
+*517   6)        10:47:16.527       0.00  Touchpad Near-Close
+ 
+*517   5)        10:47:17.267       0.00  Touchpad Near-Close
+ 
+*517   4)        10:47:18.265       0.00  Touchpad Near-Close
+ 
+*517   7)        10:47:18.558       0.00  Touchpad Near-Close
+ 
+Set Race Number 518
+ 
+*518    )        10:47:27.343       0.00  Start-Close
+ 
+*518    )        10:47:27.592       0.24  Start-Open 
+ 
+*518   7)        10:47:27.610       0.26  Touchpad Near-Close
+ 
+*518   4)        10:47:27.709       0.36  Touchpad Near-Close
+ 
+*518   4)        10:47:27.853       0.51  Touchpad Near-Close
+ 
+*518   3)        10:47:27.940       0.59  Touchpad Near-Close
+ 
+*518   1)        10:47:27.966       0.62  Touchpad Near-Close
+ 
+ 518   4)                          41.93  B2   
+ 
+*518   4)        10:48:09.277      41.93  Button 2 Near-Close
+ 
+ 518   4)                          42.07  B1   
+ 
+*518   4)        10:48:09.416      42.07  Button 1 Near-Close
+ 
+ 518   2)    2                     43.79  TP
+ 
+*518   2)        10:48:11.133      43.79  Touchpad Near-Close
+ 
+ 518   2)                          43.89  B1   
+ 
+*518   2)        10:48:11.233      43.89  Button 1 Near-Close
+ 
+ 518   2)                          44.08  B2   
+ 
+*518   2)        10:48:11.427      44.08  Button 2 Near-Close
+ 
+ 518   6)                          44.94  B1   
+ 
+*518   6)        10:48:12.287      44.94  Button 1 Near-Close
+ 
+ 518   6)    2                     44.98  TP
+ 
+*518   6)        10:48:12.330      44.98  Touchpad Near-Close
+ 
+ 518   6)                          45.06  B2   
+ 
+*518   6)        10:48:12.408      45.06  Button 2 Near-Close
+ 
+ 518   5)                          46.20  B1   
+ 
+ 518   5)    2                     46.22  TP
+ 
+*518   5)        10:48:13.548      46.20  Button 1 Near-Close
+ 
+*518   5)        10:48:13.568      46.22  Touchpad Near-Close
+ 
+ 518   5)                          46.41  B2   
+ 
+*518   5)        10:48:13.756      46.41  Button 2 Near-Close
+ 
+ 518   3)                          47.27  B1   
+ 
+ 518   3)                          47.28  B2   
+ 
+*518   3)        10:48:14.616      47.27  Button 1 Near-Close
+ 
+*518   3)        10:48:14.629      47.28  Button 2 Near-Close
+ 
+ 518   3)    2                     47.38  TP
+ 
+*518   3)        10:48:14.732      47.38  Touchpad Near-Close
+ 
+ 518   4)    2                     47.82  TP
+ 
+*518   4)        10:48:15.164      47.82  Touchpad Near-Close
+ 
+*518   3)        10:48:16.106      48.76  Touchpad Near-Close
+ 
+ 518   7)                          48.80  B2   
+ 
+*518   7)        10:48:16.146      48.80  Button 2 Near-Close
+ 
+ 518   7)                          48.93  B1   
+ 
+*518   7)        10:48:16.281      48.93  Button 1 Near-Close
+ 
+ 518   7)    2                     49.06  TP
+ 
+*518   7)        10:48:16.405      49.06  Touchpad Near-Close
+ 
+*518   7)        10:48:16.607      49.26  Touchpad Near-Close
+ 
+ 518   1)    2                     49.98  TP
+ 
+ 518   1)                          49.99  B1   
+ 
+ 518   1)                          49.99  B2   
+ 
+*518   1)        10:48:17.326      49.98  Touchpad Near-Close
+ 
+*518   1)        10:48:17.342      49.99  Button 1 Near-Close
+ 
+*518   1)        10:48:17.342      49.99  Button 2 Near-Close
+ 
+*518   6)        10:48:19.035      51.69  Touchpad Near-Close
+ 
+ 518   8)    0                  WARNING
+ 
+*518   7)        10:48:23.461      56.11  Touchpad Near-Close
+ 
+Reset of Race    03/15/26 10:48:27.877
+ 
+Set Event 70  - Heat 1 - Round Final
+ 
+Set Race Lengths to 2
+ 
+*518   3)        10:48:44.991       0.00  Touchpad Near-Close
+ 
+*518   5)        10:48:46.890       0.00  Touchpad Near-Close
+ 
+*518   4)        10:48:49.423       0.00  Touchpad Near-Close
+ 
+*518   5)        10:48:53.819       0.00  Touchpad Near-Close
+ 
+*518   5)        10:48:54.167       0.00  Touchpad Near-Close
+ 
+*518   4)        10:48:55.699       0.00  Touchpad Near-Close
+ 
+*518   3)        10:48:56.558       0.00  Touchpad Near-Close
+ 
+*518   5)        10:48:57.094       0.00  Touchpad Near-Close
+ 
+*518   5)        10:48:58.062       0.00  Touchpad Near-Close
+ 
+*518   3)        10:49:02.143       0.00  Touchpad Near-Close
+ 
+*518   4)        10:49:02.881       0.00  Touchpad Near-Close
+ 
+*518   5)        10:49:04.893       0.00  Touchpad Near-Close
+ 
+Set Race Number 519
+ 
+*519    )        10:49:08.460       0.00  Start-Close
+ 
+*519    )        10:49:08.709       0.24  Start-Open 
+ 
+*519   1)                      Lane Off
+ 
+*519   2)                      Lane Off
+ 
+*519   6)                      Lane Off
+ 
+*519   7)                      Lane Off
+ 
+*519   8)                      Lane Off
+ 
+ 519   5)    2                     44.00  TP
+ 
+*519   5)        10:49:52.468      44.00  Touchpad Near-Close
+ 
+ 519   5)                          44.16  B1   
+ 
+*519   5)        10:49:52.624      44.16  Button 1 Near-Close
+ 
+ 519   5)                          44.28  B2   
+ 
+*519   5)        10:49:52.749      44.28  Button 2 Near-Close
+ 
+*519   5)        10:49:53.456      44.99  Touchpad Near-Close
+ 
+*519   5)        10:49:54.845      46.38  Touchpad Near-Close
+ 
+ 519   4)                          47.55  B2   
+ 
+*519   4)        10:49:56.011      47.55  Button 2 Near-Close
+ 
+ 519   4)                          47.65  B1   
+ 
+*519   4)        10:49:56.119      47.65  Button 1 Near-Close
+ 
+ 519   4)    2                     50.30  TP
+ 
+*519   4)        10:49:58.764      50.30  Touchpad Near-Close
+ 
+ 519   3)    0                  WARNING
+ 
+ 519   3)    2                     55.60  TP
+ 
+*519   3)        10:50:04.061      55.60  Touchpad Near-Close
+ 
+ 519   3)                          55.66  B2   
+ 
+*519   3)        10:50:04.120      55.66  Button 2 Near-Close
+ 
+ 519   3)                          55.78  B1   
+ 
+*519   3)        10:50:04.246      55.78  Button 1 Near-Close
+ 
+*519   3)        10:50:04.260      55.80  Touchpad Near-Close
+ 
+*519   5)        10:50:07.172      58.71  Touchpad Near-Close
+ 
+*519   5)        10:50:08.664    1:00.20  Touchpad Near-Close
+ 
+*519   1)                      Lane On
+ 
+*519   2)                      Lane On
+ 
+*519   6)                      Lane On
+ 
+*519   7)                      Lane On
+ 
+*519   8)                      Lane On
+ 
+Reset of Race    03/15/26 10:50:11.457
+ 
+*519   5)        10:50:10.768       0.00  Touchpad Near-Close
+ 
+Set Event 70  - Heat 2 - Round Final
+ 
+*519   3)        10:50:17.916       0.00  Touchpad Near-Close
+ 
+*519   4)        10:50:23.987       0.00  Touchpad Near-Close
+ 
+*519   1)        10:50:27.052       0.00  Touchpad Near-Close
+ 
+*519   6)        10:50:28.236       0.00  Touchpad Near-Close
+ 
+*519   2)        10:50:32.033       0.00  Touchpad Near-Close
+ 
+*519   1)        10:50:38.300       0.00  Touchpad Near-Close
+ 
+*519   3)        10:50:38.851       0.00  Touchpad Near-Close
+ 
+*519   3)        10:50:38.987       0.00  Touchpad Near-Close
+ 
+*519   5)        10:50:39.171       0.00  Touchpad Near-Close
+ 
+*519   2)        10:50:39.697       0.00  Touchpad Near-Close
+ 
+*519   8)        10:50:41.662       0.00  Touchpad Near-Close
+ 
+*519   2)        10:50:41.788       0.00  Touchpad Near-Close
+ 
+*519   1)        10:50:43.814       0.00  Touchpad Near-Close
+ 
+*519   8)        10:50:48.410       0.00  Touchpad Near-Close
+ 
+Set Race Number 520
+ 
+*520    )        10:50:50.259       0.00  Start-Close
+ 
+*520    )        10:50:50.507       0.24  Start-Open 
+ 
+*520   6)        10:50:50.797       0.53  Touchpad Near-Close
+ 
+ 520   4)                          41.39  B2   
+ 
+ 520   4)                          41.43  B1   
+ 
+ 520   4)    2                     41.43  TP
+ 
+*520   4)        10:51:31.654      41.39  Button 2 Near-Close
+ 
+*520   4)        10:51:31.691      41.43  Button 1 Near-Close
+ 
+*520   4)        10:51:31.696      41.43  Touchpad Near-Close
+ 
+*520   4)        10:51:31.719      41.46  Touchpad Near-Close
+ 
+ 520   5)                          44.15  B2   
+ 
+ 520   5)    2                     44.17  TP
+ 
+*520   5)        10:51:34.414      44.15  Button 2 Near-Close
+ 
+*520   5)        10:51:34.431      44.17  Touchpad Near-Close
+ 
+ 520   5)                          44.32  B1   
+ 
+*520   5)        10:51:34.588      44.32  Button 1 Near-Close
+ 
+*520   5)        10:51:37.161      46.90  Touchpad Near-Close
+ 
+*520   5)        10:51:37.244      46.98  Touchpad Near-Close
+ 
+ 520   8)    2                     47.52  TP
+ 
+ 520   8)                          47.55  B2   
+ 
+*520   8)        10:51:37.780      47.52  Touchpad Near-Close
+ 
+ 520   8)                          47.60  B1   
+ 
+*520   8)        10:51:37.815      47.55  Button 2 Near-Close
+ 
+*520   8)        10:51:37.862      47.60  Button 1 Near-Close
+ 
+ 520   6)                          48.50  B1   
+ 
+*520   6)        10:51:38.768      48.50  Button 1 Near-Close
+ 
+ 520   6)    2                     48.54  TP
+ 
+ 520   6)                          48.57  B2   
+ 
+*520   6)        10:51:38.802      48.54  Touchpad Near-Close
+ 
+*520   6)        10:51:38.837      48.57  Button 2 Near-Close
+ 
+ 520   2)                          49.18  B2   
+ 
+ 520   2)                          49.21  B1   
+ 
+*520   2)        10:51:39.445      49.18  Button 2 Near-Close
+ 
+*520   2)        10:51:39.469      49.21  Button 1 Near-Close
+ 
+ 520   2)    2                     49.55  TP
+ 
+*520   2)        10:51:39.812      49.55  Touchpad Near-Close
+ 
+*520   2)        10:51:40.620      50.36  Touchpad Near-Close
+ 
+ 520   3)                          52.57  B2   
+ 
+*520   3)        10:51:42.829      52.57  Button 2 Near-Close
+ 
+ 520   3)    2                     52.65  TP
+ 
+ 520   3)                          52.67  B1   
+ 
+*520   3)        10:51:42.918      52.65  Touchpad Near-Close
+ 
+*520   3)        10:51:42.935      52.67  Button 1 Near-Close
+ 
+*520   3)        10:51:43.135      52.87  Touchpad Near-Close
+ 
+ 520   1)    0                  WARNING
+ 
+ 520   7)    0                  WARNING
+ 
+*520   3)        10:51:44.356      54.09  Touchpad Near-Close
+ 
+ 520   1)                          54.79  B1   
+ 
+*520   1)        10:51:45.049      54.79  Button 1 Near-Close
+ 
+ 520   1)                          55.03  B2   
+ 
+*520   1)        10:51:45.295      55.03  Button 2 Near-Close
+ 
+ 520   1)    2                     56.93  TP
+ 
+*520   1)        10:51:47.189      56.93  Touchpad Near-Close
+ 
+*520   1)        10:51:48.781      58.52  Touchpad Near-Close
+ 
+*520   8)        10:51:49.556      59.29  Touchpad Near-Close
+ 
+*520   6)        10:51:50.084      59.82  Touchpad Near-Close
+ 
+*520   8)        10:51:54.993    1:04.73  Touchpad Near-Close
+ 
+Reset of Race    03/15/26 10:51:55.916
+ 
+*520   3)        10:51:55.080       0.00  Touchpad Near-Close
+ 
+*520   4)        10:51:55.119       0.00  Touchpad Near-Close
+ 
+*520   2)        10:51:55.669       0.00  Touchpad Near-Close
+ 
+Set Event 71  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+*520   5)        10:51:59.095       0.00  Touchpad Near-Close
+ 
+*520   3)        10:51:59.263       0.00  Touchpad Near-Close
+ 
+*520   6)        10:52:00.161       0.00  Touchpad Near-Close
+ 
+*520   1)        10:52:02.597       0.00  Touchpad Near-Close
+ 
+*520   3)        10:52:05.621       0.00  Touchpad Near-Close
+ 
+*520   6)        10:52:06.801       0.00  Touchpad Near-Close
+ 
+*520   4)        10:52:09.720       0.00  Touchpad Near-Close
+ 
+*520   3)        10:52:11.462       0.00  Touchpad Near-Close
+ 
+Set Race Number 521
+ 
+*521    )        10:52:22.421       0.00  Start-Close
+ 
+*521    )        10:52:22.670       0.24  Start-Open 
+ 
+*521   3)        10:52:22.781       0.36  Touchpad Near-Close
+ 
+*521   1)                      Lane Off
+ 
+*521   2)                      Lane Off
+ 
+*521   5)                      Lane Off
+ 
+*521   7)                      Lane Off
+ 
+*521   8)                      Lane Off
+ 
+ 521   4)    2                     37.71  TP
+ 
+ 521   4)                          37.74  B1   
+ 
+ 521   4)                          37.75  B2   
+ 
+*521   4)        10:53:00.140      37.71  Touchpad Near-Close
+ 
+*521   4)        10:53:00.166      37.74  Button 1 Near-Close
+ 
+*521   4)        10:53:00.175      37.75  Button 2 Near-Close
+ 
+ 521   3)                          38.67  B1   
+ 
+*521   3)        10:53:01.092      38.67  Button 1 Near-Close
+ 
+ 521   3)                          38.74  B2   
+ 
+*521   3)        10:53:01.161      38.74  Button 2 Near-Close
+ 
+*521   4)        10:53:01.311      38.89  Touchpad Near-Close
+ 
+ 521   6)    2                     40.60  TP
+ 
+*521   6)        10:53:03.022      40.60  Touchpad Near-Close
+ 
+ 521   6)                          40.72  B1   
+ 
+*521   6)        10:53:03.146      40.72  Button 1 Near-Close
+ 
+ 521   6)                          40.78  B2   
+ 
+*521   6)        10:53:03.206      40.78  Button 2 Near-Close
+ 
+*521   1)                      Lane On
+ 
+*521   2)                      Lane On
+ 
+*521   5)                      Lane On
+ 
+*521   7)                      Lane On
+ 
+Reset of Race    03/15/26 10:53:13.643
+ 
+*521   8)                      Lane On
+ 
+Set Event 71  - Heat 2 - Round Preliminary
+ 
+*521   4)        10:53:18.045       0.00  Touchpad Near-Close
+ 
+*521   6)        10:53:18.453       0.00  Touchpad Near-Close
+ 
+*521   2)        10:53:18.591       0.00  Touchpad Near-Close
+ 
+*521   2)        10:53:18.707       0.00  Touchpad Near-Close
+ 
+*521   2)        10:53:19.643       0.00  Touchpad Near-Close
+ 
+*521   2)        10:53:19.822       0.00  Touchpad Near-Close
+ 
+*521   5)        10:53:23.049       0.00  Touchpad Near-Close
+ 
+*521   5)        10:53:23.153       0.00  Touchpad Near-Close
+ 
+*521   6)        10:53:24.505       0.00  Touchpad Near-Close
+ 
+*521   6)        10:53:25.013       0.00  Touchpad Near-Close
+ 
+Set Race Number 522
+ 
+*522    )        10:53:33.907       0.00  Start-Close
+ 
+*522    )        10:53:34.156       0.24  Start-Open 
+ 
+*522   2)        10:53:34.229       0.32  Touchpad Near-Close
+ 
+*522   1)                      Lane Off
+ 
+*522   3)                      Lane Off
+ 
+*522   7)                      Lane Off
+ 
+*522   8)                      Lane Off
+ 
+ 522   4)    2                     38.10  TP
+ 
+*522   4)        10:54:12.008      38.10  Touchpad Near-Close
+ 
+ 522   4)                          38.23  B2   
+ 
+*522   4)        10:54:12.138      38.23  Button 2 Near-Close
+ 
+ 522   4)                          38.50  B1   
+ 
+*522   4)        10:54:12.413      38.50  Button 1 Near-Close
+ 
+ 522   5)    2                     38.97  TP
+ 
+*522   5)        10:54:12.881      38.97  Touchpad Near-Close
+ 
+ 522   5)                          39.08  B2   
+ 
+ 522   5)                          39.13  B1   
+ 
+*522   5)        10:54:12.992      39.08  Button 2 Near-Close
+ 
+*522   5)        10:54:13.038      39.13  Button 1 Near-Close
+ 
+ 522   6)    2                     40.39  TP
+ 
+*522   6)        10:54:14.302      40.39  Touchpad Near-Close
+ 
+ 522   6)                          40.52  B1   
+ 
+*522   6)        10:54:14.434      40.52  Button 1 Near-Close
+ 
+ 522   6)                          40.55  B2   
+ 
+*522   6)        10:54:14.460      40.55  Button 2 Near-Close
+ 
+*522   4)        10:54:16.349      42.44  Touchpad Near-Close
+ 
+ 522   2)                          49.13  B2   
+ 
+*522   2)        10:54:23.039      49.13  Button 2 Near-Close
+ 
+ 522   2)    2                     49.19  TP
+ 
+ 522   2)                          49.23  B1   
+ 
+*522   2)        10:54:23.105      49.19  Touchpad Near-Close
+ 
+*522   2)        10:54:23.143      49.23  Button 1 Near-Close
+ 
+*522   3)        10:54:27.451      53.54  Touchpad Near-Close
+ 
+*522   4)        10:54:27.561      53.65  Touchpad Near-Close
+ 
+*522   5)        10:54:27.810      53.90  Touchpad Near-Close
+ 
+*522   5)        10:54:28.120      54.21  Touchpad Near-Close
+ 
+*522   1)                      Lane On
+ 
+*522   3)                      Lane On
+ 
+*522   7)                      Lane On
+ 
+Reset of Race    03/15/26 10:54:29.528
+ 
+*522   8)                      Lane On
+ 
+*522   6)        10:54:29.669       0.00  Touchpad Near-Close
+ 
+*522   7)        10:54:30.653       0.00  Touchpad Near-Close
+ 
+Set Event 72  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 2
+ 
+*522   2)        10:54:31.092       0.00  Touchpad Near-Close
+ 
+*522   2)        10:54:34.159       0.00  Touchpad Near-Close
+ 
+*522   2)        10:54:35.450       0.00  Touchpad Near-Close
+ 
+*522   4)        10:54:41.587       0.00  Touchpad Near-Close
+ 
+*522   4)        10:54:42.689       0.00  Touchpad Near-Close
+ 
+*522   5)        10:54:43.565       0.00  Touchpad Near-Close
+ 
+*522   6)        10:54:43.644       0.00  Touchpad Near-Close
+ 
+*522   6)        10:54:43.673       0.00  Touchpad Near-Close
+ 
+*522   5)        10:54:48.361       0.00  Touchpad Near-Close
+ 
+*522   4)        10:54:49.093       0.00  Touchpad Near-Close
+ 
+*522   3)        10:54:51.063       0.00  Touchpad Near-Close
+ 
+*522   3)        10:54:51.104       0.00  Touchpad Near-Close
+ 
+Set Race Number 523
+ 
+*523    )        10:54:52.318       0.00  Start-Close
+ 
+*523    )        10:54:52.567       0.24  Start-Open 
+ 
+*523   4)        10:54:52.654       0.33  Touchpad Near-Close
+ 
+*523   6)        10:54:52.765       0.44  Touchpad Near-Close
+ 
+*523   1)                      Lane Off
+ 
+*523   2)                      Lane Off
+ 
+*523   8)                      Lane Off
+ 
+ 523   4)                          38.60  B2   
+ 
+*523   4)        10:55:30.919      38.60  Button 2 Near-Close
+ 
+ 523   4)    2                     38.69  TP
+ 
+*523   4)        10:55:31.008      38.69  Touchpad Near-Close
+ 
+ 523   4)                          38.97  B1   
+ 
+*523   4)        10:55:31.297      38.97  Button 1 Near-Close
+ 
+ 523   3)    2                     40.37  TP
+ 
+*523   3)        10:55:32.695      40.37  Touchpad Near-Close
+ 
+ 523   3)                          40.44  B1   
+ 
+*523   3)        10:55:32.766      40.44  Button 1 Near-Close
+ 
+ 523   3)                          40.57  B2   
+ 
+*523   3)        10:55:32.896      40.57  Button 2 Near-Close
+ 
+ 523   5)    2                     41.79  TP
+ 
+*523   5)        10:55:34.117      41.79  Touchpad Near-Close
+ 
+ 523   5)                          41.88  B2   
+ 
+ 523   5)                          41.92  B1   
+ 
+*523   5)        10:55:34.201      41.88  Button 2 Near-Close
+ 
+*523   5)        10:55:34.238      41.92  Button 1 Near-Close
+ 
+*523   3)        10:55:35.050      42.73  Touchpad Near-Close
+ 
+*523   3)        10:55:35.800      43.48  Touchpad Near-Close
+ 
+ 523   7)                          46.03  B2   
+ 
+*523   7)        10:55:38.349      46.03  Button 2 Near-Close
+ 
+ 523   7)                          46.28  B1   
+ 
+*523   7)        10:55:38.602      46.28  Button 1 Near-Close
+ 
+ 523   6)    2                     52.56  TP
+ 
+*523   6)        10:55:44.878      52.56  Touchpad Near-Close
+ 
+ 523   6)                          52.61  B2   
+ 
+*523   6)        10:55:44.937      52.61  Button 2 Near-Close
+ 
+ 523   6)                          52.66  B1   
+ 
+*523   6)        10:55:44.980      52.66  Button 1 Near-Close
+ 
+ 523   7)    0                  WARNING
+ 
+*523   4)        10:55:49.677      57.35  Touchpad Near-Close
+ 
+*523   1)                      Lane On
+ 
+*523   2)                      Lane On
+ 
+Reset of Race    03/15/26 10:55:54.843
+ 
+*523   8)                      Lane On
+ 
+*523   5)        10:55:54.198       0.00  Touchpad Near-Close
+ 
+Set Event 72  - Heat 2 - Round Preliminary
+ 
+*523   5)        10:55:55.385       0.00  Touchpad Near-Close
+ 
+*523   5)        10:56:00.154       0.00  Touchpad Near-Close
+ 
+*523   5)        10:56:00.224       0.00  Touchpad Near-Close
+ 
+*523   7)        10:56:00.572       0.00  Touchpad Near-Close
+ 
+*523   6)        10:56:01.644       0.00  Touchpad Near-Close
+ 
+*523   7)        10:56:03.648       0.00  Touchpad Near-Close
+ 
+*523   4)        10:56:04.278       0.00  Touchpad Near-Close
+ 
+*523   4)        10:56:04.543       0.00  Touchpad Near-Close
+ 
+*523   6)        10:56:05.362       0.00  Touchpad Near-Close
+ 
+*523   4)        10:56:06.175       0.00  Touchpad Near-Close
+ 
+*523   4)        10:56:11.083       0.00  Touchpad Near-Close
+ 
+*523   4)        10:56:11.158       0.00  Touchpad Near-Close
+ 
+Set Race Number 524
+ 
+*524    )        10:56:17.688       0.00  Start-Close
+ 
+*524    )        10:56:17.937       0.24  Start-Open 
+ 
+*524   1)                      Lane Off
+ 
+*524   3)                      Lane Off
+ 
+*524   8)                      Lane Off
+ 
+ 524   4)                          36.31  B1   
+ 
+*524   4)        10:56:54.002      36.31  Button 1 Near-Close
+ 
+ 524   4)                          36.46  B2   
+ 
+*524   4)        10:56:54.154      36.46  Button 2 Near-Close
+ 
+ 524   4)    2                     36.55  TP
+ 
+*524   4)        10:56:54.243      36.55  Touchpad Near-Close
+ 
+ 524   5)                          39.91  B1   
+ 
+*524   5)        10:56:57.607      39.91  Button 1 Near-Close
+ 
+ 524   5)                          39.97  B2   
+ 
+ 524   5)    2                     39.97  TP
+ 
+*524   5)        10:56:57.658      39.97  Button 2 Near-Close
+ 
+*524   5)        10:56:57.663      39.97  Touchpad Near-Close
+ 
+ 524   7)                          49.99  B2   
+ 
+*524   7)        10:57:07.687      49.99  Button 2 Near-Close
+ 
+ 524   7)                          50.18  B1   
+ 
+*524   7)        10:57:07.874      50.18  Button 1 Near-Close
+ 
+ 524   2)                          51.32  B2   
+ 
+*524   2)        10:57:09.008      51.32  Button 2 Near-Close
+ 
+ 524   2)                          51.36  B1   
+ 
+*524   2)        10:57:09.054      51.36  Button 1 Near-Close
+ 
+ 524   7)    2                     52.12  TP
+ 
+*524   7)        10:57:09.814      52.12  Touchpad Near-Close
+ 
+ 524   2)    0                  WARNING
+ 
+ 524   6)    0                  WARNING
+ 
+ 524   6)                          54.94  B2   
+ 
+*524   6)        10:57:12.629      54.94  Button 2 Near-Close
+ 
+ 524   6)                          55.02  B1   
+ 
+*524   6)        10:57:12.710      55.02  Button 1 Near-Close
+ 
+ 524   6)    2                     57.09  TP
+ 
+*524   6)        10:57:14.785      57.09  Touchpad Near-Close
+ 
+*524   1)                      Lane On
+ 
+*524   3)                      Lane On
+ 
+Reset of Race    03/15/26 10:57:22.953
+ 
+*524   8)                      Lane On
+ 
+Set Event 73  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+*524   5)        10:57:29.263       0.00  Touchpad Near-Close
+ 
+*524   5)        10:57:29.319       0.00  Touchpad Near-Close
+ 
+*524   2)        10:57:32.658       0.00  Touchpad Near-Close
+ 
+*524   6)        10:57:35.339       0.00  Touchpad Near-Close
+ 
+*524   6)        10:57:37.091       0.00  Touchpad Near-Close
+ 
+*524   4)        10:57:42.024       0.00  Touchpad Near-Close
+ 
+*524   2)        10:57:57.728       0.00  Touchpad Near-Close
+ 
+*524   5)        10:58:01.981       0.00  Touchpad Near-Close
+ 
+*524   7)        10:58:03.085       0.00  Touchpad Near-Close
+ 
+*524   5)        10:58:03.816       0.00  Touchpad Near-Close
+ 
+Set Race Number 525
+ 
+*525    )        10:58:10.882       0.00  Start-Close
+ 
+*525    )        10:58:11.131       0.24  Start-Open 
+ 
+*525   1)                      Lane Off
+ 
+*525   3)                      Lane Off
+ 
+*525   4)                      Lane Off
+ 
+*525   8)                      Lane Off
+ 
+ 525   5)    2                     36.93  TP
+ 
+*525   5)        10:58:47.820      36.93  Touchpad Near-Close
+ 
+ 525   7)    2                     39.70  TP
+ 
+*525   7)        10:58:50.583      39.70  Touchpad Near-Close
+ 
+ 525   2)    2                     43.70  TP
+ 
+*525   2)        10:58:54.582      43.70  Touchpad Near-Close
+ 
+ 525   6)    2                            +
+ 
+ 525   5)                        1:14.53  B2   
+ 
+ 525   5)                        1:14.54  B1   
+ 
+*525   5)        10:59:25.421    1:14.53  Button 2 Near-Close
+ 
+*525   5)        10:59:25.431    1:14.54  Button 1 Near-Close
+ 
+ 525   5)    4                   1:14.94  TP
+ 
+*525   5)        10:59:25.825    1:14.94  Touchpad Near-Close
+ 
+*525   5)        10:59:26.908    1:16.02  Touchpad Near-Close
+ 
+*525   5)        10:59:29.274    1:18.39  Touchpad Near-Close
+ 
+*525   5)        10:59:30.009    1:19.12  Touchpad Near-Close
+ 
+ 525   7)                        1:20.38  B2   
+ 
+*525   7)        10:59:31.267    1:20.38  Button 2 Near-Close
+ 
+ 525   7)    4                   1:20.52  TP
+ 
+ 525   7)                        1:20.54  B1   
+ 
+*525   7)        10:59:31.405    1:20.52  Touchpad Near-Close
+ 
+*525   7)        10:59:31.430    1:20.54  Button 1 Near-Close
+ 
+ 525   6)    4                   1:24.15  TP
+ 
+*525   6)        10:59:35.039    1:24.15  Touchpad Near-Close
+ 
+ 525   6)                        1:24.31  B1   
+ 
+ 525   6)                        1:24.32  B2   
+ 
+*525   6)        10:59:35.191    1:24.30  Touchpad Near-Close
+ 
+*525   6)        10:59:35.192    1:24.31  Button 1 Near-Close
+ 
+*525   6)        10:59:35.211    1:24.32  Button 2 Near-Close
+ 
+*525   6)        10:59:37.446    1:26.56  Touchpad Near-Close
+ 
+*525   6)        10:59:37.464    1:26.58  Touchpad Near-Close
+ 
+ 525   2)                        1:29.92  B1   
+ 
+*525   2)        10:59:40.811    1:29.92  Button 1 Near-Close
+ 
+ 525   2)    4                   1:29.95  TP
+ 
+ 525   2)                        1:29.99  B2   
+ 
+*525   2)        10:59:40.834    1:29.95  Touchpad Near-Close
+ 
+*525   2)        10:59:40.876    1:29.99  Button 2 Near-Close
+ 
+*525   1)                      Lane On
+ 
+*525   3)                      Lane On
+ 
+*525   4)                      Lane On
+ 
+Reset of Race    03/15/26 10:59:48.899
+ 
+*525   8)                      Lane On
+ 
+Set Event 73  - Heat 2 - Round Preliminary
+ 
+*525   5)        10:59:52.933       0.00  Touchpad Near-Close
+ 
+*525   5)        10:59:54.200       0.00  Touchpad Near-Close
+ 
+*525   3)        10:59:54.388       0.00  Touchpad Near-Close
+ 
+*525   1)        10:59:54.826       0.00  Touchpad Near-Close
+ 
+*525   5)        10:59:57.981       0.00  Touchpad Near-Close
+ 
+*525   3)        11:00:00.421       0.00  Touchpad Near-Close
+ 
+*525   6)        11:00:01.060       0.00  Touchpad Near-Close
+ 
+*525   5)        11:00:01.202       0.00  Touchpad Near-Close
+ 
+*525   6)        11:00:03.732       0.00  Touchpad Near-Close
+ 
+*525   7)        11:00:04.012       0.00  Touchpad Near-Close
+ 
+*525   2)        11:00:04.196       0.00  Touchpad Near-Close
+ 
+*525   4)        11:00:05.458       0.00  Touchpad Near-Close
+ 
+*525   2)        11:00:07.715       0.00  Touchpad Near-Close
+ 
+*525   5)        11:00:07.946       0.00  Touchpad Near-Close
+ 
+*525   6)        11:00:10.820       0.00  Touchpad Near-Close
+ 
+Set Race Number 526
+ 
+*526    )        11:00:16.215       0.00  Start-Close
+ 
+*526    )        11:00:16.464       0.24  Start-Open 
+ 
+*526   8)                      Lane Off
+ 
+ 526   4)    2                     35.73  TP
+ 
+*526   4)        11:00:51.947      35.73  Touchpad Near-Close
+ 
+*526   4)        11:00:51.966      35.75  Touchpad Near-Close
+ 
+ 526   3)    2                     39.44  TP
+ 
+*526   3)        11:00:55.659      39.44  Touchpad Near-Close
+ 
+ 526   6)    2                     40.23  TP
+ 
+*526   6)        11:00:56.451      40.23  Touchpad Near-Close
+ 
+ 526   2)    2                     41.36  TP
+ 
+*526   2)        11:00:57.575      41.36  Touchpad Near-Close
+ 
+ 526   5)    2                            +
+ 
+ 526   7)    2                            +
+ 
+ 526   1)    0                  WARNING
+ 
+ 526   1)    2                     54.67  TP
+ 
+*526   1)        11:01:10.892      54.67  Touchpad Near-Close
+ 
+ 526   4)                        1:12.20  B2   
+ 
+*526   4)        11:01:28.420    1:12.20  Button 2 Near-Close
+ 
+ 526   4)                        1:12.27  B1   
+ 
+*526   4)        11:01:28.486    1:12.27  Button 1 Near-Close
+ 
+ 526   5)    4                   1:17.75  TP
+ 
+ 526   5)                        1:17.78  B1   
+ 
+ 526   5)                        1:17.80  B2   
+ 
+*526   5)        11:01:33.967    1:17.75  Touchpad Near-Close
+ 
+*526   5)        11:01:33.998    1:17.78  Button 1 Near-Close
+ 
+*526   5)        11:01:34.019    1:17.80  Button 2 Near-Close
+ 
+ 526   3)    4                   1:19.42  TP
+ 
+*526   3)        11:01:35.641    1:19.42  Touchpad Near-Close
+ 
+ 526   3)                        1:19.45  B1   
+ 
+ 526   3)                        1:19.47  B2   
+ 
+*526   5)        11:01:35.657    1:19.44  Touchpad Near-Close
+ 
+*526   3)        11:01:35.669    1:19.45  Button 1 Near-Close
+ 
+*526   3)        11:01:35.688    1:19.47  Button 2 Near-Close
+ 
+ 526   6)                        1:21.89  B2   
+ 
+*526   6)        11:01:38.108    1:21.89  Button 2 Near-Close
+ 
+ 526   6)                        1:21.94  B1   
+ 
+ 526   6)    4                   1:21.95  TP
+ 
+*526   6)        11:01:38.159    1:21.94  Button 1 Near-Close
+ 
+*526   6)        11:01:38.170    1:21.95  Touchpad Near-Close
+ 
+ 526   2)    4                   1:25.71  TP
+ 
+*526   2)        11:01:41.933    1:25.71  Touchpad Near-Close
+ 
+ 526   2)                        1:25.80  B1   
+ 
+*526   2)        11:01:42.022    1:25.80  Button 1 Near-Close
+ 
+ 526   2)                        1:25.89  B2   
+ 
+*526   2)        11:01:42.105    1:25.89  Button 2 Near-Close
+ 
+ 526   4)    2                  WARNING
+ 
+*526   3)        11:01:47.573    1:31.35  Touchpad Near-Close
+ 
+ 526   7)                        1:32.15  B2   
+ 
+ 526   7)    4                   1:32.16  TP
+ 
+ 526   7)                        1:32.21  B1   
+ 
+*526   7)        11:01:48.371    1:32.15  Button 2 Near-Close
+ 
+*526   7)        11:01:48.378    1:32.16  Touchpad Near-Close
+ 
+*526   7)        11:01:48.432    1:32.21  Button 1 Near-Close
+ 
+*526   3)        11:01:52.266    1:36.05  Touchpad Near-Close
+ 
+*526   3)        11:02:03.242    1:47.02  Touchpad Near-Close
+ 
+ 526   1)                        1:52.51  B2   
+ 
+*526   1)        11:02:08.733    1:52.51  Button 2 Near-Close
+ 
+ 526   1)                        1:52.55  B1   
+ 
+*526   1)        11:02:08.768    1:52.55  Button 1 Near-Close
+ 
+*526   6)        11:02:16.652    2:00.43  Touchpad Near-Close
+ 
+Reset of Race    03/15/26 11:02:17.725
+ 
+*526   8)                      Lane On
+ 
+Set Event 74  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+*526   6)        11:02:22.435       0.00  Touchpad Near-Close
+ 
+*526   5)        11:02:23.300       0.00  Touchpad Near-Close
+ 
+*526   3)        11:02:23.397       0.00  Touchpad Near-Close
+ 
+*526   4)        11:02:24.188       0.00  Touchpad Near-Close
+ 
+*526   7)        11:02:24.616       0.00  Touchpad Near-Close
+ 
+*526   4)        11:02:24.658       0.00  Touchpad Near-Close
+ 
+*526   6)        11:02:24.898       0.00  Touchpad Near-Close
+ 
+*526   7)        11:02:25.863       0.00  Touchpad Near-Close
+ 
+*526   5)        11:02:26.189       0.00  Touchpad Near-Close
+ 
+*526   4)        11:02:26.907       0.00  Touchpad Near-Close
+ 
+*526   2)        11:02:27.181       0.00  Touchpad Near-Close
+ 
+*526   1)        11:02:27.756       0.00  Touchpad Near-Close
+ 
+*526   6)        11:02:28.010       0.00  Touchpad Near-Close
+ 
+*526   5)        11:02:30.225       0.00  Touchpad Near-Close
+ 
+*526   4)        11:02:32.171       0.00  Touchpad Near-Close
+ 
+*526   4)        11:02:32.738       0.00  Touchpad Near-Close
+ 
+*526   2)        11:02:32.970       0.00  Touchpad Near-Close
+ 
+*526   6)        11:02:34.688       0.00  Touchpad Near-Close
+ 
+*526   6)        11:02:42.345       0.00  Touchpad Near-Close
+ 
+Set Race Number 527
+ 
+*527    )        11:02:44.210       0.00  Start-Close
+ 
+*527    )        11:02:44.459       0.24  Start-Open 
+ 
+*527   1)                      Lane Off
+ 
+*527   3)                      Lane Off
+ 
+*527   8)                      Lane Off
+ 
+ 527   5)    2                     39.38  TP
+ 
+*527   5)        11:03:23.591      39.38  Touchpad Near-Close
+ 
+ 527   4)    2                     39.48  TP
+ 
+*527   4)        11:03:23.699      39.48  Touchpad Near-Close
+ 
+*527   5)        11:03:23.791      39.58  Touchpad Near-Close
+ 
+*527   4)        11:03:23.839      39.62  Touchpad Near-Close
+ 
+*527   4)        11:03:23.993      39.78  Touchpad Near-Close
+ 
+*527   4)        11:03:24.002      39.79  Touchpad Near-Close
+ 
+ 527   6)    2                     40.90  TP
+ 
+*527   6)        11:03:25.119      40.90  Touchpad Near-Close
+ 
+ 527   2)    2                            +
+ 
+ 527   7)    0                  WARNING
+ 
+ 527   7)    2                            +
+ 
+ 527   4)                        1:16.30  B1   
+ 
+*527   4)        11:04:00.515    1:16.30  Button 1 Near-Close
+ 
+ 527   4)    4                   1:16.40  TP
+ 
+ 527   4)                        1:16.41  B2   
+ 
+*527   4)        11:04:00.618    1:16.40  Touchpad Near-Close
+ 
+*527   4)        11:04:00.626    1:16.41  Button 2 Near-Close
+ 
+ 527   5)    4                   1:19.94  TP
+ 
+*527   5)        11:04:04.156    1:19.94  Touchpad Near-Close
+ 
+ 527   5)                        1:20.05  B2   
+ 
+*527   5)        11:04:04.261    1:20.05  Button 2 Near-Close
+ 
+ 527   5)                        1:20.37  B1   
+ 
+*527   5)        11:04:04.580    1:20.37  Button 1 Near-Close
+ 
+*527   5)        11:04:04.612    1:20.40  Touchpad Near-Close
+ 
+*527   5)        11:04:04.987    1:20.77  Touchpad Near-Close
+ 
+ 527   6)    4                   1:25.04  TP
+ 
+*527   6)        11:04:09.259    1:25.04  Touchpad Near-Close
+ 
+ 527   6)                        1:25.10  B2   
+ 
+ 527   6)                        1:25.15  B1   
+ 
+*527   6)        11:04:09.276    1:25.06  Touchpad Near-Close
+ 
+*527   6)        11:04:09.298    1:25.08  Touchpad Near-Close
+ 
+*527   6)        11:04:09.318    1:25.10  Button 2 Near-Close
+ 
+*527   6)        11:04:09.365    1:25.15  Button 1 Near-Close
+ 
+ 527   2)                        1:30.88  B1   
+ 
+ 527   2)                        1:30.89  B2   
+ 
+*527   2)        11:04:15.095    1:30.88  Button 1 Near-Close
+ 
+*527   2)        11:04:15.105    1:30.89  Button 2 Near-Close
+ 
+ 527   2)    4                   1:30.96  TP
+ 
+*527   2)        11:04:15.174    1:30.96  Touchpad Near-Close
+ 
+*527   2)        11:04:15.914    1:31.70  Touchpad Near-Close
+ 
+*527   5)        11:04:24.368    1:40.15  Touchpad Near-Close
+ 
+*527   5)        11:04:26.597    1:42.38  Touchpad Near-Close
+ 
+*527   4)        11:04:35.013    1:50.80  Touchpad Near-Close
+ 
+ 527   7)                        1:52.47  B2   
+ 
+*527   7)        11:04:36.689    1:52.47  Button 2 Near-Close
+ 
+ 527   7)    4                   1:52.60  TP
+ 
+ 527   7)                        1:52.61  B1   
+ 
+*527   7)        11:04:36.817    1:52.60  Touchpad Near-Close
+ 
+*527   7)        11:04:36.827    1:52.61  Button 1 Near-Close
+ 
+*527   7)        11:04:41.982    1:57.77  Touchpad Near-Close
+ 
+*527   7)        11:04:42.149    1:57.93  Touchpad Near-Close
+ 
+*527   6)        11:04:42.279    1:58.06  Touchpad Near-Close
+ 
+*527   5)        11:04:43.016    1:58.80  Touchpad Near-Close
+ 
+*527   7)        11:04:45.057    2:00.84  Touchpad Near-Close
+ 
+*527   4)        11:04:45.611    2:01.40  Touchpad Near-Close
+ 
+*527   1)                      Lane On
+ 
+*527   3)                      Lane On
+ 
+Reset of Race    03/15/26 11:04:46.704
+ 
+*527   8)                      Lane On
+ 
+*527   2)        11:04:47.232       0.00  Touchpad Near-Close
+ 
+Set Event 74  - Heat 2 - Round Preliminary
+ 
+*527   2)        11:04:51.762       0.00  Touchpad Near-Close
+ 
+*527   2)        11:04:53.708       0.00  Touchpad Near-Close
+ 
+*527   2)        11:05:01.884       0.00  Touchpad Near-Close
+ 
+*527   2)        11:05:04.417       0.00  Touchpad Near-Close
+ 
+*527   2)        11:05:08.846       0.00  Touchpad Near-Close
+ 
+*527   2)        11:05:13.467       0.00  Touchpad Near-Close
+ 
+*527   5)        11:05:13.695       0.00  Touchpad Near-Close
+ 
+*527   5)        11:05:13.741       0.00  Touchpad Near-Close
+ 
+*527   7)        11:05:14.276       0.00  Touchpad Near-Close
+ 
+*527   3)        11:05:16.655       0.00  Touchpad Near-Close
+ 
+Set Race Number 528
+ 
+*528    )        11:05:22.729       0.00  Start-Close
+ 
+*528    )        11:05:22.977       0.24  Start-Open 
+ 
+*528   1)                      Lane Off
+ 
+*528   4)                      Lane Off
+ 
+*528   6)                      Lane Off
+ 
+*528   8)                      Lane Off
+ 
+ 528   5)    2                     34.54  TP
+ 
+*528   5)        11:05:57.277      34.54  Touchpad Near-Close
+ 
+ 528   3)    2                     40.23  TP
+ 
+*528   3)        11:06:02.968      40.23  Touchpad Near-Close
+ 
+ 528   2)    2                     45.87  TP
+ 
+*528   2)        11:06:08.601      45.87  Touchpad Near-Close
+ 
+*528   2)        11:06:08.758      46.02  Touchpad Near-Close
+ 
+ 528   7)    2                     49.67  TP
+ 
+*528   7)        11:06:12.399      49.67  Touchpad Near-Close
+ 
+ 528   5)    4                   1:11.38  TP
+ 
+*528   5)        11:06:34.114    1:11.38  Touchpad Near-Close
+ 
+ 528   5)                        1:11.47  B1   
+ 
+ 528   5)                        1:11.48  B2   
+ 
+*528   5)        11:06:34.206    1:11.47  Button 1 Near-Close
+ 
+*528   5)        11:06:34.218    1:11.48  Button 2 Near-Close
+ 
+ 528   3)                        1:23.03  B1   
+ 
+*528   3)        11:06:45.765    1:23.03  Button 1 Near-Close
+ 
+ 528   3)                        1:23.08  B2   
+ 
+*528   3)        11:06:45.818    1:23.08  Button 2 Near-Close
+ 
+ 528   3)    4                   1:23.76  TP
+ 
+*528   3)        11:06:46.491    1:23.76  Touchpad Near-Close
+ 
+*528   3)        11:06:46.919    1:24.19  Touchpad Near-Close
+ 
+*528   3)        11:06:46.968    1:24.23  Touchpad Near-Close
+ 
+*528   3)        11:06:47.004    1:24.27  Touchpad Near-Close
+ 
+*528   3)        11:06:48.248    1:25.51  Touchpad Near-Close
+ 
+ 528   2)    4                   1:35.96  TP
+ 
+*528   2)        11:06:58.690    1:35.96  Touchpad Near-Close
+ 
+ 528   2)                        1:36.06  B1   
+ 
+*528   2)        11:06:58.793    1:36.06  Button 1 Near-Close
+ 
+ 528   2)                        1:36.10  B2   
+ 
+*528   2)        11:06:58.832    1:36.10  Button 2 Near-Close
+ 
+*528   3)        11:07:00.770    1:38.04  Touchpad Near-Close
+ 
+ 528   7)                        1:41.62  B2   
+ 
+*528   7)        11:07:04.353    1:41.62  Button 2 Near-Close
+ 
+ 528   7)                        1:41.65  B1   
+ 
+*528   7)        11:07:04.388    1:41.65  Button 1 Near-Close
+ 
+ 528   7)    4                   1:41.79  TP
+ 
+*528   7)        11:07:04.528    1:41.79  Touchpad Near-Close
+ 
+*528   3)        11:07:05.158    1:42.42  Touchpad Near-Close
+ 
+*528   1)                      Lane On
+ 
+*528   4)                      Lane On
+ 
+*528   6)                      Lane On
+ 
+*528   8)                      Lane On
+ 
+Reset of Race    03/15/26 11:07:12.276
+ 
+Set Event 74  - Heat 3 - Round Preliminary
+ 
+*528   3)        11:07:14.982       0.00  Touchpad Near-Close
+ 
+*528   2)        11:07:15.403       0.00  Touchpad Near-Close
+ 
+*528   2)        11:07:15.479       0.00  Touchpad Near-Close
+ 
+*528   5)        11:07:23.010       0.00  Touchpad Near-Close
+ 
+*528   7)        11:07:23.031       0.00  Touchpad Near-Close
+ 
+*528   7)        11:07:23.202       0.00  Touchpad Near-Close
+ 
+*528   6)        11:07:23.310       0.00  Touchpad Near-Close
+ 
+*528   5)        11:07:23.822       0.00  Touchpad Near-Close
+ 
+*528   6)        11:07:25.766       0.00  Touchpad Near-Close
+ 
+*528   1)        11:07:26.590       0.00  Touchpad Near-Close
+ 
+*528   4)        11:07:27.246       0.00  Touchpad Near-Close
+ 
+*528   5)        11:07:27.940       0.00  Touchpad Near-Close
+ 
+*528   7)        11:07:28.585       0.00  Touchpad Near-Close
+ 
+*528   7)        11:07:28.589       0.00  Touchpad Near-Close
+ 
+*528   6)        11:07:28.656       0.00  Touchpad Near-Close
+ 
+*528   3)        11:07:30.499       0.00  Touchpad Near-Close
+ 
+*528   1)        11:07:36.876       0.00  Touchpad Near-Close
+ 
+Set Race Number 529
+ 
+*529    )        11:07:38.356       0.00  Start-Close
+ 
+*529    )        11:07:38.604       0.24  Start-Open 
+ 
+*529   4)        11:07:38.861       0.50  Touchpad Near-Close
+ 
+*529   2)                      Lane Off
+ 
+*529   8)                      Lane Off
+ 
+ 529   4)    2                     32.56  TP
+ 
+*529   4)        11:08:10.916      32.56  Touchpad Near-Close
+ 
+ 529   5)    2                     36.52  TP
+ 
+*529   5)        11:08:14.881      36.52  Touchpad Near-Close
+ 
+ 529   3)    2                     41.51  TP
+ 
+*529   3)        11:08:19.869      41.51  Touchpad Near-Close
+ 
+*529   3)        11:08:20.016      41.66  Touchpad Near-Close
+ 
+ 529   6)    2                     43.08  TP
+ 
+*529   6)        11:08:21.440      43.08  Touchpad Near-Close
+ 
+ 529   7)    2                     49.50  TP
+ 
+*529   7)        11:08:27.857      49.50  Touchpad Near-Close
+ 
+ 529   1)    0                  WARNING
+ 
+ 529   1)    2                            +
+ 
+ 529   4)    4                   1:07.23  TP
+ 
+*529   4)        11:08:45.595    1:07.23  Touchpad Near-Close
+ 
+ 529   4)                        1:07.48  B2   
+ 
+ 529   4)                        1:07.49  B1   
+ 
+*529   4)        11:08:45.836    1:07.48  Button 2 Near-Close
+ 
+*529   4)        11:08:45.854    1:07.49  Button 1 Near-Close
+ 
+ 529   5)    4                   1:14.73  TP
+ 
+ 529   5)                        1:14.73  B2   
+ 
+ 529   5)                        1:14.74  B1   
+ 
+*529   5)        11:08:53.086    1:14.73  Touchpad Near-Close
+ 
+*529   5)        11:08:53.087    1:14.73  Button 2 Near-Close
+ 
+*529   5)        11:08:53.096    1:14.74  Button 1 Near-Close
+ 
+ 529   1)                        1:21.00  B1   
+ 
+*529   1)        11:08:59.362    1:21.00  Button 1 Near-Close
+ 
+ 529   1)                        1:21.05  B2   
+ 
+*529   1)        11:08:59.414    1:21.05  Button 2 Near-Close
+ 
+ 529   3)                        1:25.18  B1   
+ 
+*529   3)        11:09:03.539    1:25.18  Button 1 Near-Close
+ 
+ 529   3)                        1:25.25  B2   
+ 
+*529   3)        11:09:03.609    1:25.25  Button 2 Near-Close
+ 
+ 529   6)    4                   1:26.10  TP
+ 
+*529   6)        11:09:04.456    1:26.10  Touchpad Near-Close
+ 
+ 529   6)                        1:26.25  B1   
+ 
+*529   6)        11:09:04.607    1:26.25  Button 1 Near-Close
+ 
+ 529   6)                        1:26.31  B2   
+ 
+*529   6)        11:09:04.666    1:26.31  Button 2 Near-Close
+ 
+*529   6)        11:09:05.557    1:27.20  Touchpad Near-Close
+ 
+ 529   3)    4                   1:27.38  TP
+ 
+*529   3)        11:09:05.741    1:27.38  Touchpad Near-Close
+ 
+*529   4)        11:09:06.935    1:28.57  Touchpad Near-Close
+ 
+ 529   7)                        1:46.56  B2   
+ 
+*529   7)        11:09:24.920    1:46.56  Button 2 Near-Close
+ 
+ 529   7)                        1:46.69  B1   
+ 
+*529   7)        11:09:25.048    1:46.69  Button 1 Near-Close
+ 
+ 529   1)    2                  WARNING
+ 
+ 529   7)    4                   1:48.01  TP
+ 
+*529   7)        11:09:26.375    1:48.01  Touchpad Near-Close
+ 
+*529   2)                      Lane On
+ 
+Reset of Race    03/15/26 11:09:32.376
+ 
+*529   8)                      Lane On
+ 
+*529   3)        11:09:34.392       0.00  Touchpad Near-Close
+ 
+*529   4)        11:09:38.253       0.00  Touchpad Near-Close
+ 
+*529   3)        11:09:38.387       0.00  Touchpad Near-Close
+ 
+*529   7)        11:09:43.210       0.00  Touchpad Near-Close
+ 
+Set Event 75  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+Set Event 76  - Heat 1 - Round Preliminary
+ 
+Set Race Lengths to 4
+ 
+*529   4)        11:10:13.521       0.00  Touchpad Near-Close
+ 
+*529   5)        11:10:15.268       0.00  Touchpad Near-Close
+ 
+*529   5)        11:10:18.951       0.00  Touchpad Near-Close
+ 
+*529   4)        11:10:19.120       0.00  Touchpad Near-Close
+ 
+*529   5)        11:10:25.019       0.00  Touchpad Near-Close
+ 
+Set Race Number 530
+ 
+*530    )        11:10:26.378       0.00  Start-Close
+ 
+*530    )        11:10:26.626       0.24  Start-Open 
+ 
+*530   1)                      Lane Off
+ 
+*530   2)                      Lane Off
+ 
+*530   3)                      Lane Off
+ 
+*530   6)                      Lane Off
+ 
+*530   7)                      Lane Off
+ 
+*530   8)                      Lane Off
+ 
+ 530   4)    2                     36.41  TP
+ 
+*530   4)        11:11:02.793      36.41  Touchpad Near-Close
+ 
+ 530   5)    2                     38.94  TP
+ 
+*530   5)        11:11:05.325      38.94  Touchpad Near-Close
+ 
+ 530   4)    4                   1:12.90  TP
+ 
+*530   4)        11:11:39.283    1:12.90  Touchpad Near-Close
+ 
+ 530   4)                        1:12.96  B1   
+ 
+ 530   4)                        1:12.97  B2   
+ 
+*530   4)        11:11:39.347    1:12.96  Button 1 Near-Close
+ 
+*530   4)        11:11:39.353    1:12.97  Button 2 Near-Close
+ 
+ 530   5)    4                   1:25.90  TP
+ 
+ 530   5)                        1:25.95  B1   
+ 
+*530   5)        11:11:52.281    1:25.90  Touchpad Near-Close
+ 
+*530   5)        11:11:52.331    1:25.95  Button 1 Near-Close
+ 
+ 530   5)                        1:25.99  B2   
+ 
+*530   5)        11:11:52.377    1:25.99  Button 2 Near-Close
+ 
+*530   5)        11:11:52.470    1:26.09  Touchpad Near-Close
+ 
+*530   1)                      Lane On
+ 
+*530   2)                      Lane On
+ 
+*530   3)                      Lane On
+ 
+Reset of Race    03/15/26 11:12:01.591
+ 
+*530   6)                      Lane On
+ 
+*530   7)                      Lane On
+ 
+*530   8)                      Lane On
+ 
+*530   4)        11:12:07.599       0.00  Touchpad Near-Close
+ 
+*530   4)        11:12:09.254       0.00  Touchpad Near-Close
+ 
+*530   5)        11:12:11.103       0.00  Touchpad Near-Close
+ 
