@@ -41,21 +41,21 @@ If `output.pdf` is omitted the stamped file is saved as `input_stamped.pdf` in t
 Produces two output files derived from the input filename:
 
 ```
-python3 stamp_pdf.py --auto examples/exampleHeatSheet.pdf
-# → examples/exampleHeatSheet-sr.pdf
-# → examples/exampleHeatSheet-dr.pdf
+python3 stamp_pdf.py --auto ../examples/ngsl-invitational-2022.pdf
+# → ../examples/ngsl-invitational-2022-sr.pdf
+# → ../examples/ngsl-invitational-2022-dr.pdf
 ```
 
 ### Single-flag examples
 
 ```
-python3 stamp_pdf.py examples/exampleHeatSheet.pdf
-# → examples/exampleHeatSheet_stamped.pdf
+python3 stamp_pdf.py ../examples/ngsl-invitational-2022.pdf
+# → ../examples/ngsl-invitational-2022_stamped.pdf
 
-python3 stamp_pdf.py --sr examples/exampleHeatSheet.pdf
-# → examples/exampleHeatSheet_stamped.pdf  (SR corner only)
+python3 stamp_pdf.py --sr ../examples/ngsl-invitational-2022.pdf
+# → ../examples/ngsl-invitational-2022_stamped.pdf  (SR corner only)
 
-python3 stamp_pdf.py --dr examples/exampleHeatSheet.pdf out.pdf
+python3 stamp_pdf.py --dr ../examples/ngsl-invitational-2022.pdf out.pdf
 # → out.pdf  (DR corner + DQ/NS/DFS stamp)
 ```
 
@@ -109,3 +109,11 @@ pylint stamp_pdf.py
 ```
 
 68 tests cover unit behavior, integration across page sizes, CLI argument handling (including `--auto`), and security cases including: corrupt/empty/encrypted PDFs, symlink attacks, path traversal, non-regular file input, decompression bomb limits, page count limits, atomic write safety, and terminal escape injection.
+
+`TestRealExamples` additionally runs the tool end-to-end against every file in [../examples/](../examples/) as a regression check against real Meet Manager output (not just synthetic PDFs).
+
+## Example files
+
+Real, publicly-published Meet Manager heat sheets live in [../examples/](../examples/) at the repo root — shared with [meet-report-formatter](../meet-report-formatter/), since both tools need real Meet Manager layouts to test against. See that folder's own notes for the file list and sources.
+
+`examples/images/` in this directory holds the generated README screenshots (checked in separately since they're specific to this tool's docs).

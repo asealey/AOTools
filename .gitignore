@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Virtual environments
+.venv/
+
+# Claude memory (local session state)
+.claude/
+
+# Generated outputs from tools run against shared examples — regenerate
+# from examples/*.pdf, don't track
+examples/*-sr.pdf
+examples/*-dr.pdf
+examples/*_stamped.pdf
+examples/*_formatted.pdf

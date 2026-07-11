@@ -14,3 +14,8 @@ __pycache__/
 
 # Claude memory (local session state)
 .claude/
+
+# Generated stamp outputs — regenerate from examples/*.pdf, don't track
+examples/*-sr.pdf
+examples/*-dr.pdf
+examples/*_stamped.pdf

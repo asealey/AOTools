@@ -11,3 +11,5 @@ Swim meet officiating tools — heat sheet stamping, Daktronics timing log parsi
 | [meet-report-formatter/](meet-report-formatter/) | Edits team labeling text on Meet Manager report PDFs |
 
 Each tool is self-contained with its own README, dependencies, and tests. See the tool's own directory for usage.
+
+[examples/](examples/) holds real, publicly-published Meet Manager PDFs shared across tools for manual testing and regression tests. Each tool also has its own local `examples/` for tool-private samples that aren't safe to publish.

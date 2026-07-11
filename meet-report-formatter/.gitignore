@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Virtual environment
+.venv/
+
+# Claude memory (local session state)
+.claude/
+
+# Real, non-public meet report PDFs contain swimmers' names/ages/times —
+# keep local only. Publicly-published examples live in ../examples/
+# (shared with heat-sheet-stamper), not here.
+examples/*.pdf

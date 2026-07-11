@@ -618,3 +618,62 @@ class TestSecurity:
         captured = capsys.readouterr()
         # The output must not contain a raw ESC byte
         assert "\x1b" not in captured.out
+
+
+# ---------------------------------------------------------------------------
+# Regression tests — real Meet Manager output
+# ---------------------------------------------------------------------------
+
+EXAMPLES_DIR = Path(__file__).parent.parent / "examples"
+
+REAL_EXAMPLES = [
+    ("ngsl-invitational-2022.pdf", 7),
+    ("osaa-state-championships-2026-finals.pdf", 9),
+    ("osaa-state-championships-2024-prelims.pdf", 9),
+]
+
+
+class TestRealExamples:
+    """
+    End-to-end checks against real, publicly-published Meet Manager heat
+    sheets (not synthetic PDFs), to catch layout assumptions that only
+    break on real-world output.
+    """
+
+    @pytest.mark.parametrize("filename,expected_pages", REAL_EXAMPLES)
+    def test_stamp_only_preserves_page_count_and_adds_stamp(
+        self, tmp_path, filename, expected_pages
+    ):
+        src = EXAMPLES_DIR / filename
+        out = tmp_path / "out.pdf"
+        stamp_pdf(str(src), str(out))
+
+        reader = PdfReader(str(out))
+        assert len(reader.pages) == expected_pages
+        # Original text must survive the overlay
+        original_text = PdfReader(str(src)).pages[0].extract_text()
+        stamped_text = reader.pages[0].extract_text()
+        assert original_text.strip() in stamped_text
+
+    @pytest.mark.parametrize("filename,expected_pages", REAL_EXAMPLES)
+    def test_auto_mode_produces_both_variants(self, tmp_path, filename, expected_pages):
+        src = EXAMPLES_DIR / filename
+        # --auto derives output paths from the input path's parent, so copy
+        # the source into tmp_path first to avoid writing into examples/.
+        local_src = tmp_path / filename
+        local_src.write_bytes(src.read_bytes())
+
+        argv_backup = sys.argv
+        try:
+            sys.argv = ["stamp_pdf.py", "--auto", str(local_src)]
+            module.main()
+        finally:
+            sys.argv = argv_backup
+
+        stem = local_src.stem
+        sr_path = tmp_path / f"{stem}-sr.pdf"
+        dr_path = tmp_path / f"{stem}-dr.pdf"
+        assert sr_path.exists()
+        assert dr_path.exists()
+        assert len(PdfReader(str(sr_path)).pages) == expected_pages
+        assert len(PdfReader(str(dr_path)).pages) == expected_pages
