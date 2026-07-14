@@ -58,8 +58,15 @@ MAX_PAGES = 5_000                    # limits unbounded memory growth
 
 def _near_top(y: float, page_height: float) -> bool:
     """True if y is within HEADER_BAND of the top of the page, in either
-    a flipped (top ≈ 0) or standard (top ≈ page_height) coordinate system."""
-    return y <= HEADER_BAND or y >= page_height - HEADER_BAND
+    a flipped (top ≈ 0) or standard (top ≈ page_height) coordinate system.
+
+    Both bounds are checked on each branch — not just an upper/lower bound
+    in isolation — because a Td chain deep in the page body can drift back
+    to a small (or even negative) y that satisfies an unbounded "y <= band"
+    check without the text actually being anywhere near the top of the
+    page. Requiring y to fall inside [0, page_height] first rules that out.
+    """
+    return (0 <= y <= HEADER_BAND) or (page_height - HEADER_BAND <= y <= page_height)
 
 
 def _blank_text_operand(operands):

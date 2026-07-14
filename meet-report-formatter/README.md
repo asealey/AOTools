@@ -56,7 +56,12 @@ Different Meet Manager exports encode that header line differently:
 The header line is also located in either a flipped (`Tm`/`cm` with a −1
 y-scale) or standard PDF coordinate system — both appear in real Meet
 Manager output — so "near the top of the page" is checked in both
-directions rather than assuming one.
+directions rather than assuming one. That check requires the position to
+fall inside the page's actual bounds, not just "a small number" — some
+report layouts (e.g. Session Reports) chain enough relative `Td` jumps
+after the header that the cursor drifts back to the left margin again
+well down the page, at a small y that would otherwise look like "near the
+top" without also being bounded by the page height.
 
 ## Replacing the label (not yet supported)
 
