@@ -196,6 +196,77 @@ class TestPackedTjHeader:
 
 
 # ---------------------------------------------------------------------------
+# Helper — build a minimal PDF whose header block uses a long chain of
+# relative Td jumps (subtitle lines, session info, a table header row) that
+# happens to drift back to x == LEFT_MARGIN_X well below the actual header,
+# in a Session Report-style layout. Regression case: a coincidental margin
+# match deep in the page body must not be mistaken for the header.
+# ---------------------------------------------------------------------------
+
+def make_drifting_td_pdf(team_name: str, table_header_word: str = "Round") -> bytes:
+    """Team name at the real header position (Tm, near top), followed by a
+    chain of Td jumps whose cumulative y drifts to a small negative number
+    — still "near top" under an unbounded y <= HEADER_BAND check, but not
+    actually near the top of the page once mapped through the flipped
+    coordinate system's cm."""
+    content = "\n".join([
+        "1 0 0 -1 0 792 cm",
+        "BT",
+        "/F1 8.55 Tf",
+        "1 0 0 -1 18 45.5 Tm",
+        f"({team_name}) Tj",
+        "0 -13.4 Td",
+        "(Subtitle line) Tj",
+        "0 -14.4 Td",
+        "(Session info line) Tj",
+        "0 -25.9 Td",
+        f"({table_header_word}) Tj",
+        "ET",
+    ]).encode("latin-1")
+
+    writer = PdfWriter()
+    page = writer.add_blank_page(width=612, height=792)
+
+    from pypdf.generic import StreamObject
+    content_obj = StreamObject()
+    content_obj.set_data(content)
+    page[NameObject("/Contents")] = writer._add_object(content_obj)
+
+    font = DictionaryObject({
+        NameObject("/Type"): NameObject("/Font"),
+        NameObject("/Subtype"): NameObject("/Type1"),
+        NameObject("/BaseFont"): NameObject("/Helvetica"),
+    })
+    page[NameObject("/Resources")] = DictionaryObject({
+        NameObject("/Font"): DictionaryObject({
+            NameObject("/F1"): writer._add_object(font),
+        })
+    })
+
+    buf = io.BytesIO()
+    writer.write(buf)
+    return buf.getvalue()
+
+
+class TestDriftingTdCoincidence:
+    def test_table_header_below_page_header_is_not_erased(self, tmp_path):
+        """Regression test: a Session Report's table header ("Round") sits
+        well below the actual page header, but a chain of Td jumps between
+        them can drift the cursor back to x == LEFT_MARGIN_X with a small
+        negative y — which used to satisfy _near_top's unbounded check and
+        get mistaken for the team-name header."""
+        pdf_bytes = make_drifting_td_pdf("Example Swim Team", "Round")
+        src = write_temp_pdf(pdf_bytes, tmp_path)
+        out = tmp_path / "out.pdf"
+
+        format_report(str(src), str(out))
+
+        text = PdfReader(str(out)).pages[0].extract_text()
+        assert "Example" not in text
+        assert "Round" in text
+
+
+# ---------------------------------------------------------------------------
 # Core behavior
 # ---------------------------------------------------------------------------
 
