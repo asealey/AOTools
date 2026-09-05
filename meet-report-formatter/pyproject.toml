@@ -3,6 +3,8 @@ name = "meet-report-formatter"
 version = "0.1.0"
 description = "Erases the host-team label HY-TEK Meet Manager prints on every page of its report PDFs"
 requires-python = ">=3.9"
+license = "Apache-2.0"
+authors = [{ name = "Adam Sealey", email = "adam@adamsealey.com" }]
 dependencies = [
     "pypdf>=6,<7",
 ]
