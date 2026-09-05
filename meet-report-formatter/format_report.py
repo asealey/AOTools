@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 # requires Python 3.9+
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2026 Adam Sealey
+
 """
 format_report.py — Erase the host-team label on every page of a HY-TEK Meet
 Manager report PDF.

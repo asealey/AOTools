@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 # requires Python 3.9+
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2026 Adam Sealey
+
 """
 stamp_pdf.py — Add a scoring stamp to the bottom-right corner of every page in a PDF.
 
