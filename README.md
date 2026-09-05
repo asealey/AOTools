@@ -15,3 +15,12 @@ Each tool is self-contained with its own README, dependencies, and tests. See th
 Python tools use [uv](https://docs.astral.sh/uv/) for dependency management (`uv sync`, `uv run`) rather than `venv`/`pip`. New Python tools should follow the same pattern.
 
 [examples/](examples/) holds real, publicly-published Meet Manager PDFs shared across tools for manual testing and regression tests. Each tool also has its own local `examples/` for tool-private samples that aren't safe to publish.
+
+## License
+
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+
+This project is an independent effort and is not affiliated with, endorsed
+by, or sponsored by Daktronics or HY-TEK. "Daktronics" and "Meet Manager" are
+trademarks of their respective companies, used here only to identify the
+products this software interoperates with.
