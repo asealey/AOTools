@@ -21,6 +21,7 @@ Usage:
     python3 parse_timing.py <logfile> --markdown -o results.md
     python3 parse_timing.py <logfile> --arm-delay 15   # custom arm window
     python3 parse_timing.py <logfile> --arm-delay 0    # disable touchpad filtering
+    python3 parse_timing.py <logfile> -v               # include INVALID/FILTERED events
 """
 
 import argparse
