@@ -4,7 +4,7 @@ Adds a DQ / NS / DFS scoring stamp to the bottom-right corner of every page in a
 
 ## Requirements
 
-- Python 3.9+
+- Python 3.12+
 - [uv](https://docs.astral.sh/uv/)
 - [pypdf](https://pypdf.readthedocs.io/) `>=6,<7`
 - [reportlab](https://www.reportlab.com/opensource/) `>=4`

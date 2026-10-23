@@ -6,7 +6,7 @@ in the top-left corner of every page.
 
 ## Requirements
 
-- Python 3.9+
+- Python 3.12+
 - [uv](https://docs.astral.sh/uv/)
 - [pypdf](https://pypdf.readthedocs.io/) `>=6,<7`
 

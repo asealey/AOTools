@@ -2,7 +2,7 @@
 name = "heat-sheet-stamper"
 version = "0.1.0"
 description = "Adds a DQ / NS / DFS scoring stamp to the bottom-right corner of every page in a swim meet heat sheet PDF"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 license = "Apache-2.0"
 authors = [{ name = "Adam Sealey", email = "adam@adamsealey.com" }]
 dependencies = [
